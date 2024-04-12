@@ -1,0 +1,13 @@
+@tailwind components;
+
+@layer components {
+    .leo-seo .outer-text {
+        transition: height 0.3s ease;
+
+        @apply h-[182px] relative overflow-hidden
+        1100:h-[104px]
+    }
+    .leo-seo .inner-text p:not(:first-child) {
+        @apply mt-5
+    }
+}

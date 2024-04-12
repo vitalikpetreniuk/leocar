@@ -1,0 +1,24 @@
+@tailwind components;
+
+@layer components {
+    .reviews-list .review:not(:nth-child(-n+3)) {
+        @apply hidden 1100:block
+    }
+    .reviews-list.open .review:not(:nth-child(-n+3)) {
+        @apply block
+    }
+
+    .reviews-outer:not(.no-gradient):after {
+        content: '';
+        display: block;
+        height: 100px;
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 5;
+
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0F0F0F 100%);
+    }
+}

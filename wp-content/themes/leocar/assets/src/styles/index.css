@@ -1,0 +1,173 @@
+@tailwind components;
+
+@layer components {
+    .container {
+        @apply w-full max-w-[77.5rem]
+        mx-auto px-5
+    }
+
+    /*Typography*/
+
+    h1, .h1 {
+        @apply antialiased
+        font-700 font-normal !text-3xl/[1.4] text-white
+        1100:!text-5xl/[1.4]
+
+    }
+    h2, .h2 {
+        @apply antialiased
+        font-700 font-normal !text-2xl/[1.6] text-white
+        1100:!text-2xl
+    }
+    h3, .h3 {
+        @apply antialiased
+        font-700 font-normal !text-xl/[1.6] text-white
+    }
+
+    .text-body {
+        @apply antialiased
+        font-400 font-normal text-base/[1.6] text-white
+    }
+    .text-small {
+        @apply antialiased
+        font-400 font-normal text-sm/[1.4] text-white
+    }
+
+    .button {
+        @apply flex justify-center items-center gap-x-[10px]
+        w-full h-12 rounded-2xl bg-accent
+        font-700 text-base
+        cursor-pointer
+        transition duration-150
+
+        hover:bg-accent-transparent hover:font-400 hover:text-accent
+
+        1100:max-w-[21rem]
+    }
+    .button.button-no-hover {
+        @apply hover:bg-accent hover:font-700 hover:text-white
+    }
+
+    .button.button-transparent {
+        @apply bg-accent-transparent text-accent
+        hover:bg-accent hover:text-white
+    }
+    .button.button-transparent.button-no-hover {
+        @apply hover:bg-accent-transparent hover:text-accent
+    }
+    .button.button-inverted {
+        @apply hover:bg-white
+    }
+    .button.button-sm {
+        @apply max-w-[17rem]
+    }
+
+    .button svg path {
+        @apply transition duration-150
+    }
+    .button:hover svg path {
+        @apply fill-accent
+    }
+    .button.button-transparent svg path {
+        @apply fill-accent transition duration-150
+    }
+    .button.button-transparent:hover svg path {
+        @apply fill-white
+    }
+
+    header {
+        @apply flex-header z-50
+    }
+    main {
+        @apply flex-main
+    }
+    footer {
+        @apply flex-footer
+    }
+
+    body {
+        @apply
+        flex flex-col min-h-[100svh]
+        bg-black text-white
+        font-400 font-normal text-base/[1.6] antialiased
+    }
+
+    form {
+        @apply mt-4
+    }
+    form input[type="text"],
+    form input[type="tel"] {
+        @apply block w-full py-2.5 !bg-transparent border-b border-white/[.7]
+        font-400 text-base/[1.35] text-white
+        outline-none
+
+        placeholder:text-white/[.7]
+    }
+    form input#td-date,
+    form input#td-time {
+        @apply block w-full px-3 py-2 !bg-car blur-25 rounded-[2.5rem] border-0
+        font-400 text-base/[1.35] text-white
+        outline-none
+
+        placeholder:text-white/[.7]
+    }
+    form input[type="tel"][aria-invalid="true"],
+    form input[type="text"][aria-invalid="true"] {
+        border-color: #E31919 !important;
+    }
+    form input[type="text"]:active,
+    form input[type="text"]:focus,
+    form input[type="tel"]:active,
+    form input[type="tel"]:focus {
+        @apply border-accent
+    }
+    form input[type="submit"] {
+        background-position: calc(50% + 45px) center;
+        @apply mt-5 pr-7
+        flex justify-center items-center gap-x-[10px]
+        w-full h-12 rounded-2xl
+        bg-accent bg-[url('../images/svg/send.svg')] bg-no-repeat
+        font-700 text-base
+        cursor-pointer
+        transition duration-150
+
+        /*hover:bg-accent-transparent hover:bg-[url('../images/svg/send-green.svg')] hover:bg-no-repeat*/
+        /*hover:font-400 hover:text-accent*/
+    }
+
+    form p {
+        @apply flex flex-col gap-y-4
+    }
+    form .wpcf7-form-control-wrap {
+        @apply block relative
+    }
+
+
+
+    #leo-modals form .wpcf7-checkbox .wpcf7-list-item-label,
+    .leo-consult form .wpcf7-checkbox .wpcf7-list-item-label {
+        cursor: pointer !important;
+    }
+}
+
+body.modal, body.menu-open {
+    height: 100%;
+    overflow: hidden;
+}
+.scrollbar-hide::-webkit-scrollbar {
+    width: 0;
+}
+.subtitle-1 {
+    text-shadow:
+            -1px -1px 0 #FCFF00,
+            1px -1px 0 #FCFF00,
+            -1px 1px 0 #FCFF00,
+            1px 1px 0 #FCFF00;
+}
+.blur-25 {
+    backdrop-filter: blur(25px);
+}
+.form-bg {
+    background: radial-gradient(191.05% 134.36% at 9.1% 2.14%, #212121 0%, rgba(102, 102, 102, 0.00) 100%), linear-gradient(189deg, #3D3D3D 2.37%, #101010 93.31%);
+    backdrop-filter: blur(25px);
+}
