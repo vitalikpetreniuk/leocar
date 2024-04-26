@@ -12,15 +12,29 @@
                 <div class="flex justify-end items-center relative mr-[-10px] 1024:mr-0">
                     <div class="hidden flex-end items-center gap-x-6 1024:flex 1100:gap-x-9">
                         <span class="flex justify-center items-center gap-x-2.5 whitespace-nowrap"><?php renderAssetsSVG('svg/clock'); ?>Пн-Нд 09:00 - 20:00</span>
-                        <nav class="desktop">
-                            <ul class="flex flex-row flex-end gap-x-6 1100:gap-x-9">
-                                <li><a class="nav-link relative block text-base/[1.6] whitespace-nowrap transition duration-100 hover:opacity-70" href="#leo-reasons">Переваги</a></li>
-                                <li><a class="nav-link relative block text-base/[1.6] whitespace-nowrap transition duration-100 hover:opacity-70" href="#leo-subscription">Що таке підписка</a></li>
-                                <li><a class="nav-link relative block text-base/[1.6] whitespace-nowrap transition duration-100 hover:opacity-70" href="#leo-catalog">Каталог</a></li>
-                                <li><a class="nav-link relative block text-base/[1.6] whitespace-nowrap transition duration-100 hover:opacity-70" href="#leo-testdrive">Тест-драйв</a></li>
-                                <li><a class="nav-link relative block text-base/[1.6] whitespace-nowrap transition duration-100 hover:opacity-70" href="#leo-reviews">Відгуки</a></li>
-                            </ul>
-                        </nav>
+                        <?php
+                            $menu_args = array(); // Initialize empty array
+
+                            if ( is_page() ) { // Check if it's a page
+                                $body_class = join(' ', get_body_class()); // Get all body classes as a string
+                                if ( strpos( $body_class, 'page-id-8' ) !== false ) {
+                                    $menu_args = array(
+                                        'theme_location' => 'rent-header',
+                                        'items_wrap'     => '<ul class="leo-navigation">%3$s</ul>'
+                                    );
+                                } elseif ( strpos( $body_class, 'page-id-29' ) !== false ) {
+                                    $menu_args = array(
+                                        'theme_location' => 'purchase-header',
+                                        'items_wrap'     => '<ul class="leo-navigation">%3$s</ul>'
+                                    );
+
+                                }
+                            }
+
+                            if ( !empty( $menu_args ) ) {
+                                wp_nav_menu( $menu_args );
+                            }
+                        ?>
                     </div>
                     <div class="leo-burger p-[10px] ml-[3px] 1024:hidden"><?php renderAssetsSVG('svg/burger'); ?></div>
                 </div>
@@ -32,13 +46,29 @@
         <div class="container text-center pt-40 flex flex-col gap-y-4">
             <span class="flex justify-center items-center gap-x-2.5"><?php renderAssetsSVG('svg/clock'); ?>Пн-Нд 09:00 - 20:00</span>
             <nav>
-                <ul class="flex flex-col gap-y-4">
-                    <li><a class="nav-link" href="#leo-reasons">Переваги</a></li>
-                    <li><a class="nav-link" href="#leo-subscription">Що таке підписка</a></li>
-                    <li><a class="nav-link" href="#leo-catalog">Каталог</a></li>
-                    <li><a class="nav-link" href="#leo-testdrive">Тест-драйв</a></li>
-                    <li><a class="nav-link" href="#leo-reviews">Відгуки</a></li>
-                </ul>
+                <?php
+                $menu_args = array(); // Initialize empty array
+
+                if ( is_page() ) { // Check if it's a page
+                    $body_class = join(' ', get_body_class()); // Get all body classes as a string
+                    if ( strpos( $body_class, 'page-id-8' ) !== false ) {
+                        $menu_args = array(
+                            'theme_location' => 'rent-header',
+                            'items_wrap'     => '<ul class="leo-nav flex flex-col gap-y-4">%3$s</ul>'
+                        );
+                    } elseif ( strpos( $body_class, 'page-id-29' ) !== false ) {
+                        $menu_args = array(
+                            'theme_location' => 'purchase-header',
+                            'items_wrap'     => '<ul class="leo-nav flex flex-col gap-y-4">%3$s</ul>'
+                        );
+
+                    }
+                }
+
+                if ( !empty( $menu_args ) ) {
+                    wp_nav_menu( $menu_args );
+                }
+                ?>
             </nav>
         </div>
         <div class="container absolute bottom-9 left-0 w-full">

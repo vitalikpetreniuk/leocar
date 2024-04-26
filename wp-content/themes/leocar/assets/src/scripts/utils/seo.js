@@ -10,10 +10,10 @@ export default function seo() {
         let innerDiv = seo.querySelector('.inner-text');
         let toggleButton = seo.querySelector('.button');
 
-        let borderHeight = '182px'
+        let borderHeight = '180px'
 
         if (window.screen.width > 1099) {
-            borderHeight = '104px'
+            borderHeight = '102px'
         }
 
         if (outerDiv.style.height === borderHeight || outerDiv.style.height === '') {

@@ -4,9 +4,43 @@ export default function home() {
     let dateInput = document.querySelector('input#td-date');
     if(dateInput) {
         let datepicker = new Datepicker(dateInput, {
-            daysOfWeekDisabled: [0,6]
+            daysOfWeekDisabled: [0,6],
+            disableTouchKeyboard: true,
+            format: 'dd/mm/yyyy',
+            autohide: true,
         });
     }
+
+    /* TIME */
+
+    const timeInput = document.getElementById("td-time");
+
+    // Create the select element
+    const timeSelect = document.createElement("ul");
+
+    // Generate options only for hours from 9 to 19 with half-hour increments
+    for (let hour = 9; hour <= 19; hour++) {
+        for (let minute = 0; minute <= 30; minute += 30) {
+            const formattedTime = hour.toString().padStart(2, "0") + ":" + minute.toString().padStart(2, "0");
+            const option = document.createElement("li");
+            option.dataset.value = formattedTime;
+            option.textContent = formattedTime;
+            timeSelect.appendChild(option);
+        }
+    }
+
+    // Insert the select element after the input
+    timeInput.parentNode.insertBefore(timeSelect, timeInput.nextSibling);
+
+    // // Update input value on selection change
+    // timeSelect.addEventListener("change", function() {
+    //     timeInput.value = this.value;
+    // });
+
+    /* TIME */
+
+
+
 
     let chooseCarButton = document.querySelector('button.choose-car');
     let leoCatalogSection = document.querySelector('section.leo-catalog');
@@ -28,18 +62,18 @@ export default function home() {
         });
     }
 
-    let navLinks = document.querySelectorAll('.nav-link');
+    let navLinks = document.querySelectorAll('header ul li');
     let sections = document.querySelectorAll('section');
     let offset = getHeaderHeight();
 
     if(navLinks) {
         navLinks.forEach(link => link.addEventListener('click', scrollToSection));
     }
-
-    if (window.screen.width > 1099) {
+    if (window.screen.width >= 768) {
         let $grid = $('.reviews-list').masonry({
             gutter: 20
         });
+
 
         let borderHeight = '700px'
         let reviewsSection = document.querySelector('.leo-reviews');
@@ -65,6 +99,26 @@ export default function home() {
             }
         }
     }
+    if (window.screen.width > 1099) {
+        $('.flip-card').each(function(){
+            let $this = $(this);
+            $this.find('.flip-card-inner').on('click', function(){
+                $this.parent().siblings().find('.flip-card').removeClass('flipped');
+
+                if(!$(this).parent().hasClass('flipped')) {
+                    $(this).parent().addClass('flipped');
+                }else{
+                    $(this).parent().removeClass('flipped');
+                }
+            })
+        })
+        $(document).mouseup(function(e){
+            let container = $('.flip-card-inner');
+            if(!container.is(e.target) && container.has(e.target).length === 0) {
+                $('.flip-card').removeClass('flipped');
+            }
+        })
+    }
 
     function scrollToSection(event) {
         event.preventDefault();
@@ -72,7 +126,7 @@ export default function home() {
         const targetSection = document.getElementById(targetSectionId);
         const targetSectionTop = targetSection.offsetTop - offset; // Account for offset
 
-        if (window.screen.width <= 1099) {
+        if (window.screen.width < 1024) {
             document.body.classList.remove('menu-open');
             window.scrollTo({
                 top: targetSectionTop

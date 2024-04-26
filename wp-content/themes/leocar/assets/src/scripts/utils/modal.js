@@ -3,7 +3,7 @@ export default function modal() {
     let modalWrap = document.getElementById('leo-modals');
     let closeButtons = document.querySelectorAll('.modal .close');
 
-    let modalTriggers = document.querySelectorAll('.require-call, button.test-drive');
+    let modalTriggers = document.querySelectorAll('.require-call, button.test-drive, button.show-conditions');
 
     if(modalTriggers) {
         modalTriggers.forEach(trigger => {
@@ -11,6 +11,7 @@ export default function modal() {
                 body.classList.add('modal');
                 modalWrap.classList.toggle('call', trigger.classList.contains('require-call'));
                 modalWrap.classList.toggle('drive', trigger.classList.contains('test-drive'));
+                modalWrap.classList.toggle('conditions', trigger.classList.contains('show-conditions'));
             });
         });
     }
@@ -31,7 +32,7 @@ export default function modal() {
     }
 
     function closeModals() {
-        modalWrap.classList.remove('call', 'drive');
+        modalWrap.classList.remove('call', 'drive', 'conditions');
         body.classList.remove('modal');
     }
 }

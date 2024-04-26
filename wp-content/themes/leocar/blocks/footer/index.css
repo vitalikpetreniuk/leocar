@@ -8,10 +8,11 @@
         @apply block !w-full !h-auto
     }
 
-    #leo-modals.call, #leo-modals.drive, #leo-modals.thanks,
+    #leo-modals.call, #leo-modals.drive, #leo-modals.thanks, #leo-modals.conditions,
     #leo-modals.call .modal.call,
     #leo-modals.drive .modal.drive,
-    #leo-modals.thanks .modal.thanks {
+    #leo-modals.thanks .modal.thanks,
+    #leo-modals.conditions .modal.conditions {
         @apply visible opacity-100
     }
 
@@ -21,6 +22,20 @@
     }
     .modal form .date-time > span {
         @apply mt-1 flex justify-start items-center gap-x-1
+    }
+    .modal form .date-time > span > span:last-child {
+        @apply relative
+    }
+    .modal form .date-time > span > span:last-child ul {
+        @apply opacity-0 hidden absolute z-[2] left-0 right-0 top-[calc(100%+5px)] py-2
+        text-center bg-[rgb(21,21,21)] rounded-2xl
+        max-h-[8.7rem] overflow-y-scroll
+    }
+    .modal form .date-time > span > span:last-child ul::-webkit-scrollbar {
+        width: 0;
+    }
+    .modal form .date-time > span > span:last-child ul li {
+        @apply leading-[1.6] cursor-pointer
     }
 
 
@@ -72,5 +87,12 @@
     }
     .modal form .wpcf7-response-output:before {
         content: '( ! ) ';
+    }
+
+    .modal.conditions h2 + div {
+        @apply overflow-y-scroll
+    }
+    .modal div p:not(:first-child) {
+        @apply mt-5
     }
 }

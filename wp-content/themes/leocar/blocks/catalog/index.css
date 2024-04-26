@@ -2,13 +2,6 @@
 
 @layer components {
 
-    .catalog-list .catalog-item:not(:nth-child(-n+3)) {
-        @apply hidden
-    }
-    .catalog-list.open .catalog-item:not(:nth-child(-n+3)) {
-        @apply block
-    }
-
     .gear span, .drive {
         backdrop-filter: blur(15px);
     }
@@ -40,8 +33,17 @@
         transform-style: preserve-3d;
         @apply relative w-full h-full transform duration-700
     }
+    .flip-card-inner img {
+        @apply transition duration-150
+    }
+    .flip-card-inner:hover img:first-child {
+        @apply opacity-0
+    }
+    .flip-card-inner:hover img:last-child {
+        @apply opacity-100
+    }
 
-    .flip-card:hover .flip-card-inner {
+    .flip-card.flipped .flip-card-inner {
         transform: rotateY(180deg);
     }
 
@@ -61,5 +63,37 @@
     }
     .flip-card-back > div {
         @apply max-h-[192px] overflow-hidden
+    }
+}
+
+
+
+.catalog-list .catalog-item:not(:nth-child(-n+3)) {
+    display: none;
+}
+.catalog-list.open .catalog-item:not(:nth-child(-n+3)) {
+    display: block;
+}
+
+@media only screen and (min-width:768px) {
+    .catalog-list .catalog-item {
+        display: block !important;
+    }
+    .catalog-list .catalog-item:not(:nth-child(-n+4)) {
+        display: none !important;
+    }
+    .catalog-list.open .catalog-item:not(:nth-child(-n+4)) {
+        display: block !important;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .catalog-list .catalog-item {
+        display: block !important;
+    }
+    .catalog-list .catalog-item:not(:nth-child(-n+3)) {
+        display: none !important;
+    }
+    .catalog-list.open .catalog-item:not(:nth-child(-n+3)) {
+        display: block !important;
     }
 }

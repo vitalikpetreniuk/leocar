@@ -37,26 +37,23 @@
         @apply flex justify-center items-center gap-x-[10px]
         w-full h-12 rounded-2xl bg-accent
         font-700 text-base
-        cursor-pointer
+        !cursor-pointer
         transition duration-150
 
-        hover:bg-accent-transparent hover:font-400 hover:text-accent
+        hover:bg-button-hover
 
         1100:max-w-[21rem]
-    }
-    .button.button-no-hover {
-        @apply hover:bg-accent hover:font-700 hover:text-white
     }
 
     .button.button-transparent {
         @apply bg-accent-transparent text-accent
-        hover:bg-accent hover:text-white
+        hover:bg-accent-transparent-hover
     }
     .button.button-transparent.button-no-hover {
         @apply hover:bg-accent-transparent hover:text-accent
     }
     .button.button-inverted {
-        @apply hover:bg-white
+        @apply cursor-pointer hover:bg-white hover:text-accent
     }
     .button.button-sm {
         @apply max-w-[17rem]
@@ -65,14 +62,8 @@
     .button svg path {
         @apply transition duration-150
     }
-    .button:hover svg path {
-        @apply fill-accent
-    }
     .button.button-transparent svg path {
         @apply fill-accent transition duration-150
-    }
-    .button.button-transparent:hover svg path {
-        @apply fill-white
     }
 
     header {
@@ -131,8 +122,7 @@
         cursor-pointer
         transition duration-150
 
-        /*hover:bg-accent-transparent hover:bg-[url('../images/svg/send-green.svg')] hover:bg-no-repeat*/
-        /*hover:font-400 hover:text-accent*/
+        hover:bg-[#25D366]
     }
 
     form p {
@@ -143,10 +133,17 @@
     }
 
 
-
     #leo-modals form .wpcf7-checkbox .wpcf7-list-item-label,
     .leo-consult form .wpcf7-checkbox .wpcf7-list-item-label {
         cursor: pointer !important;
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+        display:none
+    }
+    .scrollbar-hide {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
     }
 }
 
@@ -170,4 +167,14 @@ body.modal, body.menu-open {
 .form-bg {
     background: radial-gradient(191.05% 134.36% at 9.1% 2.14%, #212121 0%, rgba(102, 102, 102, 0.00) 100%), linear-gradient(189deg, #3D3D3D 2.37%, #101010 93.31%);
     backdrop-filter: blur(25px);
+}
+
+
+
+textarea,
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    -webkit-appearance: none;
+    border-radius: 0;
 }

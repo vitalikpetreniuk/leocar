@@ -1,6 +1,20 @@
 @tailwind components;
 
 @layer components {
+
+    .leo-intro picture.toyota img {
+        @apply -mt-20 768:mt-[-30vw] 1024:mt-0
+    }
+    .leo-intro picture.hyundai img {
+        @apply -mt-8 768:mt-0 1024:mt-0
+    }
+    .leo-intro picture.hyundai + div {
+        @apply -mt-9 768:mt-0
+    }
+
+    .leo-message span:hover svg path {
+        @apply fill-accent
+    }
     .leo-message span svg:nth-child(1) {
         @apply 1100:w-5 1100:h-auto
     }
@@ -17,6 +31,18 @@
     .leo-message.open ul {
         @apply !opacity-100 !visible
     }
+
+    .pulsating:hover:after {
+        @apply bg-[url('../images/svg/call-accent.svg')]
+    }
+}
+
+.leo-message ul {
+    transition: all .2s ease-in-out;
+    transform: translate3d(0, -20%, 0);
+}
+.leo-message.open ul {
+    transform: translate3d(0, 0, 0);
 }
 
 .pulsating:before {

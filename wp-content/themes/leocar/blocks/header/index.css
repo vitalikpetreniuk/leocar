@@ -25,7 +25,18 @@
         @apply fill-transparent
     }
 
-    nav.desktop ul li a.active {
+
+    ul.leo-navigation {
+        @apply flex flex-row justify-end gap-x-6 1100:gap-x-9
+    }
+    ul.leo-navigation li {
+        @apply relative
+    }
+    ul.leo-navigation li a {
+        @apply relative block text-base/[1.6] whitespace-nowrap transition duration-100 hover:opacity-70
+    }
+    ul.leo-navigation li.active {
         @apply pointer-events-none hover:opacity-100 before:content-[''] before:block before:h-px before:w-8 before:bg-white before:absolute before:-bottom-1.5 before:left-[50%] before:-ml-4
     }
+
 }

@@ -28,8 +28,11 @@ module.exports = {
                 accent: '#27AC5B',
                 error: '#E31919',
                 car: '#151515',
+                condition: '#1F1F1F',
                 'car-active': '#212121',
-                'accent-transparent': 'rgba(39, 172, 91, .2)'
+                'accent-transparent': 'rgba(39, 172, 91, .2)',
+                'accent-transparent-hover': 'rgba(39, 172, 91, .3)',
+                'button-hover': '#25D366',
             }, screens: {
                  428: '428px',
                  500: '500px',
@@ -40,6 +43,7 @@ module.exports = {
                  1280: '1280px',
                  1440: '1440px',
                  1920: '1920px',
+                 2000: '2000px',
             }, viewport: {
                 mobile: 320,
                 tablet: 768,

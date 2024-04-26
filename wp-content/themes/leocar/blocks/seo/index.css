@@ -4,8 +4,8 @@
     .leo-seo .outer-text {
         transition: height 0.3s ease;
 
-        @apply h-[182px] relative overflow-hidden
-        1100:h-[104px]
+        @apply h-[180px] relative overflow-hidden
+        1100:h-[102px]
     }
     .leo-seo .inner-text p:not(:first-child) {
         @apply mt-5

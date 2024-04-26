@@ -12,6 +12,7 @@ export default function header() {
     let burgerElement = document.querySelector('.leo-burger');
     if (burgerElement) {
         let toggleMobileOpen = () => {
+            document.querySelector('header .mobile-menu').style.height = window.innerHeight+ 'px';
             body.classList.toggle('menu-open');
         };
 

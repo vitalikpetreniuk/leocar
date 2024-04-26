@@ -2,7 +2,7 @@
     <div class="container">
         <h2>Які автомобілі маємо?</h2>
 
-        <div class="flex flex-wrap gap-x-3.5 gap-y-7 1024:mt-12 1024:flex-nowrap 1024:gap-x-5">
+        <div class="mt-11 flex flex-wrap gap-x-3.5 gap-y-7 1024:mt-12 1024:flex-nowrap 1024:gap-x-5">
             <div class="w-[calc(50%-.4375rem)] 1024:w-1/4">
                 <span class="relative block before:content-[''] before:block before:absolute before:bottom-0 before:left-0 before:w-full before:h-9 before:rounded-[2.5rem] before:bg-[#1F1F1F]"><img class="relative z-[2] block w-full" src="<?php renderImages('type/type1.png'); ?>" alt=""></span>
                 <span class="block mt-2.5 text-small opacity-70 768:text-center">На поїздку з друзями</span>

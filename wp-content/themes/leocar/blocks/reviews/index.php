@@ -3,8 +3,8 @@
         <h2>Відгуки наших клієнтів</h2>
 
         <div class="reviews-outer relative overflow-hidden">
-            <div class="reviews-list mt-6 flex flex-col gap-y-2.5 1100:mt-9 1100:block">
-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 1100:w-[calc(33.333%-13.5px)] 1100:mb-5">
+            <div class="reviews-list mt-6 flex flex-col gap-y-2.5 768:block 1100:mt-9 ">
+                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
                     <div>
                         <div class="flex justify-start items-center gap-x-5">
                             <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
@@ -26,7 +26,7 @@
                         <span class="block mt-4">1 місяць назад</span>
                     </div>
                 </div>
-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 1100:w-[calc(33.333%-13.5px)] 1100:mb-5">
+                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
                     <div>
                         <div class="flex justify-start items-center gap-x-5">
                             <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
@@ -48,7 +48,7 @@
                         <span class="block mt-4">1 місяць назад</span>
                     </div>
                 </div>
-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 1100:w-[calc(33.333%-13.5px)] 1100:mb-5">
+                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
                     <div>
                         <div class="flex justify-start items-center gap-x-5">
                             <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
@@ -70,7 +70,7 @@
                         <span class="block mt-4">1 місяць назад</span>
                     </div>
                 </div>
-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 1100:w-[calc(33.333%-13.5px)] 1100:mb-5">
+                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
                     <div>
                         <div class="flex justify-start items-center gap-x-5">
                             <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
@@ -92,7 +92,7 @@
                         <span class="block mt-4">1 місяць назад</span>
                     </div>
                 </div>
-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 1100:w-[calc(33.333%-13.5px)] 1100:mb-5">
+                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
                     <div>
                         <div class="flex justify-start items-center gap-x-5">
                             <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
@@ -114,7 +114,7 @@
                         <span class="block mt-4">1 місяць назад</span>
                     </div>
                 </div>
-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 1100:w-[calc(33.333%-13.5px)] 1100:mb-5">
+                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
                     <div>
                         <div class="flex justify-start items-center gap-x-5">
                             <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
@@ -136,7 +136,7 @@
                         <span class="block mt-4">1 місяць назад</span>
                     </div>
                 </div>
-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 1100:w-[calc(33.333%-13.5px)] 1100:mb-5">
+                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
                     <div>
                         <div class="flex justify-start items-center gap-x-5">
                             <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
@@ -158,7 +158,7 @@
                         <span class="block mt-4">1 місяць назад</span>
                     </div>
                 </div>
-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 1100:w-[calc(33.333%-13.5px)] 1100:mb-5">
+                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
                     <div>
                         <div class="flex justify-start items-center gap-x-5">
                             <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
@@ -180,7 +180,7 @@
                         <span class="block mt-4">1 місяць назад</span>
                     </div>
                 </div>
-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 1100:w-[calc(33.333%-13.5px)] 1100:mb-5">
+                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
                     <div>
                         <div class="flex justify-start items-center gap-x-5">
                             <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
@@ -202,7 +202,7 @@
                         <span class="block mt-4">1 місяць назад</span>
                     </div>
                 </div>
-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 1100:w-[calc(33.333%-13.5px)] 1100:mb-5">
+                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
                     <div>
                         <div class="flex justify-start items-center gap-x-5">
                             <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
@@ -224,7 +224,7 @@
                         <span class="block mt-4">1 місяць назад</span>
                     </div>
                 </div>
-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 1100:w-[calc(33.333%-13.5px)] 1100:mb-5">
+                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
                     <div>
                         <div class="flex justify-start items-center gap-x-5">
                             <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
@@ -246,7 +246,7 @@
                         <span class="block mt-4">1 місяць назад</span>
                     </div>
                 </div>
-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 1100:w-[calc(33.333%-13.5px)] 1100:mb-5">
+                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
                     <div>
                         <div class="flex justify-start items-center gap-x-5">
                             <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
@@ -271,6 +271,6 @@
             </div>
         </div>
 
-        <button class="show-reviews button button-no-hover mt-4 1024:max-w-[275px] 1024:mx-auto 1100:mt-9">Показати більше</button>
+        <button class="show-reviews button button-no-hover mt-4 768:max-w-[275px] 768:mx-auto 1100:mt-9">Показати більше</button>
     </div>
 </section>

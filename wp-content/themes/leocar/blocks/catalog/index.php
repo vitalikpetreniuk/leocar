@@ -1,4 +1,4 @@
-<section id="leo-catalog" class="leo-catalog mt-32 pt-4 pb-4 1100:mt-36">
+<section id="leo-catalog" class="leo-catalog relative z-[2] mt-32 pt-4 pb-4 1100:mt-36">
     <div class="container">
         <h2>Каталог автомобілів</h2>
 
@@ -9,13 +9,14 @@
                     <!-- може бути передній привід або задній привід -->
                     <span class="drive absolute z-[5] -top-5 left-4 flex items-center bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]">Передній привід</span>
                     <div class="gear absolute z-[5] -top-5 right-4">
-                        <span class="flex justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/automat'); ?>Автомат</span>
+                        <span class="flex justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/automatic'); ?>Автомат</span>
                         <span class="hidden justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/mechanics'); ?>Механіка</span>
                     </div>
 
-                    <div class="flip-card-inner rounded-2xl">
+                    <div class="flip-card-inner rounded-2xl cursor-pointer">
                         <div class="flip-card-front rounded-2xl px-4">
                             <img class="relative z-[2] block" src="<?php renderImages('cars/car1.png'); ?>" alt="">
+                            <img class="absolute top-0 left-4 right-4 block w-[calc(100%-2rem)] h-full object-contain z-[2] opacity-0" src="<?php renderImages('cars/car2.png'); ?>" alt="">
                         </div>
                         <div class="flip-card-back rounded-2xl">
                             <div>
@@ -30,28 +31,29 @@
                 </div>
                 <h4 class="font-700 my-4 1100:my-2.5">Hyundai Accent</h4>
                 <ul class="lease flex justify-start items-center bg-car rounded-2xl">
-                    <li class="active w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">1 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">3 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">6 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">1 рік</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">2 роки</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">3 роки</li>
+                    <li class="active w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="2 200">1 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 800">3 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 600">6 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 400">1 рік</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 200">2 роки</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 100">3 роки</li>
                 </ul>
-                <div class="mt-2 flex justify-start items-baseline gap-x-1"><span class="font-400 text-4xl">600 €</span>/місяць</div>
+                <div class="mt-2 flex justify-start items-baseline gap-x-1"><span class="font-400 text-4xl"><span class="amount"></span> €</span>/місяць</div>
                 <button class="test-drive button mt-2 max-w-none">Замовити тест-драйв</button>
             </div>
             <div class="catalog-item 768:w-[calc(50%-.625rem)] 1024:w-[calc(33.333%-.833rem)]">
-                <div class="flip-card relative flex flex-wrap items-center justify-center px-4 rounded-md aspect-[4/3] 1100:aspect-[1/.83]">
+                <div class="flip-card relative flex flex-wrap items-center justify-center rounded-md aspect-[4/3] 1100:aspect-[1/.83]">
                     <!-- може бути передній привід або задній привід -->
                     <span class="drive z-[5] absolute -top-5 left-4 flex items-center bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]">Передній привід</span>
                     <div class="gear z-[5] absolute -top-5 right-4">
-                        <span class="flex justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/automat'); ?>Автомат</span>
+                        <span class="flex justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/automatic'); ?>Автомат</span>
                         <span class="hidden justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/mechanics'); ?>Механіка</span>
                     </div>
 
-                    <div class="flip-card-inner rounded-2xl">
+                    <div class="flip-card-inner rounded-2xl cursor-pointer">
                         <div class="flip-card-front rounded-2xl px-4">
                             <img class="relative z-[2] block" src="<?php renderImages('cars/car2.png'); ?>" alt="">
+                            <img class="absolute top-0 left-4 right-4 block w-[calc(100%-2rem)] h-full object-contain z-[2] opacity-0" src="<?php renderImages('cars/car3.png'); ?>" alt="">
                         </div>
                         <div class="flip-card-back rounded-2xl">
                             <div>
@@ -66,28 +68,29 @@
                 </div>
                 <h4 class="font-700 my-4 1100:my-2.5">Toyota Sienna</h4>
                 <ul class="lease flex justify-start items-center bg-car rounded-2xl">
-                    <li class="active w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">1 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">3 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">6 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">1 рік</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">2 роки</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">3 роки</li>
+                    <li class="active w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="2 200">1 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 800">3 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 600">6 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 400">1 рік</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 200">2 роки</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 100">3 роки</li>
                 </ul>
-                <div class="mt-2 flex justify-start items-baseline gap-x-1"><span class="font-400 text-4xl">1300 €</span>/місяць</div>
+                <div class="mt-2 flex justify-start items-baseline gap-x-1"><span class="font-400 text-4xl"><span class="amount"></span> €</span>/місяць</div>
                 <button class="test-drive button mt-2 max-w-none">Замовити тест-драйв</button>
             </div>
             <div class="catalog-item 768:w-[calc(50%-.625rem)] 1024:w-[calc(33.333%-.833rem)]">
-                <div class="flip-card relative flex flex-wrap items-center justify-center px-4 rounded-md aspect-[4/3] 1100:aspect-[1/.83]">
+                <div class="flip-card relative flex flex-wrap items-center justify-center rounded-md aspect-[4/3] 1100:aspect-[1/.83]">
                     <!-- може бути передній привід або задній привід -->
                     <span class="drive z-[5] absolute -top-5 left-4 flex items-center bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]">Передній привід</span>
                     <div class="gear z-[5] absolute -top-5 right-4">
-                        <span class="flex justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/automat'); ?>Автомат</span>
+                        <span class="flex justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/automatic'); ?>Автомат</span>
                         <span class="hidden justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/mechanics'); ?>Механіка</span>
                     </div>
 
-                    <div class="flip-card-inner rounded-2xl">
+                    <div class="flip-card-inner rounded-2xl cursor-pointer">
                         <div class="flip-card-front rounded-2xl px-4">
                             <img class="relative z-[2] block" src="<?php renderImages('cars/car3.png'); ?>" alt="">
+                            <img class="absolute top-0 left-4 right-4 block w-[calc(100%-2rem)] h-full object-contain z-[2] opacity-0" src="<?php renderImages('cars/car4.png'); ?>" alt="">
                         </div>
                         <div class="flip-card-back rounded-2xl">
                             <div>
@@ -102,28 +105,29 @@
                 </div>
                 <h4 class="font-700 my-4 1100:my-2.5">Ford Focus</h4>
                 <ul class="lease flex justify-start items-center bg-car rounded-2xl">
-                    <li class="active w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">1 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">3 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">6 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">1 рік</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">2 роки</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">3 роки</li>
+                    <li class="active w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="2 200">1 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 800">3 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 600">6 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 400">1 рік</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 200">2 роки</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 100">3 роки</li>
                 </ul>
-                <div class="mt-2 flex justify-start items-baseline gap-x-1"><span class="font-400 text-4xl">700 €</span>/місяць</div>
+                <div class="mt-2 flex justify-start items-baseline gap-x-1"><span class="font-400 text-4xl"><span class="amount"></span> €</span>/місяць</div>
                 <button class="test-drive button mt-2 max-w-none">Замовити тест-драйв</button>
             </div>
             <div class="catalog-item 768:w-[calc(50%-.625rem)] 1024:w-[calc(33.333%-.833rem)]">
-                <div class="flip-card relative flex flex-wrap items-center justify-center px-4 rounded-md aspect-[4/3] 1100:aspect-[1/.83]">
+                <div class="flip-card relative flex flex-wrap items-center justify-center rounded-md aspect-[4/3] 1100:aspect-[1/.83]">
                     <!-- може бути передній привід або задній привід -->
                     <span class="drive z-[5] absolute -top-5 left-4 flex items-center bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]">Передній привід</span>
                     <div class="gear z-[5] absolute -top-5 right-4">
-                        <span class="flex justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/automat'); ?>Автомат</span>
+                        <span class="flex justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/automatic'); ?>Автомат</span>
                         <span class="hidden justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/mechanics'); ?>Механіка</span>
                     </div>
 
-                    <div class="flip-card-inner rounded-2xl">
+                    <div class="flip-card-inner rounded-2xl cursor-pointer">
                         <div class="flip-card-front rounded-2xl px-4">
                             <img class="relative z-[2] block" src="<?php renderImages('cars/car4.png'); ?>" alt="">
+                            <img class="absolute top-0 left-4 right-4 block w-[calc(100%-2rem)] h-full object-contain z-[2] opacity-0" src="<?php renderImages('cars/car5.png'); ?>" alt="">
                         </div>
                         <div class="flip-card-back rounded-2xl">
                             <div>
@@ -138,28 +142,29 @@
                 </div>
                 <h4 class="font-700 my-4 1100:my-2.5">Hyundai i10</h4>
                 <ul class="lease flex justify-start items-center bg-car rounded-2xl">
-                    <li class="active w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">1 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">3 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">6 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">1 рік</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">2 роки</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">3 роки</li>
+                    <li class="active w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="2 200">1 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 800">3 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 600">6 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 400">1 рік</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 200">2 роки</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 100">3 роки</li>
                 </ul>
-                <div class="mt-2 flex justify-start items-baseline gap-x-1"><span class="font-400 text-4xl">700 €</span>/місяць</div>
+                <div class="mt-2 flex justify-start items-baseline gap-x-1"><span class="font-400 text-4xl"><span class="amount"></span> €</span>/місяць</div>
                 <button class="test-drive button mt-2 max-w-none">Замовити тест-драйв</button>
             </div>
             <div class="catalog-item 768:w-[calc(50%-.625rem)] 1024:w-[calc(33.333%-.833rem)]">
-                <div class="flip-card relative flex flex-wrap items-center justify-center px-4 rounded-md aspect-[4/3] 1100:aspect-[1/.83]">
+                <div class="flip-card relative flex flex-wrap items-center justify-center rounded-md aspect-[4/3] 1100:aspect-[1/.83]">
                     <!-- може бути передній привід або задній привід -->
                     <span class="drive z-[5] absolute -top-5 left-4 flex items-center bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]">Передній привід</span>
                     <div class="gear z-[5] absolute -top-5 right-4">
-                        <span class="flex justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/automat'); ?>Автомат</span>
+                        <span class="flex justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/automatic'); ?>Автомат</span>
                         <span class="hidden justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/mechanics'); ?>Механіка</span>
                     </div>
 
-                    <div class="flip-card-inner rounded-2xl">
+                    <div class="flip-card-inner rounded-2xl cursor-pointer">
                         <div class="flip-card-front rounded-2xl px-4">
                             <img class="relative z-[2] block" src="<?php renderImages('cars/car5.png'); ?>" alt="">
+                            <img class="absolute top-0 left-4 right-4 block w-[calc(100%-2rem)] h-full object-contain z-[2] opacity-0" src="<?php renderImages('cars/car6.png'); ?>" alt="">
                         </div>
                         <div class="flip-card-back rounded-2xl">
                             <div>
@@ -174,28 +179,29 @@
                 </div>
                 <h4 class="font-700 my-4 1100:my-2.5">Hyundai I30 wagon</h4>
                 <ul class="lease flex justify-start items-center bg-car rounded-2xl">
-                    <li class="active w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">1 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">3 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">6 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">1 рік</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">2 роки</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">3 роки</li>
+                    <li class="active w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="2 200">1 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 800">3 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 600">6 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 400">1 рік</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 200">2 роки</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 100">3 роки</li>
                 </ul>
-                <div class="mt-2 flex justify-start items-baseline gap-x-1"><span class="font-400 text-4xl">700 €</span>/місяць</div>
+                <div class="mt-2 flex justify-start items-baseline gap-x-1"><span class="font-400 text-4xl"><span class="amount"></span> €</span>/місяць</div>
                 <button class="test-drive button mt-2 max-w-none">Замовити тест-драйв</button>
             </div>
             <div class="catalog-item 768:w-[calc(50%-.625rem)] 1024:w-[calc(33.333%-.833rem)]">
-                <div class="flip-card relative flex flex-wrap items-center justify-center px-4 rounded-md aspect-[4/3] 1100:aspect-[1/.83]">
+                <div class="flip-card relative flex flex-wrap items-center justify-center rounded-md aspect-[4/3] 1100:aspect-[1/.83]">
                     <!-- може бути передній привід або задній привід -->
                     <span class="drive z-[5] absolute -top-5 left-4 flex items-center bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]">Передній привід</span>
                     <div class="gear z-[5] absolute -top-5 right-4">
-                        <span class="flex justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/automat'); ?>Автомат</span>
+                        <span class="flex justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/automatic'); ?>Автомат</span>
                         <span class="hidden justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/mechanics'); ?>Механіка</span>
                     </div>
 
-                    <div class="flip-card-inner rounded-2xl">
+                    <div class="flip-card-inner rounded-2xl cursor-pointer">
                         <div class="flip-card-front rounded-2xl px-4">
                             <img class="relative z-[2] block" src="<?php renderImages('cars/car6.png'); ?>" alt="">
+                            <img class="absolute top-0 left-4 right-4 block w-[calc(100%-2rem)] h-full object-contain z-[2] opacity-0" src="<?php renderImages('cars/car7.png'); ?>" alt="">
                         </div>
                         <div class="flip-card-back rounded-2xl">
                             <div>
@@ -210,28 +216,29 @@
                 </div>
                 <h4 class="font-700 my-4 1100:my-2.5">Hyundai Elantra</h4>
                 <ul class="lease flex justify-start items-center bg-car rounded-2xl">
-                    <li class="active w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">1 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">3 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">6 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">1 рік</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">2 роки</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">3 роки</li>
+                    <li class="active w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="2 200">1 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 800">3 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 600">6 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 400">1 рік</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 200">2 роки</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 100">3 роки</li>
                 </ul>
-                <div class="mt-2 flex justify-start items-baseline gap-x-1"><span class="font-400 text-4xl">700 €</span>/місяць</div>
+                <div class="mt-2 flex justify-start items-baseline gap-x-1"><span class="font-400 text-4xl"><span class="amount"></span> €</span>/місяць</div>
                 <button class="test-drive button mt-2 max-w-none">Замовити тест-драйв</button>
             </div>
             <div class="catalog-item 768:w-[calc(50%-.625rem)] 1024:w-[calc(33.333%-.833rem)]">
-                <div class="flip-card relative flex flex-wrap items-center justify-center px-4 rounded-md aspect-[4/3] 1100:aspect-[1/.83]">
+                <div class="flip-card relative flex flex-wrap items-center justify-center rounded-md aspect-[4/3] 1100:aspect-[1/.83]">
                     <!-- може бути передній привід або задній привід -->
                     <span class="drive z-[5] absolute -top-5 left-4 flex items-center bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]">Передній привід</span>
                     <div class="gear z-[5] absolute -top-5 right-4">
-                        <span class="flex justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/automat'); ?>Автомат</span>
+                        <span class="flex justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/automatic'); ?>Автомат</span>
                         <span class="hidden justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/mechanics'); ?>Механіка</span>
                     </div>
 
-                    <div class="flip-card-inner rounded-2xl">
+                    <div class="flip-card-inner rounded-2xl cursor-pointer">
                         <div class="flip-card-front rounded-2xl px-4">
                             <img class="relative z-[2] block" src="<?php renderImages('cars/car7.png'); ?>" alt="">
+                            <img class="absolute top-0 left-4 right-4 block w-[calc(100%-2rem)] h-full object-contain z-[2] opacity-0" src="<?php renderImages('cars/car8.png'); ?>" alt="">
                         </div>
                         <div class="flip-card-back rounded-2xl">
                             <div>
@@ -246,28 +253,29 @@
                 </div>
                 <h4 class="font-700 my-4 1100:my-2.5">Skoda Octavia</h4>
                 <ul class="lease flex justify-start items-center bg-car rounded-2xl">
-                    <li class="active w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">1 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">3 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">6 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">1 рік</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">2 роки</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">3 роки</li>
+                    <li class="active w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="2 200">1 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 800">3 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 600">6 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 400">1 рік</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 200">2 роки</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 100">3 роки</li>
                 </ul>
-                <div class="mt-2 flex justify-start items-baseline gap-x-1"><span class="font-400 text-4xl">700 €</span>/місяць</div>
+                <div class="mt-2 flex justify-start items-baseline gap-x-1"><span class="font-400 text-4xl"><span class="amount"></span> €</span>/місяць</div>
                 <button class="test-drive button mt-2 max-w-none">Замовити тест-драйв</button>
             </div>
             <div class="catalog-item 768:w-[calc(50%-.625rem)] 1024:w-[calc(33.333%-.833rem)]">
-                <div class="flip-card relative flex flex-wrap items-center justify-center px-4 rounded-md aspect-[4/3] 1100:aspect-[1/.83]">
+                <div class="flip-card relative flex flex-wrap items-center justify-center rounded-md aspect-[4/3] 1100:aspect-[1/.83]">
                     <!-- може бути передній привід або задній привід -->
                     <span class="drive z-[5] absolute -top-5 left-4 flex items-center bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]">Передній привід</span>
                     <div class="gear z-[5] absolute -top-5 right-4">
-                        <span class="flex justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/automat'); ?>Автомат</span>
+                        <span class="flex justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/automatic'); ?>Автомат</span>
                         <span class="hidden justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/mechanics'); ?>Механіка</span>
                     </div>
 
-                    <div class="flip-card-inner rounded-2xl">
+                    <div class="flip-card-inner rounded-2xl cursor-pointer">
                         <div class="flip-card-front rounded-2xl px-4">
                             <img class="relative z-[2] block" src="<?php renderImages('cars/car8.png'); ?>" alt="">
+                            <img class="absolute top-0 left-4 right-4 block w-[calc(100%-2rem)] h-full object-contain z-[2] opacity-0" src="<?php renderImages('cars/car1.png'); ?>" alt="">
                         </div>
                         <div class="flip-card-back rounded-2xl">
                             <div>
@@ -282,17 +290,17 @@
                 </div>
                 <h4 class="font-700 my-4 1100:my-2.5">Toyota Sienna</h4>
                 <ul class="lease flex justify-start items-center bg-car rounded-2xl">
-                    <li class="active w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">1 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">3 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">6 міс</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">1 рік</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">2 роки</li>
-                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer">3 роки</li>
+                    <li class="active w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="2 200">1 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 800">3 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 600">6 міс</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 400">1 рік</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 200">2 роки</li>
+                    <li class="w-2/12 h-11 flex justify-center items-center rounded-2xl text-small text-white/[.7] cursor-pointer" data-price="1 100">3 роки</li>
                 </ul>
-                <div class="mt-2 flex justify-start items-baseline gap-x-1"><span class="font-400 text-4xl">700 €</span>/місяць</div>
+                <div class="mt-2 flex justify-start items-baseline gap-x-1"><span class="font-400 text-4xl"><span class="amount"></span> €</span>/місяць</div>
                 <button class="test-drive button mt-2 max-w-none">Замовити тест-драйв</button>
             </div>
-            <div class="catalog-item 768:w-[calc(50%-.625rem)] 1024:w-[calc(33.333%-.833rem)]">
+            <div class="catalog-item catalog-item-require 768:w-[calc(50%-.625rem)] 1024:w-[calc(33.333%-.833rem)]">
                 <div class="relative flex flex-wrap items-center justify-center px-4 bg-car rounded-md aspect-[4/3] 1100:aspect-[1/.83]">
                     <img class="relative z-[2] block" src="<?php renderImages('cars/car-none.png'); ?>" alt="">
                 </div>
@@ -304,7 +312,6 @@
                 <button class="require-call button mt-7 max-w-none">Підібрати автомобіль</button>
             </div>
         </div>
-
-        <button class="show-catalog button button-transparent button-no-hover mt-2.5 font-400 1024:max-w-[335px] 1024:mx-auto">Показати все</button>
+        <button class="show-catalog button button-transparent mt-2.5 font-400 1024:max-w-[300px] 1024:mx-auto 1100:max-w-[335px]">Показати все</button>
     </div>
 </section>
