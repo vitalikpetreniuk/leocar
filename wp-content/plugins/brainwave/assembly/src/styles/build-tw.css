@@ -520,7 +520,7 @@ form{
   margin-top:1rem
 }
 
-form input[type=tel],form input[type=text]{
+form input[type=email],form input[type=tel],form input[type=text]{
   display:block;
   width:100%;
   border-bottom-width:1px;
@@ -537,11 +537,11 @@ form input[type=tel],form input[type=text]{
   outline-offset:2px
 }
 
-form input[type=tel]::-moz-placeholder, form input[type=text]::-moz-placeholder{
+form input[type=email]::-moz-placeholder, form input[type=tel]::-moz-placeholder, form input[type=text]::-moz-placeholder{
   color:rgb(250 250 250 / .7)
 }
 
-form input[type=tel]::placeholder,form input[type=text]::placeholder{
+form input[type=email]::placeholder,form input[type=tel]::placeholder,form input[type=text]::placeholder{
   color:rgb(250 250 250 / .7)
 }
 
@@ -575,11 +575,11 @@ form input#td-date::placeholder,form input#td-time::placeholder{
   color:rgb(250 250 250 / .7)
 }
 
-form input[type=tel][aria-invalid=true],form input[type=text][aria-invalid=true]{
+form input[type=email][aria-invalid=true],form input[type=tel][aria-invalid=true],form input[type=text][aria-invalid=true]{
   border-color:#e31919!important
 }
 
-form input[type=tel]:active,form input[type=tel]:focus,form input[type=text]:active,form input[type=text]:focus{
+form input[type=email]:active,form input[type=email]:focus,form input[type=tel]:active,form input[type=tel]:focus,form input[type=text]:active,form input[type=text]:focus{
   --tw-border-opacity:1;
   border-color:rgb(39 172 91 / var(--tw-border-opacity))
 }
@@ -786,7 +786,7 @@ div.info p:not(:first-child){
   opacity:0
 }
 
-.flip-card-inner:hover img:last-child{
+.flip-card-inner:hover img:nth-child(2){
   opacity:1
 }
 
@@ -2466,6 +2466,10 @@ video {
   height:3.5rem
 }
 
+.h-4{
+  height:1rem
+}
+
 .h-9{
   height:2.25rem
 }
@@ -2508,6 +2512,10 @@ video {
 
 .w-2\/12{
   width:16.666667%
+}
+
+.w-4{
+  width:1rem
 }
 
 .w-4\/12{
@@ -2769,6 +2777,11 @@ video {
   border-color:rgb(15 15 15 / var(--tw-border-opacity))
 }
 
+.border-white{
+  --tw-border-opacity:1;
+  border-color:rgb(250 250 250 / var(--tw-border-opacity))
+}
+
 .bg-\[\#212121\]{
   --tw-bg-opacity:1;
   background-color:rgb(33 33 33 / var(--tw-bg-opacity))
@@ -2984,6 +2997,10 @@ video {
 
 .text-center{
   text-align:center
+}
+
+.indent-\[-9999px\]{
+  text-indent:-9999px
 }
 
 .font-400{

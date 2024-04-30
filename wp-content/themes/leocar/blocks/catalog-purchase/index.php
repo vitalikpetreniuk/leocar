@@ -13,10 +13,18 @@
                         <span class="hidden justify-start items-center gap-x-1.5 bg-[#212121] rounded-2xl h-9 px-4 text-small text-white/[.7]"><?php renderAssetsSVG('svg/mechanics'); ?>Механіка</span>
                     </div>
 
-                    <div class="flip-card-inner flipped rounded-2xl cursor-pointer">
-                        <div class="flip-card-front rounded-2xl px-4">
-                            <img class="relative z-[2] block" src="<?php renderImages('cars/car1.png'); ?>" alt="">
-                            <img class="absolute top-0 left-4 right-4 block w-[calc(100%-2rem)] h-full object-contain z-[2] opacity-0" src="<?php renderImages('cars/car2.png'); ?>" alt="">
+                    <div class="flip-card-inner rounded-2xl cursor-pointer">
+                        <div class="flip-card-front overflow-hidden rounded-2xl px-4">
+                            <div>
+                                <img class="relative z-[2] block" src="<?php renderImages('cars/car1.png'); ?>" alt="">
+                                <img class="absolute top-0 left-4 right-4 block w-[calc(100%-2rem)] h-full object-contain z-[2] opacity-0" src="<?php renderImages('cars/car2.png'); ?>" alt="">
+                            </div>
+
+                            <div class="absolute z-[2] right-5 bottom-5 colors flex justify-end items-center gap-x-2.5">
+                                <div class="w-4 h-4 border border-white rounded-full indent-[-9999px]" style="background:#DA0D0D;">Red</div>
+                                <div class="w-4 h-4 border border-white rounded-full indent-[-9999px]" style="background:#4B4B4B;">Gray</div>
+                                <div class="w-4 h-4 border border-white rounded-full indent-[-9999px]" style="background:#4A9A69;">Green</div>
+                            </div>
                         </div>
                         <div class="flip-card-back rounded-2xl">
                             <div>

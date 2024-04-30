@@ -17,13 +17,13 @@
                     </ul>
                 </div>
             </div>
-            <div class="w-5/12 mt-9 1024:w-1/3 1024:mt-0 1024:pl-7 1024:box-border">
+            <div class="quick-links w-5/12 mt-9 1024:w-1/3 1024:mt-0 1024:pl-7 1024:box-border">
                 <span class="font-700 uppercase">Quick links</span>
                 <ul class="mt-4 opacity-70 flex flex-col gap-y-1 1024:gap-y-2 1024:leading-[1.6]">
-                    <li><a class="hover:opacity-70" href="#">Тарифи</a></li>
-                    <li><a class="hover:opacity-70" href="#">Прокат авто</a></li>
-                    <li><a class="hover:opacity-70" href="#">Інформація</a></li>
-                    <li><a class="hover:opacity-70" href="#">Контакти</a></li>
+                    <li><a class="hover:opacity-70" href="#leo-reasons">Переваги</a></li>
+                    <li><a class="hover:opacity-70" href="#leo-subscription">Що таке підписка?</a></li>
+                    <li><a class="hover:opacity-70" href="#leo-catalog">Каталог</a></li>
+                    <li><a class="hover:opacity-70" href="#leo-reviews">Відгуки</a></li>
                 </ul>
             </div>
             <div class="w-7/12 mt-9 1024:w-1/3 1024:mt-0">

@@ -3,6 +3,7 @@
     $intro_description = '';
     $intro_image_class = '';
     $intro_image = '';
+    $intro_image_laptop = '';
     $intro_image_desktop = '';
 
     if ( is_page() ) { // Check if it's a page
@@ -10,13 +11,15 @@
         if ( strpos( $body_class, 'page-id-8' ) !== false ) {
             $intro_image_class = 'toyota';
             $intro_image = 'intro-car.png';
-            $intro_image_desktop = 'intro-car-desktop.png';
+            $intro_image_laptop = 'intro-car-laptop.png';
+            $intro_image_desktop = 'intro-car-laptop.png';
             $intro_title = 'Leocar - subscribe and chill';
             $intro_description = 'Переклад з англійської — це текст, який має деякі характеристики справжнього письмового тексту, але є випадковим';
         } elseif ( strpos( $body_class, 'page-id-29' ) !== false ) {
             $intro_image_class = 'hyundai';
             $intro_image = 'intro-car-hyundai.png';
-            $intro_image_desktop = 'intro-car-hyundai-desktop.png';
+            $intro_image_laptop = 'intro-car-hyundai-laptop.png';
+            $intro_image_desktop = 'intro-car-hyundai-laptop.png';
             $intro_title = 'Leocar - ми піклуємось про ваш комфорт';
             $intro_description = 'У нас – одні з найдоступніших цін на оренду авто у Львові у поєднанні з якісним, по-справжньому європейським сервісом.';
         }
@@ -25,7 +28,9 @@
 
 <section class="leo-intro 1024:flex 1024:flex-row-reverse 1024:justify-start 2000:max-h-[1000px]">
     <picture class="<?php echo $intro_image_class ?> 1024:absolute 1024:h-[75svh] 1024:max-h-[580px] 1100:h-[80svh] 1100:max-h-[750px] 1280:max-w-[115svh] 1280:h-[100svh] 2000:max-h-[1000px]">
-        <source srcset="<?php renderImages($intro_image_desktop); ?>" media="(min-width:1024px)" />
+        <source media="(max-width:1023px)" srcset="<?php renderImages($intro_image); ?>">
+        <source media="(min-width:1024px) and (max-width:1699px)" srcset="<?php renderImages($intro_image_laptop); ?>">
+        <source media="(min-width:1700px)" srcset="<?php renderImages($intro_image_desktop); ?>">
         <img class="relative block 768:h-full 768:w-full 768:object-cover" src="<?php renderImages($intro_image); ?>" alt=""/>
     </picture>
     <div class="container relative z-[2] 500:mt-8">

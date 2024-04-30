@@ -39,7 +39,7 @@
     .flip-card-inner:hover img:first-child {
         @apply opacity-0
     }
-    .flip-card-inner:hover img:last-child {
+    .flip-card-inner:hover img:nth-child(2) {
         @apply opacity-100
     }
 
