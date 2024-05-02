@@ -1,6 +1,6 @@
 <section id="leo-purchase" class="leo-purchase mt-16 pt-8 pb-11 bg-[url('../images/purchase-mobile.jpg')] bg-no-repeat bg-cover 1024:bg-[url('../images/purchase.jpg')] 1024:pt-[27vw] 1024:pb-16 1100:pt-96">
     <div class="container 1024:flex 1024:gap-x-5">
-        <div class="text-xl/[1.6] 1024:w-1/2 1024:text-2xl/[1.6] 1100:text-3xl/[1.6] 1100:pr-4"><p>Послуга <strong class="font-700 font-normal">Авто під викуп</strong> здійснюється простіше і швидше, ніж могло б бути у банку або автосалоні. Користуйтеся машиною одразу після придбання!</p></div>
+        <div class="text-xl/[1.6] 1024:w-1/2 1024:text-2xl/[1.6] 1100:text-3xl/[1.6] 1100:pr-4"><p><?php esc_html_e('Послуга','leocar'); ?> <strong class="font-700 font-normal"><?php esc_html_e('Авто під викуп','leocar'); ?></strong> здійснюється простіше і швидше, ніж могло б бути у банку або автосалоні. Користуйтеся машиною одразу після придбання!</p></div>
         <div class="mt-48 1024:mt-0 1024:w-1/2">
             <div>
                 <div class="font-700 text-xl w-10/12">Що потрібно для оформлення Оренди Авто під викуп?</div>

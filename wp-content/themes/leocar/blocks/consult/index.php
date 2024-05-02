@@ -4,10 +4,10 @@
         <img src="<?php renderImages('form-bg.png'); ?>" alt="toyota" class="block w-full" />
     </picture>
     <div class="container h-full 820:flex 820:justify-between 820:items-center">
-        <div class="text-xl/[1.4] opacity-70 820:w-5/12 820:text-3xl/[1.4] 1024:text-5xl/[1.4]">Залиште свої контакти і наш менеджер зв'яжеться з вами найближчим часом, щоб відповісти на всі запитання!</div>
+        <div class="text-xl/[1.4] opacity-70 820:w-5/12 820:text-3xl/[1.4] 1024:text-5xl/[1.4]"><?=get_field('text')?></div>
         <div class="820:w-6/12">
             <div class="form-bg w-full mt-7 px-7 pt-7 pb-8 rounded-[1.25rem] 500:max-w-[485px] 500:mx-auto 1100:px-9 1100:py-12">
-                <h2>Замовити консультацію</h2>
+                <h2><?=get_field('title')?></h2>
                 <?php echo do_shortcode( '[contact-form-7 id="21cfd70" title="Замовити консультацію"]' ); ?>
             </div>
         </div>

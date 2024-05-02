@@ -87,6 +87,7 @@
         @apply mt-4
     }
     form input[type="text"],
+    form input[type="email"],
     form input[type="tel"] {
         @apply block w-full py-2.5 !bg-transparent border-b border-white/[.7]
         font-400 text-base/[1.35] text-white
@@ -103,11 +104,14 @@
         placeholder:text-white/[.7]
     }
     form input[type="tel"][aria-invalid="true"],
+    form input[type="email"][aria-invalid="true"],
     form input[type="text"][aria-invalid="true"] {
         border-color: #E31919 !important;
     }
     form input[type="text"]:active,
     form input[type="text"]:focus,
+    form input[type="email"]:active,
+    form input[type="email"]:focus,
     form input[type="tel"]:active,
     form input[type="tel"]:focus {
         @apply border-accent

@@ -1,32 +1,16 @@
 <?php
-    $intro_title = '';
-    $intro_description = '';
-    $intro_image_class = '';
-    $intro_image = '';
-    $intro_image_desktop = '';
-
-    if ( is_page() ) { // Check if it's a page
-        $body_class = join(' ', get_body_class()); // Get all body classes as a string
-        if ( strpos( $body_class, 'page-id-8' ) !== false ) {
-            $intro_image_class = 'toyota';
-            $intro_image = 'intro-car.png';
-            $intro_image_desktop = 'intro-car-desktop.png';
-            $intro_title = 'Leocar - subscribe and chill';
-            $intro_description = 'Переклад з англійської — це текст, який має деякі характеристики справжнього письмового тексту, але є випадковим';
-        } elseif ( strpos( $body_class, 'page-id-29' ) !== false ) {
-            $intro_image_class = 'hyundai';
-            $intro_image = 'intro-car-hyundai.png';
-            $intro_image_desktop = 'intro-car-hyundai-desktop.png';
-            $intro_title = 'Leocar - ми піклуємось про ваш комфорт';
-            $intro_description = 'У нас – одні з найдоступніших цін на оренду авто у Львові у поєднанні з якісним, по-справжньому європейським сервісом.';
-        }
-    }
+    $body_class = join(' ', get_body_class()); // Get all body classes as a string
+    $intro_title = get_field('title');
+    $intro_description = get_field('description');
+    pr(get_field('image'));
 ?>
 
 <section class="leo-intro 1024:flex 1024:flex-row-reverse 1024:justify-start 2000:max-h-[1000px]">
-    <picture class="<?php echo $intro_image_class ?> 1024:absolute 1024:h-[75svh] 1024:max-h-[580px] 1100:h-[80svh] 1100:max-h-[750px] 1280:max-w-[115svh] 1280:h-[100svh] 2000:max-h-[1000px]">
-        <source srcset="<?php renderImages($intro_image_desktop); ?>" media="(min-width:1024px)" />
-        <img class="relative block 768:h-full 768:w-full 768:object-cover" src="<?php renderImages($intro_image); ?>" alt=""/>
+    <picture class="<?php echo get_field('image_class'); ?> 1024:absolute 1024:h-[75svh] 1024:max-h-[580px] 1100:h-[80svh] 1100:max-h-[750px] 1280:max-w-[115svh] 1280:h-[100svh] 2000:max-h-[1000px]">
+        <source media="(max-width:1023px)" srcset="<?php echo wp_get_attachment_image_url(get_field('image'), 'full'); ?>">
+        <source media="(min-width:1024px) and (max-width:1699px)" srcset="<?php echo wp_get_attachment_image_url(get_field('image_laptop'), 'full'); ?>">
+        <source media="(min-width:1700px)" srcset="<?php echo wp_get_attachment_image_url(get_field('image_desktop'), 'full'); ?>">
+        <?php echo wp_get_attachment_image(get_field('image'), 'full', false, ['class' => "relative block 768:h-full 768:w-full 768:object-cover"]); ?>
     </picture>
     <div class="container relative z-[2] 500:mt-8">
         <div class="1024:w-5/12 1024:min-h-[50vw] 1024:pl-5 1024:pr-2 1024:box-border 1024:flex 1024:flex-col 1024:justify-end 1100:h-[100svh] 1100:min-h-0 2000:max-h-[1000px] 1100:justify-center">
@@ -34,8 +18,8 @@
             <div class="text-body mt-2 max-h-20 overflow-hidden 414:mt-3.5 1024:mt-5"><?php echo $intro_description ?></div>
 
             <div class="mt-5 flex flex-col gap-2.5 1024:mt-6">
-                <button class="require-call button">Залишити заявку<?php renderAssetsSVG('svg/mail'); ?></button>
-                <button class="choose-car button button-transparent">Обрати авто<?php renderAssetsSVG('svg/car'); ?></button>
+                <button class="require-call button"><?php esc_html_e('Залишити заявку','leocar'); ?><?php renderAssetsSVG('svg/mail'); ?></button>
+                <button class="choose-car button button-transparent"><?php esc_html_e('Обрати авто','leocar'); ?><?php renderAssetsSVG('svg/car'); ?></button>
             </div>
         </div>
     </div>
