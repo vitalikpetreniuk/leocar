@@ -5,171 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d74bb30-0ac9-4a01-9116-d70f5f49baf1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-nav-menu-field/advanced-custom-nav-menu-field.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-nav-menu-field/includes/assets/css/acnmf-backend.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-nav-menu-field/includes/field/nav-menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-nav-menu-field/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-nav-menu-field/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-scripts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-scripts.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-styles.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-styles.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/dashicons-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/dashicons-picker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/dashicons-picker.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/classes/class.cptui_admin_ui.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/classes/class.cptui_debug_info.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/custom-post-type-ui.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/external/wpgraphql.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/cptui-icon-173x173.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/wds_ads/buddypages.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/wds_ads/cptui-extended.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/wds_ads/instago.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/wds_ads/wp-search-with-algolia-pro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/about.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/listings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/post-types.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/support.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/taxonomies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools-sections/tools-debug.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools-sections/tools-get-code.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools-sections/tools-post-types.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools-sections/tools-taxonomies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/utility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/wp-cli.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/wpml-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/converter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/converter.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/settings-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/settings-base.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/system-info.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/system-info.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/tables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/tables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/images/checkbox-off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/images/checkbox-on.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/acf-field-group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/acf-field-group.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/apps/converter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/apps/tables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/system-info.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/system-info.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/bin/polyfill-mbstring.scoper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/bin/scoper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/bin/update-tests" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/bin/wp-background-processing.scoper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/changelog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/cyr-to-lat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/Mbstring.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/Resources/unidata/lowerCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/Resources/unidata/titleCaseRegexp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/Resources/unidata/upperCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/bootstrap80.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/wp-background-processing/wp-async-request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/wp-background-processing/wp-background-process.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/ACF.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/AdminNotices.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/BackgroundProcesses/ConversionProcess.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/BackgroundProcesses/PostConversionProcess.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/BackgroundProcesses/TermConversionProcess.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/ConversionTables.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Converter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Requirements.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/Abstracts/SettingsBase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/Abstracts/SettingsInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/Converter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/PluginSettingsBase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/Settings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/SystemInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/Tables.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/WPCli.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/includes/deprecated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/InstalledVersions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_files.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/installed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/installed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/css/dp_gutenberg.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/css/duplicate_page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/duplicatepage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/inc/admin-settings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/js/duplicate_page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/js/editor-script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-cs_CZ.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-cs_CZ.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-de_DE_formal.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-de_DE_formal.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-fr_FR.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-fr_FR.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-hi_IN.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-hi_IN.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page.pot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/compatibility/LiteSpeed_Cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/compatibility/formidable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/compatibility/the-events-calendar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/compatibility/themes/enfold.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/composer.phar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/css/cpt-archive-dd.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/css/cpt-options.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/css/cpt.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/images/menu-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/include/class.compatibility.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/include/class.cpto.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/include/class.functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/include/class.options.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/include/class.walkers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/js/cpt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/languages/post-types-order.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/languages/post-types-order.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/post-types-order.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/screenshot-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/screenshot-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/css/bw-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/css/bw-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/js/bw-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/js/bw-script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/catalog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/datepicker-full.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/datepicker-full.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/faq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/imask.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/imask.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/reviews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/seo.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/seo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/timepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/timepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog-purchase/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog-purchase/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/conditions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/conditions/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/footer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/footer/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/purchase/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/purchase/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/assets/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/assets/images/logo-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/assets/js/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/includes/connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/includes/helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/includes/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/includes/pages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/includes/settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/includes/shortcodes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/languages/trustmary-widgets.pot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/trustmary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/reviews/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/reviews/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,25 +53,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "alex",
-    "last_opened_file_path": "C:/OSPanel/domains/leocar.loc/wp-content/themes/leocar/assets",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/OSPanel/domains/leocar.loc&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\leocar.loc" />
       <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes\leocar\assets" />
       <recent name="C:\OSPanel\domains\leocar.loc\wp-content\plugins" />
       <recent name="C:\OSPanel\domains\leocar.loc\wp-content" />
-      <recent name="C:\OSPanel\domains\leocar.loc" />
       <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes\leocar\blocks" />
     </key>
   </component>
@@ -242,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714649696970</updated>
       <workItem from="1714649698052" duration="2516000" />
-      <workItem from="1714652970283" duration="11593000" />
+      <workItem from="1714652970283" duration="15459000" />
     </task>
     <servers />
   </component>
