@@ -40,8 +40,18 @@ function patrick_user_can_richedit($c) {
 
 function get_period_prices($prices = []) {
     $periods = explode(PHP_EOL, get_field('periods','options'));
-    $count = min(count($prices), count($periods));
+    if(empty($prices)) $prices = array_fill(0, count($periods, ''));
     $arr = [];
-    for($i=0; $i<$count; $i++) $arr[] = ['price'=>$prices[$i], 'period' => $periods[$i]];
+    foreach($periods as $key=>$period) $arr[] = ['price'=>$prices[$key], 'period' => $period];
     return $arr;
 }
+
+function get_period_purchase_prices($prices = []) {
+    $periods = explode(PHP_EOL, get_field('periods_purchase','options'));
+    if(empty($prices)) $prices = array_fill(0, count($periods, ''));
+    $arr = [];
+    foreach($periods as $key=>$period) $arr[] = ['price'=>$prices[$key], 'period' => $period];
+    return $arr;
+}
+
+add_filter('acf/settings/json', '__return_false');

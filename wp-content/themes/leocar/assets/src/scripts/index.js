@@ -38,7 +38,8 @@ document.addEventListener('DOMContentLoaded', function() {
     init();
 
     let inputTel = document.querySelector('section.leo-consult form input[type="tel"]');
-    let tdTel = document.querySelector('#leo-modals .modal.drive input[type="tel"]');
+    let callTel = document.querySelector('#leo-modals .modal.call input[type="tel"]');
+    let driveTel = document.querySelector('#leo-modals .modal.drive input[type="tel"]');
 
     const maskOptions = {
         mask: '+{38} (000) 000-00-00'
@@ -49,7 +50,10 @@ document.addEventListener('DOMContentLoaded', function() {
     if(inputTel) {
         let mask = IMask(inputTel, maskOptions);
     }
-    if(tdTel) {
-        let mask = IMask(tdTel, maskOptions);
+    if(callTel) {
+        let mask = IMask(callTel, maskOptions);
+    }
+    if(driveTel) {
+        let mask = IMask(driveTel, maskOptions);
     }
 });

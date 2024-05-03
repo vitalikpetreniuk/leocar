@@ -79,36 +79,33 @@
 <div id="leo-modals" class="invisible opacity-0 transition duration-100 fixed top-0 left-0 w-full h-full z-[20] bg-[rgba(0,0,0,.31)] blur-25">
     <div class="modal call invisible opacity-0 absolute top-[50%] left-5 right-5 max-w-[485px] translate-y-[-50%] form-bg px-7 pt-10 pb-9 rounded-[1.25rem] 500:w-full 500:left-[50%] 500:translate-x-[-50%]">
         <div class="close cursor-pointer absolute h-11 w-11 top-2 right-2 flex justify-center items-center"><?php renderAssetsSVG('svg/close-thin'); ?></div>
-
-        <h2>Замовити консультацію</h2>
-        <?php echo do_shortcode( '[contact-form-7 id="21cfd70" title="Замовити консультацію"]' ); ?>
+        <?php if(get_field('consultation','options')['title']) { ?>
+            <h2><?=get_field('consultation','options')['title']?></h2>
+        <?php } ?>
+        <?php echo do_shortcode( get_field('consultation','options')['form']); ?>
     </div>
     <div class="modal drive invisible opacity-0 absolute top-[50%] left-5 right-5 max-w-[485px] translate-y-[-50%] form-bg px-7 pt-10 pb-9 rounded-[1.25rem] 500:w-full 500:left-[50%] 500:translate-x-[-50%]">
         <div class="close cursor-pointer absolute h-11 w-11 top-2 right-2 flex justify-center items-center"><?php renderAssetsSVG('svg/close-thin'); ?></div>
 
-        <h2>Замовити тест-драйв</h2>
-        <?php echo do_shortcode( '[contact-form-7 id="a857c9c" title="Замовити тест-драйв"]' ); ?>
+        <?php if(get_field('testdrive','options')['title']) { ?>
+            <h2><?=get_field('testdrive','options')['title']?></h2>
+        <?php } ?>
+        <?php echo do_shortcode( get_field('testdrive','options')['form']); ?>
     </div>
 
     <div class="modal thanks invisible opacity-0 absolute top-[50%] left-5 right-5 max-w-[485px] translate-y-[-50%] form-bg px-7 pt-10 pb-9 rounded-[1.25rem] 500:w-full 500:left-[50%] 500:translate-x-[-50%]">
-        <h2 class="text-center">Дякуємо за Ваш запит!</h2>
-        <span class="block mt-1 text-center">Наш менеджер зв’яжеться з вами найближчим часом</span>
+        <?php if(get_field('thank','options')['title']) { ?>
+            <h2 class="text-center"><?=get_field('thank','options')['title']?></h2>
+        <?php } ?>
+        <span class="block mt-1 text-center"><?=get_field('thank','options')['text']?></span>
     </div>
     <div class="modal conditions invisible opacity-0 absolute top-[50%] left-5 right-5 max-w-[862px] translate-y-[-50%] form-bg mt-[60px] px-7 pt-10 pb-9 rounded-[1.25rem] 500:w-full 500:left-[50%] 500:translate-x-[-50%]">
         <div class="close cursor-pointer absolute h-11 w-11 top-2 right-2 flex justify-center items-center"><?php renderAssetsSVG('svg/close-thin'); ?></div>
-
-        <h2>Оренда авто з правом викупу: переваги, умови та деталі</h2>
+        <?php if(get_field('conditions','options')['title']) { ?>
+            <h2><?=get_field('conditions','options')['title']?></h2>
+        <?php } ?>
         <div class="mt-4 h-[100svh] max-h-[calc(100svh-360px)] scrollbar-hide">
-            <p>Традиційна оренда авто дозволяє взяти транспортний засіб напрокат на обмежений час, часто не менше ніж на добу. У LEOCAR можна не лише скористатися звичайним прокатом, але й орендувати автомобіль з можливістю його викупу. Така опція є надзвичайно зручною і має значні переваги порівняно зі стандартним автокредитуванням.</p>
-            <p>LEOCAR пропонує вигідні умови для оренди автомобілів з опцією викупу у Львові та інших регіональних центрах України.</p>
-            <p>Процес оренди авто з правом викупу полягає у тому, що клієнт бере машину напрокат з метою постійного використання. Укладається договір оренди, і клієнт платить за оренду, паралельно вносячи суми за право викупу відповідно до умов договору.</p>
-            <p>Необхідний мінімальний пакет документів включає паспорт, ІПН, водійське посвідчення та перший внесок від 10% від вартості машини.</p>
-            <p>Оренда з правом викупу доступна в таких містах як Львів, Київ та Івано-Франківськ, Тернопіль, Луцьк, Рівне, Житомир, Ужгород та інші за умови, що клієнту вже виповнилося 21 рік, він має водійський стаж від 3 років і готовий внести аванс у розмірі 10% від вартості авто.</p>
-            <p>Угода передбачає регулярні щомісячні платежі, прив'язані до курсу долара США, і після здійснення останньої виплати машина переходить у власність клієнта.</p>
-            <p>LEOCAR забезпечує прозорість умов, без будь-яких прихованих платежів чи доплат.</p>
-            <p>Оренда з правом викупу в LEOCAR актуальна для як фізичних, так і юридичних осіб, особливо коли необхідно терміново отримати автомобіль без можливості оплатити його повну вартість.</p>
-            <p>Переваги оренди з правом викупу перед автокредитом включають швидкість і простоту оформлення, без вимог  довідки про доходи чи кредитної історії.</p>
-            <p>Клієнти можуть користуватися автомобілем відразу після підписання договору і мають можливість змінити модель машини протягом терміну оренди.</p>
+            <?=get_field('conditions','options')['text']?>
         </div>
     </div>
 </div>

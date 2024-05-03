@@ -32,15 +32,7 @@ export default function home() {
     // Insert the select element after the input
     timeInput.parentNode.insertBefore(timeSelect, timeInput.nextSibling);
 
-    // // Update input value on selection change
-    // timeSelect.addEventListener("change", function() {
-    //     timeInput.value = this.value;
-    // });
-
     /* TIME */
-
-
-
 
     let chooseCarButton = document.querySelector('button.choose-car');
     let leoCatalogSection = document.querySelector('section.leo-catalog');
@@ -62,7 +54,7 @@ export default function home() {
         });
     }
 
-    let navLinks = document.querySelectorAll('header ul li');
+    let navLinks = document.querySelectorAll('header ul li, .quick-links ul li');
     let sections = document.querySelectorAll('section');
     let offset = getHeaderHeight();
 
