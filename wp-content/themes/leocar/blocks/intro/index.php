@@ -2,7 +2,6 @@
     $body_class = join(' ', get_body_class()); // Get all body classes as a string
     $intro_title = get_field('title');
     $intro_description = get_field('description');
-    pr(get_field('image'));
 ?>
 
 <section class="leo-intro 1024:flex 1024:flex-row-reverse 1024:justify-start 2000:max-h-[1000px]">

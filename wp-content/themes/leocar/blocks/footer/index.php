@@ -94,6 +94,11 @@
     </div>
 
     <div class="modal thanks invisible opacity-0 absolute top-[50%] left-5 right-5 max-w-[485px] translate-y-[-50%] form-bg px-7 pt-10 pb-9 rounded-[1.25rem] 500:w-full 500:left-[50%] 500:translate-x-[-50%]">
+        <div class="close-thanks cursor-pointer absolute h-11 w-11 top-2 right-2 flex justify-center items-center"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.707031" width="20" height="1" rx="0.5" transform="rotate(45 0.707031 0)" fill="#FAFAFA"></rect>
+                <rect y="14.1421" width="20" height="1" rx="0.5" transform="rotate(-45 0 14.1421)" fill="#FAFAFA"></rect>
+            </svg>
+        </div>
         <?php if(get_field('thank','options')['title']) { ?>
             <h2 class="text-center"><?=get_field('thank','options')['title']?></h2>
         <?php } ?>

@@ -1,0 +1,2672 @@
+Index: wp-content/themes/leocar/blocks/reviews/index.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><section id=\"leo-reviews\" class=\"leo-reviews pt-8 mt-16 1100:mt-24\">\r\n    <div class=\"container\">\r\n        <h2>Відгуки наших клієнтів</h2>\r\n\r\n        <div class=\"reviews-outer relative overflow-hidden\">\r\n            <div class=\"reviews-list mt-6 flex flex-col gap-y-2.5 768:block 1100:mt-9 \">\r\n                <div class=\"review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]\">\r\n                    <div>\r\n                        <div class=\"flex justify-start items-center gap-x-5\">\r\n                            <div class=\"w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden\">\r\n                                <img class=\"block w-full h-full object-cover\" src=\"<?php renderImages('lion.png'); ?>\" alt=\"лев\">\r\n                            </div>\r\n                            <h4 class=\"font-700 text-base\">Лев Герасимчук</h4>\r\n                        </div>\r\n                        <a class=\"block absolute top-[1.875rem] right-[1.875rem]\" href=\"#\"><?php renderAssetsSVG('svg/google'); ?></a>\r\n                    </div>\r\n                    <div class=\"mt-4 flex justify-start items-center gap-x-1\">\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                    </div>\r\n                    <div class=\"mt-5 text-white/[.7]\">\r\n                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>\r\n                        <span class=\"block mt-4\">1 місяць назад</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]\">\r\n                    <div>\r\n                        <div class=\"flex justify-start items-center gap-x-5\">\r\n                            <div class=\"w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden\">\r\n                                <img class=\"block w-full h-full object-cover\" src=\"<?php renderImages('lion.png'); ?>\" alt=\"лев\">\r\n                            </div>\r\n                            <h4 class=\"font-700 text-base\">Лев Герасимчук</h4>\r\n                        </div>\r\n                        <a class=\"block absolute top-[1.875rem] right-[1.875rem]\" href=\"#\"><?php renderAssetsSVG('svg/google'); ?></a>\r\n                    </div>\r\n                    <div class=\"mt-4 flex justify-start items-center gap-x-1\">\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                    </div>\r\n                    <div class=\"mt-5 text-white/[.7]\">\r\n                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>\r\n                        <span class=\"block mt-4\">1 місяць назад</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]\">\r\n                    <div>\r\n                        <div class=\"flex justify-start items-center gap-x-5\">\r\n                            <div class=\"w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden\">\r\n                                <img class=\"block w-full h-full object-cover\" src=\"<?php renderImages('lion.png'); ?>\" alt=\"лев\">\r\n                            </div>\r\n                            <h4 class=\"font-700 text-base\">Лев Герасимчук</h4>\r\n                        </div>\r\n                        <a class=\"block absolute top-[1.875rem] right-[1.875rem]\" href=\"#\"><?php renderAssetsSVG('svg/google'); ?></a>\r\n                    </div>\r\n                    <div class=\"mt-4 flex justify-start items-center gap-x-1\">\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                    </div>\r\n                    <div class=\"mt-5 text-white/[.7]\">\r\n                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>\r\n                        <span class=\"block mt-4\">1 місяць назад</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]\">\r\n                    <div>\r\n                        <div class=\"flex justify-start items-center gap-x-5\">\r\n                            <div class=\"w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden\">\r\n                                <img class=\"block w-full h-full object-cover\" src=\"<?php renderImages('lion.png'); ?>\" alt=\"лев\">\r\n                            </div>\r\n                            <h4 class=\"font-700 text-base\">Лев Герасимчук</h4>\r\n                        </div>\r\n                        <a class=\"block absolute top-[1.875rem] right-[1.875rem]\" href=\"#\"><?php renderAssetsSVG('svg/google'); ?></a>\r\n                    </div>\r\n                    <div class=\"mt-4 flex justify-start items-center gap-x-1\">\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                    </div>\r\n                    <div class=\"mt-5 text-white/[.7]\">\r\n                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>\r\n                        <span class=\"block mt-4\">1 місяць назад</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]\">\r\n                    <div>\r\n                        <div class=\"flex justify-start items-center gap-x-5\">\r\n                            <div class=\"w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden\">\r\n                                <img class=\"block w-full h-full object-cover\" src=\"<?php renderImages('lion.png'); ?>\" alt=\"лев\">\r\n                            </div>\r\n                            <h4 class=\"font-700 text-base\">Лев Герасимчук</h4>\r\n                        </div>\r\n                        <a class=\"block absolute top-[1.875rem] right-[1.875rem]\" href=\"#\"><?php renderAssetsSVG('svg/google'); ?></a>\r\n                    </div>\r\n                    <div class=\"mt-4 flex justify-start items-center gap-x-1\">\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                    </div>\r\n                    <div class=\"mt-5 text-white/[.7]\">\r\n                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>\r\n                        <span class=\"block mt-4\">1 місяць назад</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]\">\r\n                    <div>\r\n                        <div class=\"flex justify-start items-center gap-x-5\">\r\n                            <div class=\"w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden\">\r\n                                <img class=\"block w-full h-full object-cover\" src=\"<?php renderImages('lion.png'); ?>\" alt=\"лев\">\r\n                            </div>\r\n                            <h4 class=\"font-700 text-base\">Лев Герасимчук</h4>\r\n                        </div>\r\n                        <a class=\"block absolute top-[1.875rem] right-[1.875rem]\" href=\"#\"><?php renderAssetsSVG('svg/google'); ?></a>\r\n                    </div>\r\n                    <div class=\"mt-4 flex justify-start items-center gap-x-1\">\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                    </div>\r\n                    <div class=\"mt-5 text-white/[.7]\">\r\n                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>\r\n                        <span class=\"block mt-4\">1 місяць назад</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]\">\r\n                    <div>\r\n                        <div class=\"flex justify-start items-center gap-x-5\">\r\n                            <div class=\"w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden\">\r\n                                <img class=\"block w-full h-full object-cover\" src=\"<?php renderImages('lion.png'); ?>\" alt=\"лев\">\r\n                            </div>\r\n                            <h4 class=\"font-700 text-base\">Лев Герасимчук</h4>\r\n                        </div>\r\n                        <a class=\"block absolute top-[1.875rem] right-[1.875rem]\" href=\"#\"><?php renderAssetsSVG('svg/google'); ?></a>\r\n                    </div>\r\n                    <div class=\"mt-4 flex justify-start items-center gap-x-1\">\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                    </div>\r\n                    <div class=\"mt-5 text-white/[.7]\">\r\n                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>\r\n                        <span class=\"block mt-4\">1 місяць назад</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]\">\r\n                    <div>\r\n                        <div class=\"flex justify-start items-center gap-x-5\">\r\n                            <div class=\"w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden\">\r\n                                <img class=\"block w-full h-full object-cover\" src=\"<?php renderImages('lion.png'); ?>\" alt=\"лев\">\r\n                            </div>\r\n                            <h4 class=\"font-700 text-base\">Лев Герасимчук</h4>\r\n                        </div>\r\n                        <a class=\"block absolute top-[1.875rem] right-[1.875rem]\" href=\"#\"><?php renderAssetsSVG('svg/google'); ?></a>\r\n                    </div>\r\n                    <div class=\"mt-4 flex justify-start items-center gap-x-1\">\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                    </div>\r\n                    <div class=\"mt-5 text-white/[.7]\">\r\n                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>\r\n                        <span class=\"block mt-4\">1 місяць назад</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]\">\r\n                    <div>\r\n                        <div class=\"flex justify-start items-center gap-x-5\">\r\n                            <div class=\"w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden\">\r\n                                <img class=\"block w-full h-full object-cover\" src=\"<?php renderImages('lion.png'); ?>\" alt=\"лев\">\r\n                            </div>\r\n                            <h4 class=\"font-700 text-base\">Лев Герасимчук</h4>\r\n                        </div>\r\n                        <a class=\"block absolute top-[1.875rem] right-[1.875rem]\" href=\"#\"><?php renderAssetsSVG('svg/google'); ?></a>\r\n                    </div>\r\n                    <div class=\"mt-4 flex justify-start items-center gap-x-1\">\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                    </div>\r\n                    <div class=\"mt-5 text-white/[.7]\">\r\n                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>\r\n                        <span class=\"block mt-4\">1 місяць назад</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]\">\r\n                    <div>\r\n                        <div class=\"flex justify-start items-center gap-x-5\">\r\n                            <div class=\"w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden\">\r\n                                <img class=\"block w-full h-full object-cover\" src=\"<?php renderImages('lion.png'); ?>\" alt=\"лев\">\r\n                            </div>\r\n                            <h4 class=\"font-700 text-base\">Лев Герасимчук</h4>\r\n                        </div>\r\n                        <a class=\"block absolute top-[1.875rem] right-[1.875rem]\" href=\"#\"><?php renderAssetsSVG('svg/google'); ?></a>\r\n                    </div>\r\n                    <div class=\"mt-4 flex justify-start items-center gap-x-1\">\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                    </div>\r\n                    <div class=\"mt-5 text-white/[.7]\">\r\n                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>\r\n                        <span class=\"block mt-4\">1 місяць назад</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]\">\r\n                    <div>\r\n                        <div class=\"flex justify-start items-center gap-x-5\">\r\n                            <div class=\"w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden\">\r\n                                <img class=\"block w-full h-full object-cover\" src=\"<?php renderImages('lion.png'); ?>\" alt=\"лев\">\r\n                            </div>\r\n                            <h4 class=\"font-700 text-base\">Лев Герасимчук</h4>\r\n                        </div>\r\n                        <a class=\"block absolute top-[1.875rem] right-[1.875rem]\" href=\"#\"><?php renderAssetsSVG('svg/google'); ?></a>\r\n                    </div>\r\n                    <div class=\"mt-4 flex justify-start items-center gap-x-1\">\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                    </div>\r\n                    <div class=\"mt-5 text-white/[.7]\">\r\n                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>\r\n                        <span class=\"block mt-4\">1 місяць назад</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]\">\r\n                    <div>\r\n                        <div class=\"flex justify-start items-center gap-x-5\">\r\n                            <div class=\"w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden\">\r\n                                <img class=\"block w-full h-full object-cover\" src=\"<?php renderImages('lion.png'); ?>\" alt=\"лев\">\r\n                            </div>\r\n                            <h4 class=\"font-700 text-base\">Лев Герасимчук</h4>\r\n                        </div>\r\n                        <a class=\"block absolute top-[1.875rem] right-[1.875rem]\" href=\"#\"><?php renderAssetsSVG('svg/google'); ?></a>\r\n                    </div>\r\n                    <div class=\"mt-4 flex justify-start items-center gap-x-1\">\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                        <span><?php renderAssetsSVG('svg/star'); ?></span>\r\n                    </div>\r\n                    <div class=\"mt-5 text-white/[.7]\">\r\n                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>\r\n                        <span class=\"block mt-4\">1 місяць назад</span>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n\r\n        <button class=\"show-reviews button button-no-hover mt-4 768:max-w-[275px] 768:mx-auto 1100:mt-9\">Показати більше</button>\r\n    </div>\r\n</section>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/themes/leocar/blocks/reviews/index.php b/wp-content/themes/leocar/blocks/reviews/index.php
+--- a/wp-content/themes/leocar/blocks/reviews/index.php	(revision bc714f5925a4ae2aabf55aff3e54c608504aece4)
++++ b/wp-content/themes/leocar/blocks/reviews/index.php	(date 1714743013127)
+@@ -1,276 +1,6 @@
+ <section id="leo-reviews" class="leo-reviews pt-8 mt-16 1100:mt-24">
+     <div class="container">
+-        <h2>Відгуки наших клієнтів</h2>
+-
+-        <div class="reviews-outer relative overflow-hidden">
+-            <div class="reviews-list mt-6 flex flex-col gap-y-2.5 768:block 1100:mt-9 ">
+-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
+-                    <div>
+-                        <div class="flex justify-start items-center gap-x-5">
+-                            <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
+-                                <img class="block w-full h-full object-cover" src="<?php renderImages('lion.png'); ?>" alt="лев">
+-                            </div>
+-                            <h4 class="font-700 text-base">Лев Герасимчук</h4>
+-                        </div>
+-                        <a class="block absolute top-[1.875rem] right-[1.875rem]" href="#"><?php renderAssetsSVG('svg/google'); ?></a>
+-                    </div>
+-                    <div class="mt-4 flex justify-start items-center gap-x-1">
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                    </div>
+-                    <div class="mt-5 text-white/[.7]">
+-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
+-                        <span class="block mt-4">1 місяць назад</span>
+-                    </div>
+-                </div>
+-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
+-                    <div>
+-                        <div class="flex justify-start items-center gap-x-5">
+-                            <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
+-                                <img class="block w-full h-full object-cover" src="<?php renderImages('lion.png'); ?>" alt="лев">
+-                            </div>
+-                            <h4 class="font-700 text-base">Лев Герасимчук</h4>
+-                        </div>
+-                        <a class="block absolute top-[1.875rem] right-[1.875rem]" href="#"><?php renderAssetsSVG('svg/google'); ?></a>
+-                    </div>
+-                    <div class="mt-4 flex justify-start items-center gap-x-1">
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                    </div>
+-                    <div class="mt-5 text-white/[.7]">
+-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
+-                        <span class="block mt-4">1 місяць назад</span>
+-                    </div>
+-                </div>
+-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
+-                    <div>
+-                        <div class="flex justify-start items-center gap-x-5">
+-                            <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
+-                                <img class="block w-full h-full object-cover" src="<?php renderImages('lion.png'); ?>" alt="лев">
+-                            </div>
+-                            <h4 class="font-700 text-base">Лев Герасимчук</h4>
+-                        </div>
+-                        <a class="block absolute top-[1.875rem] right-[1.875rem]" href="#"><?php renderAssetsSVG('svg/google'); ?></a>
+-                    </div>
+-                    <div class="mt-4 flex justify-start items-center gap-x-1">
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                    </div>
+-                    <div class="mt-5 text-white/[.7]">
+-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
+-                        <span class="block mt-4">1 місяць назад</span>
+-                    </div>
+-                </div>
+-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
+-                    <div>
+-                        <div class="flex justify-start items-center gap-x-5">
+-                            <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
+-                                <img class="block w-full h-full object-cover" src="<?php renderImages('lion.png'); ?>" alt="лев">
+-                            </div>
+-                            <h4 class="font-700 text-base">Лев Герасимчук</h4>
+-                        </div>
+-                        <a class="block absolute top-[1.875rem] right-[1.875rem]" href="#"><?php renderAssetsSVG('svg/google'); ?></a>
+-                    </div>
+-                    <div class="mt-4 flex justify-start items-center gap-x-1">
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                    </div>
+-                    <div class="mt-5 text-white/[.7]">
+-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
+-                        <span class="block mt-4">1 місяць назад</span>
+-                    </div>
+-                </div>
+-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
+-                    <div>
+-                        <div class="flex justify-start items-center gap-x-5">
+-                            <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
+-                                <img class="block w-full h-full object-cover" src="<?php renderImages('lion.png'); ?>" alt="лев">
+-                            </div>
+-                            <h4 class="font-700 text-base">Лев Герасимчук</h4>
+-                        </div>
+-                        <a class="block absolute top-[1.875rem] right-[1.875rem]" href="#"><?php renderAssetsSVG('svg/google'); ?></a>
+-                    </div>
+-                    <div class="mt-4 flex justify-start items-center gap-x-1">
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                    </div>
+-                    <div class="mt-5 text-white/[.7]">
+-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+-                        <span class="block mt-4">1 місяць назад</span>
+-                    </div>
+-                </div>
+-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
+-                    <div>
+-                        <div class="flex justify-start items-center gap-x-5">
+-                            <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
+-                                <img class="block w-full h-full object-cover" src="<?php renderImages('lion.png'); ?>" alt="лев">
+-                            </div>
+-                            <h4 class="font-700 text-base">Лев Герасимчук</h4>
+-                        </div>
+-                        <a class="block absolute top-[1.875rem] right-[1.875rem]" href="#"><?php renderAssetsSVG('svg/google'); ?></a>
+-                    </div>
+-                    <div class="mt-4 flex justify-start items-center gap-x-1">
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                    </div>
+-                    <div class="mt-5 text-white/[.7]">
+-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
+-                        <span class="block mt-4">1 місяць назад</span>
+-                    </div>
+-                </div>
+-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
+-                    <div>
+-                        <div class="flex justify-start items-center gap-x-5">
+-                            <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
+-                                <img class="block w-full h-full object-cover" src="<?php renderImages('lion.png'); ?>" alt="лев">
+-                            </div>
+-                            <h4 class="font-700 text-base">Лев Герасимчук</h4>
+-                        </div>
+-                        <a class="block absolute top-[1.875rem] right-[1.875rem]" href="#"><?php renderAssetsSVG('svg/google'); ?></a>
+-                    </div>
+-                    <div class="mt-4 flex justify-start items-center gap-x-1">
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                    </div>
+-                    <div class="mt-5 text-white/[.7]">
+-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
+-                        <span class="block mt-4">1 місяць назад</span>
+-                    </div>
+-                </div>
+-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
+-                    <div>
+-                        <div class="flex justify-start items-center gap-x-5">
+-                            <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
+-                                <img class="block w-full h-full object-cover" src="<?php renderImages('lion.png'); ?>" alt="лев">
+-                            </div>
+-                            <h4 class="font-700 text-base">Лев Герасимчук</h4>
+-                        </div>
+-                        <a class="block absolute top-[1.875rem] right-[1.875rem]" href="#"><?php renderAssetsSVG('svg/google'); ?></a>
+-                    </div>
+-                    <div class="mt-4 flex justify-start items-center gap-x-1">
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                    </div>
+-                    <div class="mt-5 text-white/[.7]">
+-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
+-                        <span class="block mt-4">1 місяць назад</span>
+-                    </div>
+-                </div>
+-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
+-                    <div>
+-                        <div class="flex justify-start items-center gap-x-5">
+-                            <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
+-                                <img class="block w-full h-full object-cover" src="<?php renderImages('lion.png'); ?>" alt="лев">
+-                            </div>
+-                            <h4 class="font-700 text-base">Лев Герасимчук</h4>
+-                        </div>
+-                        <a class="block absolute top-[1.875rem] right-[1.875rem]" href="#"><?php renderAssetsSVG('svg/google'); ?></a>
+-                    </div>
+-                    <div class="mt-4 flex justify-start items-center gap-x-1">
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                    </div>
+-                    <div class="mt-5 text-white/[.7]">
+-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
+-                        <span class="block mt-4">1 місяць назад</span>
+-                    </div>
+-                </div>
+-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
+-                    <div>
+-                        <div class="flex justify-start items-center gap-x-5">
+-                            <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
+-                                <img class="block w-full h-full object-cover" src="<?php renderImages('lion.png'); ?>" alt="лев">
+-                            </div>
+-                            <h4 class="font-700 text-base">Лев Герасимчук</h4>
+-                        </div>
+-                        <a class="block absolute top-[1.875rem] right-[1.875rem]" href="#"><?php renderAssetsSVG('svg/google'); ?></a>
+-                    </div>
+-                    <div class="mt-4 flex justify-start items-center gap-x-1">
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                    </div>
+-                    <div class="mt-5 text-white/[.7]">
+-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
+-                        <span class="block mt-4">1 місяць назад</span>
+-                    </div>
+-                </div>
+-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
+-                    <div>
+-                        <div class="flex justify-start items-center gap-x-5">
+-                            <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
+-                                <img class="block w-full h-full object-cover" src="<?php renderImages('lion.png'); ?>" alt="лев">
+-                            </div>
+-                            <h4 class="font-700 text-base">Лев Герасимчук</h4>
+-                        </div>
+-                        <a class="block absolute top-[1.875rem] right-[1.875rem]" href="#"><?php renderAssetsSVG('svg/google'); ?></a>
+-                    </div>
+-                    <div class="mt-4 flex justify-start items-center gap-x-1">
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                    </div>
+-                    <div class="mt-5 text-white/[.7]">
+-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
+-                        <span class="block mt-4">1 місяць назад</span>
+-                    </div>
+-                </div>
+-                <div class="review relative bg-car rounded-2xl px-6 pt-7 pb-9 768:w-[calc(50%-10px)] 768:mb-5 1100:w-[calc(33.333%-13.5px)]">
+-                    <div>
+-                        <div class="flex justify-start items-center gap-x-5">
+-                            <div class="w-[3.25rem] h-[3.25rem] rounded-full overflow-hidden">
+-                                <img class="block w-full h-full object-cover" src="<?php renderImages('lion.png'); ?>" alt="лев">
+-                            </div>
+-                            <h4 class="font-700 text-base">Лев Герасимчук</h4>
+-                        </div>
+-                        <a class="block absolute top-[1.875rem] right-[1.875rem]" href="#"><?php renderAssetsSVG('svg/google'); ?></a>
+-                    </div>
+-                    <div class="mt-4 flex justify-start items-center gap-x-1">
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                        <span><?php renderAssetsSVG('svg/star'); ?></span>
+-                    </div>
+-                    <div class="mt-5 text-white/[.7]">
+-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
+-                        <span class="block mt-4">1 місяць назад</span>
+-                    </div>
+-                </div>
+-            </div>
+-        </div>
+-
+-        <button class="show-reviews button button-no-hover mt-4 768:max-w-[275px] 768:mx-auto 1100:mt-9">Показати більше</button>
++        <h2><?php esc_html_e('Відгуки наших клієнтів','leocar'); ?></h2>
++        <?php echo do_shortcode('[trustmary_widget id="iN-6LVM_i"]'); ?>
+     </div>
+ </section>
+\ No newline at end of file
+Index: wp-content/plugins/trustmary/assets/css/admin.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/plugins/trustmary/assets/css/admin.css b/wp-content/plugins/trustmary/assets/css/admin.css
+new file mode 100644
+--- /dev/null	(date 1714741732000)
++++ b/wp-content/plugins/trustmary/assets/css/admin.css	(date 1714741732000)
+@@ -0,0 +1,21 @@
++#adminmenu .toplevel_page_trustmary-dashboard .wp-menu-image img {
++    width: 20px;
++    height: 20px;
++    object-fit: contain;
++    padding-top: 7px;
++}
++
++body[class^="toplevel_page_trustmary-"] #wpbody,
++body[class^="trustmary_page"] #wpbody,
++body[class*=" toplevel_page_trustmary-"] #wpbody,
++body[class*=" trustmary_page"] #wpbody {
++    background-image: url(../images/logo-icon.svg);
++    background-repeat: no-repeat;
++    background-position: right 20px top 20px;
++    background-size: 30px;
++}
++
++.copy-shortcode {
++    width: 100%;
++    cursor: pointer;
++}
+\ No newline at end of file
+Index: wp-content/plugins/trustmary/assets/js/admin.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/plugins/trustmary/assets/js/admin.js b/wp-content/plugins/trustmary/assets/js/admin.js
+new file mode 100644
+--- /dev/null	(date 1714741732000)
++++ b/wp-content/plugins/trustmary/assets/js/admin.js	(date 1714741732000)
+@@ -0,0 +1,28 @@
++const trustmary_settings_radios = document.querySelectorAll('.toggle-script-block');
++const trustmary_script_block = document.getElementById('trustmary-script');
++
++function trustmary_toggle_script_block(event) {
++    if (parseInt(this.value) === 1)
++        trustmary_script_block.style.display = 'none';
++    else
++        trustmary_script_block.style.display = 'block';
++}
++
++trustmary_settings_radios.forEach((el) => {
++    el.addEventListener('change', trustmary_toggle_script_block);
++});
++
++function trustmary_shortcode_copy_clipboard(e) {
++    e.preventDefault();
++    e.target.select();
++    const str = e.target.value;
++    if (navigator && navigator.clipboard && navigator.clipboard.writeText)
++        return navigator.clipboard.writeText(str);
++    return Promise.reject('The Clipboard API is not available.');
++};
++
++const trustmary_shortcode_fields = document.querySelectorAll('.copy-shortcode');
++
++trustmary_shortcode_fields.forEach((el) => {
++    el.addEventListener('click', trustmary_shortcode_copy_clipboard);
++});
+\ No newline at end of file
+Index: wp-content/plugins/trustmary/includes/index.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/plugins/trustmary/includes/index.php b/wp-content/plugins/trustmary/includes/index.php
+new file mode 100644
+--- /dev/null	(date 1714741732000)
++++ b/wp-content/plugins/trustmary/includes/index.php	(date 1714741732000)
+@@ -0,0 +1,1 @@
++<?php
+Index: wp-content/plugins/trustmary/includes/pages.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/plugins/trustmary/includes/pages.php b/wp-content/plugins/trustmary/includes/pages.php
+new file mode 100644
+--- /dev/null	(date 1714741732000)
++++ b/wp-content/plugins/trustmary/includes/pages.php	(date 1714741732000)
+@@ -0,0 +1,137 @@
++<?php
++defined('ABSPATH') or die('No');
++
++/**
++ * Class that handles displaying admin pages.
++ */
++class Trustmary_Pages
++{
++    /**
++     * An array of plugin configuration
++     *
++     * @var array
++     */
++    private $_config;
++
++    /**
++     * Pages class constructor. Gets plugin config as parameter.
++     *
++     * @param array $config
++     */
++    public function __construct($config)
++    {
++        $this->_config = $config;
++
++        add_action('admin_init', array($this, 'check_settings'));
++    }
++
++    /**
++     * Checks if api has been set successfully before letting user to plugin subpages. 
++     * If not, redirects the user to settinsg page.
++     *
++     * @return void
++     */
++    public function check_settings()
++    {
++        $page = isset($_GET['page']) ? $_GET['page'] : '';
++        if (!in_array($page, array(
++            'trustmary-popups',
++            'trustmary-inline',
++            'trustmary-experiments',
++            'trustmary-reviews'
++        )))
++            return;
++
++        if (!isset($this->_config['api_key']) || !$this->_config['api_key']) {
++            wp_redirect(admin_url('admin.php?page=trustmary-settings'));
++            exit;
++        }
++    }
++
++    /**
++     * Function for displaying dashboard page
++     *
++     * @return void
++     */
++    public function dashboard()
++    {
++        echo '<h1>' . esc_attr__('Dashboard', 'trustmary-widgets') . '</h1>';
++
++        if (isset($this->_config['api_key']) && $this->_config['api_key']) {
++            echo '<h3>' . esc_attr__('You are good to go!', 'trustmary-widgets') . '</h3>'
++                . '<p>' . esc_attr__('You can now create popups, review widgets, lead generation forms and review gathering forms inside Trustmary!', 'trustmary-widgets') . '</p>'
++                . '<a href="https://app.trustmary.com/widget/create" target="_blank" class="button button-primary">' . esc_attr__('Go to Trustmary', 'trustmary-widgets') . '</a> '
++                . '<a href="' . admin_url('admin.php?page=trustmary-popups') . '" class="button button-primary">' . esc_attr__('Popups', 'trustmary-widgets') . '</a> '
++                . '<a href="' . admin_url('admin.php?page=trustmary-inline') . '" class="button button-primary">' . esc_attr__('Inline widgets', 'trustmary-widgets') . '</a> '
++                . '<a href="' . admin_url('admin.php?page=trustmary-experiments') . '" class="button button-primary">' . esc_attr__('Experiments', 'trustmary-widgets') . '</a> '
++                . '<a href="' . admin_url('admin.php?page=trustmary-reviews') . '" class="button button-primary">' . esc_attr__('Gather reviews', 'trustmary-widgets') . '</a> ';
++        } else {
++            echo '<h3>' . esc_attr__('Sign Up for Free', 'trustmary-widgets') . '</h3>'
++                . '<a href="https://app.trustmary.com/register?t=free&s=eyJ1dG1fc291cmNlIjoid29yZHByZXNzIiwidXRtX21lZGl1bSI6InBsdWdpbiIsInV0bV9jYW1wYWlnbiI6InNpZ24tdXAifQ==" target="_blank" class="button button-primary">' . esc_attr__('Sign up!', 'trustmary-widgets') . '</a> ';
++            echo '<h3>' . esc_attr__('Already have an account?', 'trustmary-widgets') . '</h3>'
++                . '<a href="' . admin_url('admin.php?page=trustmary-settings') . '" class="button button-primary">' . esc_attr__('Set up API key here', 'trustmary-widgets') . '</a> ';
++        }
++    }
++
++    /**
++     * Function for displaying popups page
++     *
++     * @return void
++     */
++    public function popups()
++    {
++        echo '<h1>' . esc_attr__('Popups', 'trustmary-widgets') . '</h1>'
++            . '<h3>' . esc_attr__('Create a new popup now!', 'trustmary-widgets') . '</h3>'
++            . '<a href="https://app.trustmary.com/widget/create" target="_blank" class="button button-primary">' . esc_attr__('Create new popup!', 'trustmary-widgets') . '</a>';
++    }
++
++    /**
++     * Function for displaying inline widgets page
++     *
++     * @return void
++     */
++    public function inline()
++    {
++        $widgets = Trustmary_Connect::fetch_inline_widgets(Trustmary_Helper::decrypt($this->_config['api_key']));
++
++        echo '<h1>' . esc_attr__('Inline widgets', 'trustmary-widgets') . '</h1>'
++            . '<p>' . esc_attr__('You can copy the shortcode by clicking the shortcode field.', 'trustmary-widgets') . '</p>';
++
++        echo Trustmary_Helper::generate_table(array(
++            'id' => esc_attr__('ID', 'trustmary-widgets'),
++            'name' => esc_attr__('Name', 'trustmary-widgets'),
++            'shortcode' => esc_attr__('Shortcode', 'trustmary-widgets'),
++        ), $widgets);
++    }
++
++    /**
++     * Function for displaying experiments page
++     *
++     * @return void
++     */
++    public function experiments()
++    {
++        $experiments = Trustmary_Connect::fetch_experiments(Trustmary_Helper::decrypt($this->_config['api_key']));
++
++        echo '<h1>' . esc_attr__('Experiments', 'trustmary-widgets') . '</h1>'
++            . '<p>' . esc_attr__('You can copy the shortcode by clicking the shortcode field.', 'trustmary-widgets') . '</p>';
++
++        echo Trustmary_Helper::generate_table(array(
++            'id' => esc_attr__('ID', 'trustmary-widgets'),
++            'name' => esc_attr__('Name', 'trustmary-widgets'),
++            'shortcode' => esc_attr__('Shortcode', 'trustmary-widgets'),
++        ), $experiments);
++    }
++
++    /**
++     * Function for displaying gather reviews page
++     *
++     * @return void
++     */
++    public function reviews()
++    {
++        echo '<h1>' . esc_attr__('Gather reviews', 'trustmary-widgets') . '</h1>'
++            . '<h3>' . esc_attr__('Create review gathering form and gather more reviews!', 'trustmary-widgets') . '</h3>'
++            . '<a href="https://app.trustmary.com/survey/create/testimonial" target="_blank" class="button button-primary">' . esc_attr__('Create new review form!', 'trustmary-widgets') . '</a>';
++    }
++}
+Index: wp-content/plugins/trustmary/assets/images/logo-icon.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/plugins/trustmary/assets/images/logo-icon.svg b/wp-content/plugins/trustmary/assets/images/logo-icon.svg
+new file mode 100644
+--- /dev/null	(date 1714741732000)
++++ b/wp-content/plugins/trustmary/assets/images/logo-icon.svg	(date 1714741732000)
+@@ -0,0 +1,8 @@
++<svg xmlns="http://www.w3.org/2000/svg" width="66.885" height="122.241" viewBox="0 0 66.885 122.241">
++  <g id="Artwork_1" data-name="Artwork 1" transform="translate(33.442 61.121)">
++    <g id="Group_782" data-name="Group 782" transform="translate(-33.442 -61.121)">
++      <path id="Path_2454" data-name="Path 2454" d="M0,72.576v46.33L66.885,84.43V38.1Z" transform="translate(0 3.336)" fill="#faa61a"/>
++      <path id="Path_2455" data-name="Path 2455" d="M0,0V46.33L66.885,87.766V41.436Z" fill="#ffc905"/>
++    </g>
++  </g>
++</svg>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"1d74bb30-0ac9-4a01-9116-d70f5f49baf1\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/acf-nav-menu-field/advanced-custom-nav-menu-field.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/acf-nav-menu-field/includes/assets/css/acnmf-backend.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/acf-nav-menu-field/includes/field/nav-menu.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/acf-nav-menu-field/index.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/acf-nav-menu-field/readme.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/LICENSE\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-scripts.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-scripts.min.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-scripts.min.js.map\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-styles.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-styles.css.map\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-styles.min.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/dashicons-picker.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/dashicons-picker.min.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/dashicons-picker.min.js.map\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/classes/class.cptui_admin_ui.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/classes/class.cptui_debug_info.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/custom-post-type-ui.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/external/wpgraphql.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/cptui-icon-173x173.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/wds_ads/buddypages.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/wds_ads/cptui-extended.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/wds_ads/instago.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/wds_ads/wp-search-with-algolia-pro.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/about.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/listings.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/post-types.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/support.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/taxonomies.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools-sections/tools-debug.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools-sections/tools-get-code.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools-sections/tools-post-types.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools-sections/tools-taxonomies.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/utility.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/wp-cli.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/readme.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/wpml-config.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/LICENSE\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/converter.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/converter.min.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/settings-base.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/settings-base.min.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/system-info.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/system-info.min.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/tables.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/tables.min.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/images/checkbox-off.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/images/checkbox-on.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/images/logo.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/acf-field-group.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/acf-field-group.min.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/apps/converter.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/apps/tables.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/system-info.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/system-info.min.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/bin/polyfill-mbstring.scoper.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/bin/scoper\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/bin/update-tests\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/bin/wp-background-processing.scoper.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/changelog.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/cyr-to-lat.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/Mbstring.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/Resources/unidata/lowerCase.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/Resources/unidata/titleCaseRegexp.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/Resources/unidata/upperCase.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/bootstrap.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/bootstrap80.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/wp-background-processing/wp-async-request.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/wp-background-processing/wp-background-process.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/readme.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/ACF.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/AdminNotices.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/BackgroundProcesses/ConversionProcess.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/BackgroundProcesses/PostConversionProcess.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/BackgroundProcesses/TermConversionProcess.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/ConversionTables.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Converter.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Main.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Request.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Requirements.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/Abstracts/SettingsBase.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/Abstracts/SettingsInterface.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/Converter.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/PluginSettingsBase.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/Settings.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/SystemInfo.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/Tables.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/WPCli.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/includes/deprecated.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/autoload.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/ClassLoader.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/InstalledVersions.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/LICENSE\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_classmap.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_files.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_namespaces.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_psr4.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_real.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_static.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/installed.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/installed.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/css/dp_gutenberg.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/css/duplicate_page.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/duplicatepage.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/inc/admin-settings.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/js/duplicate_page.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/js/editor-script.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-cs_CZ.mo\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-cs_CZ.po\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-de_DE_formal.mo\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-de_DE_formal.po\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-fr_FR.mo\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-fr_FR.po\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-hi_IN.mo\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-hi_IN.po\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page.mo\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page.po\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page.pot\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/duplicate-page/readme.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/compatibility/LiteSpeed_Cache.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/compatibility/formidable.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/compatibility/the-events-calendar.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/compatibility/themes/enfold.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/composer.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/composer.phar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/css/cpt-archive-dd.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/css/cpt-options.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/css/cpt.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/images/menu-icon.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/include/class.compatibility.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/include/class.cpto.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/include/class.functions.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/include/class.options.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/include/class.walkers.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/js/cpt.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/languages/post-types-order.mo\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/languages/post-types-order.po\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/post-types-order.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/readme.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/screenshot-1.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/wp-content/plugins/post-types-order/screenshot-2.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/css/bw-style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/css/bw-style.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/js/bw-script.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/js/bw-script.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/index.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/index.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/catalog.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/catalog.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/datepicker-full.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/datepicker-full.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/faq.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/faq.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/header.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/header.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/home.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/home.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/imask.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/imask.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/jquery.min.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/jquery.min.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/popup.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/popup.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/reviews.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/reviews.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/seo.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/seo.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/datepicker.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/datepicker.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/fonts.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/fonts.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/index.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/index.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/timepicker.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/timepicker.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog-purchase/index.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog-purchase/index.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog/index.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog/index.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/blocks/conditions/index.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/blocks/conditions/index.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/blocks/footer/index.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/blocks/footer/index.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/blocks/purchase/index.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/blocks/purchase/index.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/wp-content/themes/leocar/functions.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/wp-content/themes/leocar/functions.php\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;alex-gerlakh&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/vitalikpetreniuk/leocar.git&quot;,\r\n    &quot;accountId&quot;: &quot;0d27d06b-634d-41cd-aac7-088626cffe45&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;customColor&quot;: &quot;&quot;,\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2fuSv62uMt35rissACetxGIZVsA\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"alex\",\r\n    \"last_opened_file_path\": \"C:/OSPanel/domains/leocar.loc/wp-content/themes/leocar/assets\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\OSPanel\\domains\\leocar.loc\\wp-content\\themes\\leocar\\assets\" />\r\n      <recent name=\"C:\\OSPanel\\domains\\leocar.loc\\wp-content\\plugins\" />\r\n      <recent name=\"C:\\OSPanel\\domains\\leocar.loc\\wp-content\" />\r\n      <recent name=\"C:\\OSPanel\\domains\\leocar.loc\" />\r\n      <recent name=\"C:\\OSPanel\\domains\\leocar.loc\\wp-content\\themes\\leocar\\blocks\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PS-241.14494.237\" />\r\n        <option value=\"bundled-php-predefined-ba97393d7c68-8f0632a2a215-com.jetbrains.php.sharedIndexes-PS-241.14494.237\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"1d74bb30-0ac9-4a01-9116-d70f5f49baf1\" name=\"Changes\" comment=\"\" />\r\n      <created>1714649696970</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1714649696970</updated>\r\n      <workItem from=\"1714649698052\" duration=\"2516000\" />\r\n      <workItem from=\"1714652970283\" duration=\"11593000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision bc714f5925a4ae2aabf55aff3e54c608504aece4)
++++ b/.idea/workspace.xml	(date 1714743013209)
+@@ -5,171 +5,20 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="1d74bb30-0ac9-4a01-9116-d70f5f49baf1" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-nav-menu-field/advanced-custom-nav-menu-field.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-nav-menu-field/includes/assets/css/acnmf-backend.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-nav-menu-field/includes/field/nav-menu.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-nav-menu-field/index.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/acf-nav-menu-field/readme.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/LICENSE" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-scripts.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-scripts.min.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-scripts.min.js.map" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-styles.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-styles.css.map" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/cptui-styles.min.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/dashicons-picker.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/dashicons-picker.min.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/build/dashicons-picker.min.js.map" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/classes/class.cptui_admin_ui.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/classes/class.cptui_debug_info.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/custom-post-type-ui.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/external/wpgraphql.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/cptui-icon-173x173.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/wds_ads/buddypages.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/wds_ads/cptui-extended.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/wds_ads/instago.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/images/wds_ads/wp-search-with-algolia-pro.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/about.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/listings.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/post-types.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/support.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/taxonomies.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools-sections/tools-debug.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools-sections/tools-get-code.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools-sections/tools-post-types.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools-sections/tools-taxonomies.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/tools.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/utility.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/inc/wp-cli.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/readme.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/custom-post-type-ui/wpml-config.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/LICENSE" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/converter.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/converter.min.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/settings-base.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/settings-base.min.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/system-info.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/system-info.min.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/tables.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/css/tables.min.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/images/checkbox-off.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/images/checkbox-on.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/images/logo.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/acf-field-group.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/acf-field-group.min.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/apps/converter.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/apps/tables.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/system-info.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/assets/js/system-info.min.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/bin/polyfill-mbstring.scoper.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/bin/scoper" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/bin/update-tests" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/bin/wp-background-processing.scoper.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/changelog.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/cyr-to-lat.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/Mbstring.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/Resources/unidata/lowerCase.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/Resources/unidata/titleCaseRegexp.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/Resources/unidata/upperCase.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/bootstrap.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/polyfill-mbstring/bootstrap80.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/wp-background-processing/wp-async-request.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/libs/wp-background-processing/wp-background-process.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/readme.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/ACF.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/AdminNotices.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/BackgroundProcesses/ConversionProcess.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/BackgroundProcesses/PostConversionProcess.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/BackgroundProcesses/TermConversionProcess.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/ConversionTables.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Converter.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Main.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Request.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Requirements.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/Abstracts/SettingsBase.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/Abstracts/SettingsInterface.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/Converter.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/PluginSettingsBase.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/Settings.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/SystemInfo.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/Settings/Tables.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/WPCli.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/src/php/includes/deprecated.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/autoload.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/ClassLoader.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/InstalledVersions.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/LICENSE" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_classmap.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_files.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_namespaces.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_psr4.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_real.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/autoload_static.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/installed.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cyr2lat/vendor/composer/installed.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/css/dp_gutenberg.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/css/duplicate_page.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/duplicatepage.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/inc/admin-settings.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/js/duplicate_page.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/js/editor-script.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-cs_CZ.mo" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-cs_CZ.po" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-de_DE_formal.mo" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-de_DE_formal.po" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-fr_FR.mo" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-fr_FR.po" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-hi_IN.mo" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page-hi_IN.po" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page.mo" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page.po" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/languages/duplicate-page.pot" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/duplicate-page/readme.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/compatibility/LiteSpeed_Cache.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/compatibility/formidable.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/compatibility/the-events-calendar.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/compatibility/themes/enfold.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/composer.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/composer.phar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/css/cpt-archive-dd.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/css/cpt-options.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/css/cpt.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/images/menu-icon.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/include/class.compatibility.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/include/class.cpto.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/include/class.functions.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/include/class.options.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/include/class.walkers.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/js/cpt.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/languages/post-types-order.mo" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/languages/post-types-order.po" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/post-types-order.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/readme.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/screenshot-1.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/post-types-order/screenshot-2.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/css/bw-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/css/bw-style.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/js/bw-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/js/bw-script.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/index.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/catalog.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/datepicker-full.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/datepicker-full.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/faq.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/header.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/home.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/imask.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/imask.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/jquery.min.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/popup.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/reviews.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/seo.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/seo.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/datepicker.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/fonts.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/index.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/timepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/timepicker.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog-purchase/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog-purchase/index.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog/index.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/conditions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/conditions/index.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/footer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/footer/index.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/purchase/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/purchase/index.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/functions.php" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/assets/css/admin.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/assets/images/logo-icon.svg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/assets/js/admin.js" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/includes/connect.php" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/includes/helper.php" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/includes/index.php" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/includes/pages.php" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/includes/settings.php" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/includes/shortcodes.php" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/languages/trustmary-widgets.pot" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/license.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/readme.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/wp-content/plugins/trustmary/trustmary.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/reviews/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/reviews/index.php" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -206,8 +55,8 @@
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "alex",
+-    "last_opened_file_path": "C:/OSPanel/domains/leocar.loc/wp-content/themes/leocar/assets",
++    "git-widget-placeholder": "master",
++    "last_opened_file_path": "C:/OSPanel/domains/leocar.loc/wp-content/plugins",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+@@ -218,8 +67,8 @@
+ }]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+-      <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes\leocar\assets" />
+       <recent name="C:\OSPanel\domains\leocar.loc\wp-content\plugins" />
++      <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes\leocar\assets" />
+       <recent name="C:\OSPanel\domains\leocar.loc\wp-content" />
+       <recent name="C:\OSPanel\domains\leocar.loc" />
+       <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes\leocar\blocks" />
+Index: wp-content/plugins/trustmary/includes/settings.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/plugins/trustmary/includes/settings.php b/wp-content/plugins/trustmary/includes/settings.php
+new file mode 100644
+--- /dev/null	(date 1714741732000)
++++ b/wp-content/plugins/trustmary/includes/settings.php	(date 1714741732000)
+@@ -0,0 +1,348 @@
++<?php
++defined('ABSPATH') or die('No');
++
++/**
++ * Settings class
++ * 
++ * Creates settings page to admin and handles setting updates.
++ */
++class Trustmary_Settings
++{
++    /**
++     * Settings page/menu title
++     *
++     * @var string
++     */
++    private $_settings_title = 'Trustmary Settings';
++
++    /**
++     * Settings menu title
++     *
++     * @var string
++     */
++    private $_settings_menu = 'Settings';
++
++    /**
++     * Option group name
++     *
++     * @var string
++     */
++    private $_settings_group = 'trustmary_widgets_option_group';
++
++    /**
++     * Settings page slug
++     *
++     * @var string
++     */
++    private $_settings_menu_slug = 'trustmary-settings';
++
++    /**
++     * Identifier for config array to be stored in WP options
++     *
++     * @var string
++     */
++    private $_config_idenfifier = 'trustmary_widgets_config';
++
++    /**
++     * An array of plugin configuration
++     *
++     * @var array
++     */
++    private $_config;
++
++    /**
++     * Settings constructor
++     *
++     * @param string $config_idenfifier
++     * @param array $config
++     */
++    public function __construct($config_idenfifier, $config)
++    {
++        $this->_config_idenfifier = $config_idenfifier;
++        $this->_config = $config;
++
++        add_action('admin_menu', array($this, 'add_settings_page'));
++        add_action('admin_init', array($this, 'init_setting_fields'));
++
++        add_action('pre_update_option_' . $config_idenfifier, array($this, 'update_settings'), 20, 2);
++    }
++
++    /**
++     * Adds settings page
++     *
++     * @return void
++     */
++    public function add_settings_page()
++    {
++        add_submenu_page(
++            'trustmary-dashboard',
++            $this->_settings_title,
++            $this->_settings_menu,
++            'manage_options',
++            $this->_settings_menu_slug,
++            array($this, 'create_admin_page')
++        );
++    }
++
++    /**
++     * Callback function to create the settings page
++     *
++     * @return void
++     */
++    public function create_admin_page()
++    {
++        settings_errors($this->_config_idenfifier);
++?>
++        <h1><?php echo esc_attr($this->_settings_title); ?></h1>
++        <div class="wrap trustmary-widgets-form">
++            <form method="post" action="options.php">
++                <?php
++                settings_fields($this->_settings_group);
++                do_settings_sections($this->_config_idenfifier);
++                submit_button();
++                ?>
++            </form>
++        </div>
++    <?php
++    }
++
++    /**
++     * Initializes setting fields
++     *
++     * @return void
++     */
++    public function init_setting_fields()
++    {
++        register_setting(
++            $this->_settings_group,
++            $this->_config_idenfifier,
++            array(
++                'type' => 'array',
++                'sanitize_callback' => array($this, 'sanitize')
++            )
++        );
++
++        add_settings_section(
++            $this->_settings_group,
++            '',
++            array($this, 'print_section_info'),
++            $this->_config_idenfifier
++        );
++
++        /**
++         * Adds api_key option
++         */
++        add_settings_field(
++            'api_key',
++            esc_attr__('API key', 'trustmary-widgets'),
++            array($this, 'callback_input_apikey'),
++            $this->_config_idenfifier,
++            $this->_settings_group,
++            array(
++                'name' => 'api_key',
++                'label' => esc_attr__(
++                    'API key',
++                    'trustmary-widgets'
++                )
++            )
++        );
++
++        /**
++         * Adds organization_id option
++         */
++        add_settings_field(
++            'organization_id',
++            esc_attr__('Organization ID', 'trustmary-widgets'),
++            array($this, 'callback_input_organization'),
++            $this->_config_idenfifier,
++            $this->_settings_group,
++            array(
++                'name' => 'organization_id',
++                'label' => esc_attr__(
++                    'Organization ID',
++                    'trustmary-widgets'
++                )
++            )
++        );
++
++        /**
++         * Adds organization_name option
++         */
++        add_settings_field(
++            'organization_name',
++            esc_attr__('Organization Name', 'trustmary-widgets'),
++            array($this, 'callback_input_organization'),
++            $this->_config_idenfifier,
++            $this->_settings_group,
++            array(
++                'name' => 'organization_name',
++                'label' => esc_attr__(
++                    'Organization Name',
++                    'trustmary-widgets'
++                )
++            )
++        );
++
++        /**
++         * Adds radio option to enable/disable automatic script insertion
++         */
++        add_settings_field(
++            'add_scripts',
++            esc_attr__('Add Trustmary scripts automatically', 'trustmary-widgets'),
++            array($this, 'callback_input_addscripts'),
++            $this->_config_idenfifier,
++            $this->_settings_group,
++            array(
++                'name' => 'add_scripts',
++                'label' => esc_attr__(
++                    'Add trustmary script automatically',
++                    'trustmary-widgets'
++                )
++            )
++        );
++    }
++
++    /**
++     * Prints option section info description
++     *
++     * @return void
++     */
++    public function print_section_info()
++    {
++    }
++
++    /**
++     * Sanitizes input
++     *
++     * @param array $input
++     * @return array
++     */
++    public function sanitize($inputs)
++    {
++        foreach ($inputs as &$input) {
++            $input = htmlentities(sanitize_text_field($input), ENT_QUOTES);
++        }
++
++        return $inputs;
++    }
++
++    /**
++     * Filters values before saving. Encrypts given API key.
++     *
++     * @param array $updated_values
++     * @param array $old_values
++     * @return array
++     */
++    public function update_settings($updated_values, $old_values)
++    {
++        if (isset($old_values['organization_id']))
++            $updated_values['organization_id'] = $old_values['organization_id'];
++
++        if (isset($old_values['organization_name']))
++            $updated_values['organization_name'] = $old_values['organization_name'];
++
++        foreach ($updated_values as $key => &$value) {
++            if ($key === 'api_key') {
++                if (substr_count($value, '*')) {
++                    $value = $old_values[$key];
++                    continue;
++                }
++
++                $key_test = Trustmary_Connect::test_apikey($value);
++
++                if (!$key_test) {
++                    add_settings_error(
++                        $this->_config_idenfifier,
++                        'API_KEY_INVALID',
++                        esc_attr__(
++                            'API key is invalid.',
++                            'trustmary-widgets'
++                        ),
++                        'error'
++                    );
++                    $value = '';
++                    $updated_values['organization_id'] = '';
++                    $updated_values['organization_name'] = '';
++                    continue;
++                }
++
++                $value = Trustmary_Helper::encrypt($value);
++                $updated_values['organization_id'] = $key_test['organization_id'];
++                $updated_values['organization_name'] = $key_test['organization_name'];
++            }
++        }
++
++        return $updated_values;
++    }
++
++    /**
++     * Callback function for API key input field
++     *
++     * @param array $args
++     * @return void
++     */
++    public function callback_input_apikey($args)
++    {
++        $val = isset($this->_config[$args['name']]) ? Trustmary_Helper::obfuscate(Trustmary_Helper::decrypt($this->_config[$args['name']])) : '';
++    ?>
++        <p>
++            <input type="text" name="<?php echo esc_attr($this->_config_idenfifier . '[' . $args['name'] . ']'); ?>" value="<?php echo esc_attr($val); ?>" style="min-width:280px;">
++        </p>
++    <?php
++    }
++
++    /**
++     * Callback function for organization ID and name input fields
++     *
++     * @param array $args
++     * @return void
++     */
++    public function callback_input_organization($args)
++    {
++        $val = isset($this->_config[$args['name']]) ? $this->_config[$args['name']] :  esc_attr__(
++            'Organization info will be fetched automatically using API key.',
++            'trustmary-widgets'
++        );
++    ?>
++        <p><strong><?php echo esc_attr($val); ?></strong></p>
++    <?php
++    }
++
++    /**
++     * Callback function for add scripts automatically radio field
++     *
++     * @param array $args
++     * @return void
++     */
++    public function callback_input_addscripts($args)
++    {
++        $val = isset($this->_config[$args['name']]) ? $this->_config[$args['name']] : 1;
++        $organization_id = isset($this->_config['organization_id']) ? $this->_config['organization_id'] : 'ORGANIZATION_ID';
++    ?>
++        <p>
++            <label>
++                <input type="radio" class="toggle-script-block" name="<?php echo esc_attr($this->_config_idenfifier . '[' . $args['name'] . ']'); ?>" value="1" <?php echo esc_attr($val) ? 'checked="checked"' : ''; ?>>
++                <span><?php echo esc_attr__('Yes (Scripts will be added automatically)', 'trustmary-widgets'); ?></span>
++            </label>
++        </p>
++        <p>
++            <label>
++                <input type="radio" class="toggle-script-block" name="<?php echo esc_attr($this->_config_idenfifier . '[' . $args['name'] . ']'); ?>" value="0" <?php echo !esc_attr($val) ? 'checked="checked"' : ''; ?>>
++                <span><?php echo esc_attr__('No (I want to add scripts myself, see below)', 'trustmary-widgets'); ?></span>
++            </label>
++        </p>
++        <p id="trustmary-script" style="display: <?php echo !esc_attr($val) ? 'block' : 'none'; ?>;">
++            <textarea name="scripts" style="width: 480px;height:210px;cursor:pointer;" onClick="this.select();" readonly><?php echo htmlentities("<script>(function (w,d,s,o,r,js,fjs) {
++    w[r]=w[r]||function() {(w[r].q = w[r].q || []).push(arguments)}
++    w[r]('app', '" . esc_attr($organization_id) . "');
++    if(d.getElementById(o)) return;
++    js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
++    js.id = o; js.src = 'https://embed.trustmary.com/embed.js';
++    js.async = 1; fjs.parentNode.insertBefore(js, fjs);
++  }(window, document, 'script', 'trustmary-embed', 'tmary'));
++</script>
++"); ?></textarea>
++        </p>
++<?php
++    }
++}
+Index: wp-content/plugins/trustmary/includes/shortcodes.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/plugins/trustmary/includes/shortcodes.php b/wp-content/plugins/trustmary/includes/shortcodes.php
+new file mode 100644
+--- /dev/null	(date 1714741732000)
++++ b/wp-content/plugins/trustmary/includes/shortcodes.php	(date 1714741732000)
+@@ -0,0 +1,41 @@
++<?php
++defined('ABSPATH') or die('No');
++
++/**
++ * Class for handling plugin shortcodes
++ */
++class Trustmary_Shortcodes
++{
++    /**
++     * Constructor. Adds plugin shortcodes.
++     */
++    public function __construct()
++    {
++        add_shortcode('trustmary_widget', array($this, 'widget'));
++        add_shortcode('trustmary_experiment', array($this, 'experiment'));
++    }
++
++    public function widget($atts)
++    {
++        $attributes = shortcode_atts(array(
++            'id' => '',
++        ), $atts);
++
++        if (!$attributes['id'])
++            return;
++
++        return '<div data-trustmary-widget="' . $attributes['id'] . '"></div>';
++    }
++
++    public function experiment($atts)
++    {
++        $attributes = shortcode_atts(array(
++            'id' => '',
++        ), $atts);
++
++        if (!$attributes['id'])
++            return;
++
++        return '<div data-trustmary-experiment="' . $attributes['id'] . '"></div>';
++    }
++}
+Index: wp-content/plugins/trustmary/includes/helper.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/plugins/trustmary/includes/helper.php b/wp-content/plugins/trustmary/includes/helper.php
+new file mode 100644
+--- /dev/null	(date 1714741732000)
++++ b/wp-content/plugins/trustmary/includes/helper.php	(date 1714741732000)
+@@ -0,0 +1,137 @@
++<?php
++defined('ABSPATH') or die('No');
++
++/**
++ * A helper class which contains useful methods (i.e. api key encryption)
++ * that are being used in other areas of the plugin.
++ */
++class Trustmary_Helper
++{
++    /**
++     * Encryption method
++     *
++     * @var string
++     */
++    public static $encryption_method = 'aes-256-cbc';
++
++    /**
++     * Algorithm name for hash value using the HMAC method 
++     *
++     * @var string
++     */
++    public static $hash_hmac_algo = 'sha3-512';
++
++    /**
++     * Encrypts given string using SECURE_AUTH_KEY, SECURE_AUTH_SALT, 
++     * openssl and base64_encode. Returns encrypted string in base64.
++     *
++     * @param string $string
++     * @return string
++     */
++    public static function encrypt($string)
++    {
++        $initialization_vector_length = openssl_cipher_iv_length(self::$encryption_method);
++        $initialization_vector = openssl_random_pseudo_bytes($initialization_vector_length);
++
++        $encrypted = openssl_encrypt($string, self::$encryption_method, SECURE_AUTH_KEY, OPENSSL_RAW_DATA, $initialization_vector);
++        $hmac = hash_hmac(self::$hash_hmac_algo, $encrypted, SECURE_AUTH_SALT, TRUE);
++
++        $output = base64_encode($initialization_vector . $hmac . $encrypted);
++        return $output;
++    }
++
++    /**
++     * Decrypts given encrypted string.
++     *
++     * @param string $encrypted
++     * @return string
++     */
++    public static function decrypt($encrypted)
++    {
++        $raw = base64_decode($encrypted);
++
++        $initialization_vector_length = openssl_cipher_iv_length(self::$encryption_method);
++
++        if (strlen($raw) < $initialization_vector_length)
++            return '';
++
++        $initialization_vector = substr($raw, 0, $initialization_vector_length);
++
++        $hmac_part = substr($raw, $initialization_vector_length, 64);
++        $data_part = substr($raw, $initialization_vector_length + 64);
++
++        $data = openssl_decrypt($data_part, self::$encryption_method, SECURE_AUTH_KEY, OPENSSL_RAW_DATA, $initialization_vector);
++        $hmac = hash_hmac(self::$hash_hmac_algo, $data_part, SECURE_AUTH_SALT, TRUE);
++
++        if (hash_equals($hmac_part, $hmac))
++            return $data;
++        return '';
++    }
++
++    /**
++     * Obfuscates string by replacing characters with star 
++     * that come after the first dash.
++     *
++     * @param [type] $string
++     * @return void
++     */
++    public static function obfuscate($string)
++    {
++        $first_dash = strpos($string, '-');
++        $display_start = substr($string, 0, $first_dash + 1);
++        $obfuscate = preg_replace('/[^-]/', '*', substr($string, $first_dash + 1));
++
++        return $display_start . $obfuscate;
++    }
++
++    /**
++     * Creates WP admin table based on titles and data (rows).
++     *
++     * @param array $titles
++     * @param array $data
++     * @return void
++     */
++    public static function generate_table($titles, $data)
++    {
++        $table_html = '<table class="wp-list-table widefat fixed striped posts">'
++            . '<thead>'
++            . '<tr>';
++
++
++        foreach ($titles as $key => $label) {
++            $table_html .= '<th scope="col" id="' . esc_attr($key) . '" class="manage-column column-author">' . esc_attr($label) . '</th>';
++        }
++
++        $table_html .= '</tr>'
++            . '</thead>'
++            . '<tbody id="the-list">';
++
++        foreach ($data as $index => $row) {
++            $table_html .= '<tr id="post-' . esc_attr($index) . '">';
++
++            foreach ($titles as $key => $label) {
++                $table_html .= '<td class="column-' . esc_attr($key) . '" data-colname="' . esc_attr($key) . '">';
++
++                if ($key == 'shortcode')
++                    $table_html .= '<input type="text" class="copy-shortcode" value="';
++
++                if (is_array($row))
++                    $table_html .= esc_attr($row[$key]);
++                elseif (is_object($row))
++                    $table_html .= esc_attr($row->{$key});
++
++                if ($key == 'shortcode')
++                    $table_html .= '" readonly>';
++
++                $table_html .= '</td>';
++            }
++
++            $table_html .= '</tr>';
++        }
++
++        $table_html .= '</tbody>'
++            . '</table>';
++
++        return $table_html;
++    }
++}
+Index: wp-content/plugins/trustmary/includes/connect.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/plugins/trustmary/includes/connect.php b/wp-content/plugins/trustmary/includes/connect.php
+new file mode 100644
+--- /dev/null	(date 1714741732000)
++++ b/wp-content/plugins/trustmary/includes/connect.php	(date 1714741732000)
+@@ -0,0 +1,148 @@
++<?php
++defined('ABSPATH') or die('No');
++
++/**
++ * A static class for API requests in the plugin.
++ */
++class Trustmary_Connect
++{
++    /**
++     * API URL
++     *
++     * @var string
++     */
++    public static $api_url = 'https://api.trustmary.io/v1/';
++
++    /**
++     * Endpoint for testing API key
++     *
++     * @var string
++     */
++    public static $endpoint_test = 'test';
++
++    /**
++     * Endpoint for widgets
++     *
++     * @var string
++     */
++    public static $endpoint_widgets = 'widgets';
++
++    /**
++     * Endpoint for experiments
++     *
++     * @var string
++     */
++    public static $endpoint_experiments = 'experiments';
++
++    /**
++     * Method for testing API key. Returns an array consisting organization ID 
++     * and organization name on successful test.
++     *
++     * @param string $key
++     * @return string
++     */
++    public static function test_apikey($key)
++    {
++        $response = wp_remote_get(
++            self::$api_url . self::$endpoint_test,
++            array(
++                'timeout' => 30,
++                'headers' => array(
++                    'Authorization' => 'Apikey ' . $key
++                )
++            )
++        );
++
++        if (is_wp_error($response))
++            return;
++
++        $json = json_decode(wp_remote_retrieve_body($response));
++
++        if (!$json || !isset($json->organization_id) || !isset($json->organization_name))
++            return;
++
++        return array(
++            'organization_id' => $json->organization_id,
++            'organization_name' => $json->organization_name
++        );
++    }
++
++    /**
++     * Returns inline widgets from API
++     *
++     * @param string $key
++     * @return array
++     */
++    public static function fetch_inline_widgets($key)
++    {
++        $response = wp_remote_get(
++            self::$api_url . self::$endpoint_widgets,
++            array(
++                'timeout' => 30,
++                'headers' => array(
++                    'Authorization' => 'Apikey ' . $key
++                )
++            )
++        );
++
++        if (is_wp_error($response))
++            return;
++
++        $json = json_decode(wp_remote_retrieve_body($response));
++
++        if (!$json || !isset($json->widgets))
++            return array();
++
++        $widgets = array();
++
++        foreach ($json->widgets as $widget) {
++            if (isset($widget->template_type) && $widget->template_type === 'inpage')
++                $widgets[] = array(
++                    'id' => $widget->id,
++                    'name' => $widget->name,
++                    'shortcode' => '[trustmary_widget id=&quot;' . $widget->id . '&quot;]',
++                );
++        }
++
++        return $widgets;
++    }
++
++    /**
++     * Returns experiments from API
++     *
++     * @param string $key
++     * @return array
++     */
++    public static function fetch_experiments($key)
++    {
++        $response = wp_remote_get(
++            self::$api_url . self::$endpoint_experiments,
++            array(
++                'timeout' => 30,
++                'headers' => array(
++                    'Authorization' => 'Apikey ' . $key
++                )
++            )
++        );
++
++        if (is_wp_error($response))
++            return;
++
++        $json = json_decode(wp_remote_retrieve_body($response));
++
++        if (!$json || !isset($json->experiments))
++            return array();
++
++        $experiments = array();
++
++        foreach ($json->experiments as $experiment) {
++            $experiments[] = array(
++                'id' => $experiment->id,
++                'name' => $experiment->name,
++                'shortcode' => '[trustmary_experiment id=&quot;' . $experiment->id . '&quot;]',
++            );
++        }
++
++        return $experiments;
++    }
++}
+Index: wp-content/plugins/trustmary/readme.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/plugins/trustmary/readme.txt b/wp-content/plugins/trustmary/readme.txt
+new file mode 100644
+--- /dev/null	(date 1714741732000)
++++ b/wp-content/plugins/trustmary/readme.txt	(date 1714741732000)
+@@ -0,0 +1,171 @@
++=== Review & testimonial widgets ===
++Contributors: trustmary
++Tags: reviews, review slider, testimonials, testimonial slider, star ratings
++Requires at least: 4.2
++Tested up to: 6.4.2
++Stable tag: 1.0.8
++License: GPLv3 or later
++License URI: http://www.gnu.org/licenses/gpl-3.0.html
++
++Add reviews to your website with Trustmary’s review and testimonial widgets: Google Review Widget, Facebook Review Widget, Tripadvisor Review Widget, and many more.
++
++== Description ==
++Trustmary enables you to:
++1. Import existing reviews
++2. Embed Google reviews, Yelp reviews and Facebook reviews to your website with a review slider
++3. AB test which reviews work best
++
++You can even collect new testimonials and collect video testimonials with an optimized testimonial form for each use case. Get access to an extensive testimonials form template library. Using testimonials and reviews on your website can increase your conversions by 60%!
++
++
++## Description
++
++Trustmary enables you to:
++1. Import existing reviews from review sites.
++2. Embed reviews (Google reviews, Yelp reviews, Facebook reviews, and more) to your website with a review widget.
++3. Track which reviews work best.
++4. Collect more reviews.
++
++Trustmary’s plugin requires no coding, as you can edit the widgets in a widget editor and add them to your website by copying and pasting a shortcode snippet.
++
++## Features
++
++With this Trustmary plugin, you can:
++- Import reviews from review sites and manage them on one platform.
++- Add reviews to your website
++
++Collect new reviews
++
++- Get more reviews on Google, Facebook, Yelp, Tripadvisor, Capterra, G2, Zillow, BBB, and many more platforms.
++- Collect text and video reviews.
++- Get customer feedback and reviews with optimised forms.
++- NPS, CSAT, CES and more templates
++
++Add-ons include:
++- Reporting to track customer satisfaction trends
++
++A/B testing features
++
++Watch this video to discover the full potential of Trustmary: https://www.youtube.com/watch?v=Db3nUWRhTug&t=70s
++
++## Review Import Options
++
++You can import reviews from the following sites:
++- Google reviews
++- Facebook reviews
++- Yelp reviews
++- Tripadvisor reviews
++- G2 reviews
++- Capterra reviews
++
++The reviews can then be used separately in review widgets or simultaneously in the same review widget.
++
++## Review Widgets
++
++Once you’ve installed the plugin, you can create the wished review widget and choose which reviews to show in it.
++
++- Google review widget (https://trustmary.com/google-review-widget/)
++- Facebook review widget (https://trustmary.com/facebook-review-widget/)
++- Yelp review widget (https://trustmary.com/yelp-review-widget/)
++- Tripadvisor review widget (https://trustmary.com/tripadvisor-review-widget/)
++- G2 review widget (https://trustmary.com/g2-review-widget/)
++- Google Play review widget
++
++All widgets include:
++
++- SEO Schema Markup to show star ratings in Google search results
++- Add new reviews automatically to review widget
++- Track conversion rates with goal tracking feature
++- AI algorithm ranks the reviews according to how effective they are predicted to be
++
++## Widget Designs
++
++Some examples of review widget types available:
++
++- Review carousel
++- Review wall
++- Wall of love widget
++- Review list
++- Call to action with reviews
++- Pop-ups with reviews (exit-intent, page scroll, and more triggers)
++
++With the add-on features, you can also AB test which review widget works the best in which context.
++Watch a tutorial video on how to add Google reviews to your website: https://www.youtube.com/watch?v=MU6A9QhwIRU&t=2s
++
++## Customization
++
++Trustmary gets styles directly from your websites, if you want a fast design suggestion.
++You can also customize the chosen review widget and testimonial slider in the widget editor.
++Customization options include: font, dark/light mode, use of colors, logo shown, card size, and further options.
++
++## Collect Reviews
++
++Choose from a bunch of optimized testimonials forms and send to all or a chosen group of customers.
++You can collect text and video reviews natively in Trustmary, or use Trustmary’s forms to get more Google, Facebook, Yelp, etc reviews.
++Watch the video to learn how to collect Google reviews with Trustmary: https://www.youtube.com/watch?v=XYP27m7Dz5w
++
++## Pricing
++
++See the pricing info: https://trustmary.com/pricing/
++
++## GDPR & Privacy
++
++You can have a look at our Privacy Policy here: https://trustmary.com/privacy-policy/
++By default, this plugin does not collect information or send any data to third parties.
++
++## FAQ
++
++**How do I get started?**
++
++You can start by installing the plugin and then creating a new account at app.trustmary.com. After that, you can set up your widget with existing Google, Facebook, Yelp, or other reviews in just a few minutes. You can add the widget to your website by copying the code snippet in Trustmary app or on your plugin tab in WordPress, and pasting it to the right place on your web page.
++
++**How do I add a review widget to my website?**
++
++It’s fast to do in a three step process:
++
++Connect your review source with simple URL address to import reviews.
++
++Create a new widget and the reviews will be automatically added to it.
++
++Copy and paste the widget shortcode either in Trustmary app or on your plugin tab on WordPress.
++
++**Can I add reviews from different sources?**
++
++We currently support the following sources:
++
++- Google reviews
++- Facebook reviews
++- Yelp reviews
++- G2 reviews
++- Capterra reviews
++- Google play reviews
++
++You can even add testimonials and reviews by hand or from an excel sheet.
++
++**How do I edit the review widgets?**
++
++If you want to customise your widget, you can easily do it in Trustmary app with the widget editor. No coding is needed, but savvy users can further edit the widgets with custom CSS.
++
++**How do I collect reviews?**
++
++Choose a review form in-app and send it to all or some of your customers via email, URL links, or QR code.
++
++**How can I collect video reviews?**
++
++Trustmary includes special forms for collecting video reviews. The customer can easily film a video directly on the form.
++
++**Can I whitelabel my testimonials slider or review widget?**
++
++Whitelabeling is available in the paid plans.
++
++**Does this plugin include popup options to include reviews in?**
++
++Yes, Trustmary enables you to create review pop-ups.
++
++**Are the fields on testimonials form customizable?**
++
++Yes. Even though each testimonials form is optimized for that use case, you can modify them and even create new ones from scratch.
++
++**How can I reach customer support?**
++
++The fastest way to get a hold of our support team is to go to trustmary.com or app.trustmary.com and start a live chat with our agents. 
+Index: wp-content/plugins/trustmary/license.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/plugins/trustmary/license.txt b/wp-content/plugins/trustmary/license.txt
+new file mode 100644
+--- /dev/null	(date 1714741732000)
++++ b/wp-content/plugins/trustmary/license.txt	(date 1714741732000)
+@@ -0,0 +1,674 @@
++                    GNU GENERAL PUBLIC LICENSE
++                       Version 3, 29 June 2007
++
++ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
++ Everyone is permitted to copy and distribute verbatim copies
++ of this license document, but changing it is not allowed.
++
++                            Preamble
++
++  The GNU General Public License is a free, copyleft license for
++software and other kinds of works.
++
++  The licenses for most software and other practical works are designed
++to take away your freedom to share and change the works.  By contrast,
++the GNU General Public License is intended to guarantee your freedom to
++share and change all versions of a program--to make sure it remains free
++software for all its users.  We, the Free Software Foundation, use the
++GNU General Public License for most of our software; it applies also to
++any other work released this way by its authors.  You can apply it to
++your programs, too.
++
++  When we speak of free software, we are referring to freedom, not
++price.  Our General Public Licenses are designed to make sure that you
++have the freedom to distribute copies of free software (and charge for
++them if you wish), that you receive source code or can get it if you
++want it, that you can change the software or use pieces of it in new
++free programs, and that you know you can do these things.
++
++  To protect your rights, we need to prevent others from denying you
++these rights or asking you to surrender the rights.  Therefore, you have
++certain responsibilities if you distribute copies of the software, or if
++you modify it: responsibilities to respect the freedom of others.
++
++  For example, if you distribute copies of such a program, whether
++gratis or for a fee, you must pass on to the recipients the same
++freedoms that you received.  You must make sure that they, too, receive
++or can get the source code.  And you must show them these terms so they
++know their rights.
++
++  Developers that use the GNU GPL protect your rights with two steps:
++(1) assert copyright on the software, and (2) offer you this License
++giving you legal permission to copy, distribute and/or modify it.
++
++  For the developers' and authors' protection, the GPL clearly explains
++that there is no warranty for this free software.  For both users' and
++authors' sake, the GPL requires that modified versions be marked as
++changed, so that their problems will not be attributed erroneously to
++authors of previous versions.
++
++  Some devices are designed to deny users access to install or run
++modified versions of the software inside them, although the manufacturer
++can do so.  This is fundamentally incompatible with the aim of
++protecting users' freedom to change the software.  The systematic
++pattern of such abuse occurs in the area of products for individuals to
++use, which is precisely where it is most unacceptable.  Therefore, we
++have designed this version of the GPL to prohibit the practice for those
++products.  If such problems arise substantially in other domains, we
++stand ready to extend this provision to those domains in future versions
++of the GPL, as needed to protect the freedom of users.
++
++  Finally, every program is threatened constantly by software patents.
++States should not allow patents to restrict development and use of
++software on general-purpose computers, but in those that do, we wish to
++avoid the special danger that patents applied to a free program could
++make it effectively proprietary.  To prevent this, the GPL assures that
++patents cannot be used to render the program non-free.
++
++  The precise terms and conditions for copying, distribution and
++modification follow.
++
++                       TERMS AND CONDITIONS
++
++  0. Definitions.
++
++  "This License" refers to version 3 of the GNU General Public License.
++
++  "Copyright" also means copyright-like laws that apply to other kinds of
++works, such as semiconductor masks.
++
++  "The Program" refers to any copyrightable work licensed under this
++License.  Each licensee is addressed as "you".  "Licensees" and
++"recipients" may be individuals or organizations.
++
++  To "modify" a work means to copy from or adapt all or part of the work
++in a fashion requiring copyright permission, other than the making of an
++exact copy.  The resulting work is called a "modified version" of the
++earlier work or a work "based on" the earlier work.
++
++  A "covered work" means either the unmodified Program or a work based
++on the Program.
++
++  To "propagate" a work means to do anything with it that, without
++permission, would make you directly or secondarily liable for
++infringement under applicable copyright law, except executing it on a
++computer or modifying a private copy.  Propagation includes copying,
++distribution (with or without modification), making available to the
++public, and in some countries other activities as well.
++
++  To "convey" a work means any kind of propagation that enables other
++parties to make or receive copies.  Mere interaction with a user through
++a computer network, with no transfer of a copy, is not conveying.
++
++  An interactive user interface displays "Appropriate Legal Notices"
++to the extent that it includes a convenient and prominently visible
++feature that (1) displays an appropriate copyright notice, and (2)
++tells the user that there is no warranty for the work (except to the
++extent that warranties are provided), that licensees may convey the
++work under this License, and how to view a copy of this License.  If
++the interface presents a list of user commands or options, such as a
++menu, a prominent item in the list meets this criterion.
++
++  1. Source Code.
++
++  The "source code" for a work means the preferred form of the work
++for making modifications to it.  "Object code" means any non-source
++form of a work.
++
++  A "Standard Interface" means an interface that either is an official
++standard defined by a recognized standards body, or, in the case of
++interfaces specified for a particular programming language, one that
++is widely used among developers working in that language.
++
++  The "System Libraries" of an executable work include anything, other
++than the work as a whole, that (a) is included in the normal form of
++packaging a Major Component, but which is not part of that Major
++Component, and (b) serves only to enable use of the work with that
++Major Component, or to implement a Standard Interface for which an
++implementation is available to the public in source code form.  A
++"Major Component", in this context, means a major essential component
++(kernel, window system, and so on) of the specific operating system
++(if any) on which the executable work runs, or a compiler used to
++produce the work, or an object code interpreter used to run it.
++
++  The "Corresponding Source" for a work in object code form means all
++the source code needed to generate, install, and (for an executable
++work) run the object code and to modify the work, including scripts to
++control those activities.  However, it does not include the work's
++System Libraries, or general-purpose tools or generally available free
++programs which are used unmodified in performing those activities but
++which are not part of the work.  For example, Corresponding Source
++includes interface definition files associated with source files for
++the work, and the source code for shared libraries and dynamically
++linked subprograms that the work is specifically designed to require,
++such as by intimate data communication or control flow between those
++subprograms and other parts of the work.
++
++  The Corresponding Source need not include anything that users
++can regenerate automatically from other parts of the Corresponding
++Source.
++
++  The Corresponding Source for a work in source code form is that
++same work.
++
++  2. Basic Permissions.
++
++  All rights granted under this License are granted for the term of
++copyright on the Program, and are irrevocable provided the stated
++conditions are met.  This License explicitly affirms your unlimited
++permission to run the unmodified Program.  The output from running a
++covered work is covered by this License only if the output, given its
++content, constitutes a covered work.  This License acknowledges your
++rights of fair use or other equivalent, as provided by copyright law.
++
++  You may make, run and propagate covered works that you do not
++convey, without conditions so long as your license otherwise remains
++in force.  You may convey covered works to others for the sole purpose
++of having them make modifications exclusively for you, or provide you
++with facilities for running those works, provided that you comply with
++the terms of this License in conveying all material for which you do
++not control copyright.  Those thus making or running the covered works
++for you must do so exclusively on your behalf, under your direction
++and control, on terms that prohibit them from making any copies of
++your copyrighted material outside their relationship with you.
++
++  Conveying under any other circumstances is permitted solely under
++the conditions stated below.  Sublicensing is not allowed; section 10
++makes it unnecessary.
++
++  3. Protecting Users' Legal Rights From Anti-Circumvention Law.
++
++  No covered work shall be deemed part of an effective technological
++measure under any applicable law fulfilling obligations under article
++11 of the WIPO copyright treaty adopted on 20 December 1996, or
++similar laws prohibiting or restricting circumvention of such
++measures.
++
++  When you convey a covered work, you waive any legal power to forbid
++circumvention of technological measures to the extent such circumvention
++is effected by exercising rights under this License with respect to
++the covered work, and you disclaim any intention to limit operation or
++modification of the work as a means of enforcing, against the work's
++users, your or third parties' legal rights to forbid circumvention of
++technological measures.
++
++  4. Conveying Verbatim Copies.
++
++  You may convey verbatim copies of the Program's source code as you
++receive it, in any medium, provided that you conspicuously and
++appropriately publish on each copy an appropriate copyright notice;
++keep intact all notices stating that this License and any
++non-permissive terms added in accord with section 7 apply to the code;
++keep intact all notices of the absence of any warranty; and give all
++recipients a copy of this License along with the Program.
++
++  You may charge any price or no price for each copy that you convey,
++and you may offer support or warranty protection for a fee.
++
++  5. Conveying Modified Source Versions.
++
++  You may convey a work based on the Program, or the modifications to
++produce it from the Program, in the form of source code under the
++terms of section 4, provided that you also meet all of these conditions:
++
++    a) The work must carry prominent notices stating that you modified
++    it, and giving a relevant date.
++
++    b) The work must carry prominent notices stating that it is
++    released under this License and any conditions added under section
++    7.  This requirement modifies the requirement in section 4 to
++    "keep intact all notices".
++
++    c) You must license the entire work, as a whole, under this
++    License to anyone who comes into possession of a copy.  This
++    License will therefore apply, along with any applicable section 7
++    additional terms, to the whole of the work, and all its parts,
++    regardless of how they are packaged.  This License gives no
++    permission to license the work in any other way, but it does not
++    invalidate such permission if you have separately received it.
++
++    d) If the work has interactive user interfaces, each must display
++    Appropriate Legal Notices; however, if the Program has interactive
++    interfaces that do not display Appropriate Legal Notices, your
++    work need not make them do so.
++
++  A compilation of a covered work with other separate and independent
++works, which are not by their nature extensions of the covered work,
++and which are not combined with it such as to form a larger program,
++in or on a volume of a storage or distribution medium, is called an
++"aggregate" if the compilation and its resulting copyright are not
++used to limit the access or legal rights of the compilation's users
++beyond what the individual works permit.  Inclusion of a covered work
++in an aggregate does not cause this License to apply to the other
++parts of the aggregate.
++
++  6. Conveying Non-Source Forms.
++
++  You may convey a covered work in object code form under the terms
++of sections 4 and 5, provided that you also convey the
++machine-readable Corresponding Source under the terms of this License,
++in one of these ways:
++
++    a) Convey the object code in, or embodied in, a physical product
++    (including a physical distribution medium), accompanied by the
++    Corresponding Source fixed on a durable physical medium
++    customarily used for software interchange.
++
++    b) Convey the object code in, or embodied in, a physical product
++    (including a physical distribution medium), accompanied by a
++    written offer, valid for at least three years and valid for as
++    long as you offer spare parts or customer support for that product
++    model, to give anyone who possesses the object code either (1) a
++    copy of the Corresponding Source for all the software in the
++    product that is covered by this License, on a durable physical
++    medium customarily used for software interchange, for a price no
++    more than your reasonable cost of physically performing this
++    conveying of source, or (2) access to copy the
++    Corresponding Source from a network server at no charge.
++
++    c) Convey individual copies of the object code with a copy of the
++    written offer to provide the Corresponding Source.  This
++    alternative is allowed only occasionally and noncommercially, and
++    only if you received the object code with such an offer, in accord
++    with subsection 6b.
++
++    d) Convey the object code by offering access from a designated
++    place (gratis or for a charge), and offer equivalent access to the
++    Corresponding Source in the same way through the same place at no
++    further charge.  You need not require recipients to copy the
++    Corresponding Source along with the object code.  If the place to
++    copy the object code is a network server, the Corresponding Source
++    may be on a different server (operated by you or a third party)
++    that supports equivalent copying facilities, provided you maintain
++    clear directions next to the object code saying where to find the
++    Corresponding Source.  Regardless of what server hosts the
++    Corresponding Source, you remain obligated to ensure that it is
++    available for as long as needed to satisfy these requirements.
++
++    e) Convey the object code using peer-to-peer transmission, provided
++    you inform other peers where the object code and Corresponding
++    Source of the work are being offered to the general public at no
++    charge under subsection 6d.
++
++  A separable portion of the object code, whose source code is excluded
++from the Corresponding Source as a System Library, need not be
++included in conveying the object code work.
++
++  A "User Product" is either (1) a "consumer product", which means any
++tangible personal property which is normally used for personal, family,
++or household purposes, or (2) anything designed or sold for incorporation
++into a dwelling.  In determining whether a product is a consumer product,
++doubtful cases shall be resolved in favor of coverage.  For a particular
++product received by a particular user, "normally used" refers to a
++typical or common use of that class of product, regardless of the status
++of the particular user or of the way in which the particular user
++actually uses, or expects or is expected to use, the product.  A product
++is a consumer product regardless of whether the product has substantial
++commercial, industrial or non-consumer uses, unless such uses represent
++the only significant mode of use of the product.
++
++  "Installation Information" for a User Product means any methods,
++procedures, authorization keys, or other information required to install
++and execute modified versions of a covered work in that User Product from
++a modified version of its Corresponding Source.  The information must
++suffice to ensure that the continued functioning of the modified object
++code is in no case prevented or interfered with solely because
++modification has been made.
++
++  If you convey an object code work under this section in, or with, or
++specifically for use in, a User Product, and the conveying occurs as
++part of a transaction in which the right of possession and use of the
++User Product is transferred to the recipient in perpetuity or for a
++fixed term (regardless of how the transaction is characterized), the
++Corresponding Source conveyed under this section must be accompanied
++by the Installation Information.  But this requirement does not apply
++if neither you nor any third party retains the ability to install
++modified object code on the User Product (for example, the work has
++been installed in ROM).
++
++  The requirement to provide Installation Information does not include a
++requirement to continue to provide support service, warranty, or updates
++for a work that has been modified or installed by the recipient, or for
++the User Product in which it has been modified or installed.  Access to a
++network may be denied when the modification itself materially and
++adversely affects the operation of the network or violates the rules and
++protocols for communication across the network.
++
++  Corresponding Source conveyed, and Installation Information provided,
++in accord with this section must be in a format that is publicly
++documented (and with an implementation available to the public in
++source code form), and must require no special password or key for
++unpacking, reading or copying.
++
++  7. Additional Terms.
++
++  "Additional permissions" are terms that supplement the terms of this
++License by making exceptions from one or more of its conditions.
++Additional permissions that are applicable to the entire Program shall
++be treated as though they were included in this License, to the extent
++that they are valid under applicable law.  If additional permissions
++apply only to part of the Program, that part may be used separately
++under those permissions, but the entire Program remains governed by
++this License without regard to the additional permissions.
++
++  When you convey a copy of a covered work, you may at your option
++remove any additional permissions from that copy, or from any part of
++it.  (Additional permissions may be written to require their own
++removal in certain cases when you modify the work.)  You may place
++additional permissions on material, added by you to a covered work,
++for which you have or can give appropriate copyright permission.
++
++  Notwithstanding any other provision of this License, for material you
++add to a covered work, you may (if authorized by the copyright holders of
++that material) supplement the terms of this License with terms:
++
++    a) Disclaiming warranty or limiting liability differently from the
++    terms of sections 15 and 16 of this License; or
++
++    b) Requiring preservation of specified reasonable legal notices or
++    author attributions in that material or in the Appropriate Legal
++    Notices displayed by works containing it; or
++
++    c) Prohibiting misrepresentation of the origin of that material, or
++    requiring that modified versions of such material be marked in
++    reasonable ways as different from the original version; or
++
++    d) Limiting the use for publicity purposes of names of licensors or
++    authors of the material; or
++
++    e) Declining to grant rights under trademark law for use of some
++    trade names, trademarks, or service marks; or
++
++    f) Requiring indemnification of licensors and authors of that
++    material by anyone who conveys the material (or modified versions of
++    it) with contractual assumptions of liability to the recipient, for
++    any liability that these contractual assumptions directly impose on
++    those licensors and authors.
++
++  All other non-permissive additional terms are considered "further
++restrictions" within the meaning of section 10.  If the Program as you
++received it, or any part of it, contains a notice stating that it is
++governed by this License along with a term that is a further
++restriction, you may remove that term.  If a license document contains
++a further restriction but permits relicensing or conveying under this
++License, you may add to a covered work material governed by the terms
++of that license document, provided that the further restriction does
++not survive such relicensing or conveying.
++
++  If you add terms to a covered work in accord with this section, you
++must place, in the relevant source files, a statement of the
++additional terms that apply to those files, or a notice indicating
++where to find the applicable terms.
++
++  Additional terms, permissive or non-permissive, may be stated in the
++form of a separately written license, or stated as exceptions;
++the above requirements apply either way.
++
++  8. Termination.
++
++  You may not propagate or modify a covered work except as expressly
++provided under this License.  Any attempt otherwise to propagate or
++modify it is void, and will automatically terminate your rights under
++this License (including any patent licenses granted under the third
++paragraph of section 11).
++
++  However, if you cease all violation of this License, then your
++license from a particular copyright holder is reinstated (a)
++provisionally, unless and until the copyright holder explicitly and
++finally terminates your license, and (b) permanently, if the copyright
++holder fails to notify you of the violation by some reasonable means
++prior to 60 days after the cessation.
++
++  Moreover, your license from a particular copyright holder is
++reinstated permanently if the copyright holder notifies you of the
++violation by some reasonable means, this is the first time you have
++received notice of violation of this License (for any work) from that
++copyright holder, and you cure the violation prior to 30 days after
++your receipt of the notice.
++
++  Termination of your rights under this section does not terminate the
++licenses of parties who have received copies or rights from you under
++this License.  If your rights have been terminated and not permanently
++reinstated, you do not qualify to receive new licenses for the same
++material under section 10.
++
++  9. Acceptance Not Required for Having Copies.
++
++  You are not required to accept this License in order to receive or
++run a copy of the Program.  Ancillary propagation of a covered work
++occurring solely as a consequence of using peer-to-peer transmission
++to receive a copy likewise does not require acceptance.  However,
++nothing other than this License grants you permission to propagate or
++modify any covered work.  These actions infringe copyright if you do
++not accept this License.  Therefore, by modifying or propagating a
++covered work, you indicate your acceptance of this License to do so.
++
++  10. Automatic Licensing of Downstream Recipients.
++
++  Each time you convey a covered work, the recipient automatically
++receives a license from the original licensors, to run, modify and
++propagate that work, subject to this License.  You are not responsible
++for enforcing compliance by third parties with this License.
++
++  An "entity transaction" is a transaction transferring control of an
++organization, or substantially all assets of one, or subdividing an
++organization, or merging organizations.  If propagation of a covered
++work results from an entity transaction, each party to that
++transaction who receives a copy of the work also receives whatever
++licenses to the work the party's predecessor in interest had or could
++give under the previous paragraph, plus a right to possession of the
++Corresponding Source of the work from the predecessor in interest, if
++the predecessor has it or can get it with reasonable efforts.
++
++  You may not impose any further restrictions on the exercise of the
++rights granted or affirmed under this License.  For example, you may
++not impose a license fee, royalty, or other charge for exercise of
++rights granted under this License, and you may not initiate litigation
++(including a cross-claim or counterclaim in a lawsuit) alleging that
++any patent claim is infringed by making, using, selling, offering for
++sale, or importing the Program or any portion of it.
++
++  11. Patents.
++
++  A "contributor" is a copyright holder who authorizes use under this
++License of the Program or a work on which the Program is based.  The
++work thus licensed is called the contributor's "contributor version".
++
++  A contributor's "essential patent claims" are all patent claims
++owned or controlled by the contributor, whether already acquired or
++hereafter acquired, that would be infringed by some manner, permitted
++by this License, of making, using, or selling its contributor version,
++but do not include claims that would be infringed only as a
++consequence of further modification of the contributor version.  For
++purposes of this definition, "control" includes the right to grant
++patent sublicenses in a manner consistent with the requirements of
++this License.
++
++  Each contributor grants you a non-exclusive, worldwide, royalty-free
++patent license under the contributor's essential patent claims, to
++make, use, sell, offer for sale, import and otherwise run, modify and
++propagate the contents of its contributor version.
++
++  In the following three paragraphs, a "patent license" is any express
++agreement or commitment, however denominated, not to enforce a patent
++(such as an express permission to practice a patent or covenant not to
++sue for patent infringement).  To "grant" such a patent license to a
++party means to make such an agreement or commitment not to enforce a
++patent against the party.
++
++  If you convey a covered work, knowingly relying on a patent license,
++and the Corresponding Source of the work is not available for anyone
++to copy, free of charge and under the terms of this License, through a
++publicly available network server or other readily accessible means,
++then you must either (1) cause the Corresponding Source to be so
++available, or (2) arrange to deprive yourself of the benefit of the
++patent license for this particular work, or (3) arrange, in a manner
++consistent with the requirements of this License, to extend the patent
++license to downstream recipients.  "Knowingly relying" means you have
++actual knowledge that, but for the patent license, your conveying the
++covered work in a country, or your recipient's use of the covered work
++in a country, would infringe one or more identifiable patents in that
++country that you have reason to believe are valid.
++
++  If, pursuant to or in connection with a single transaction or
++arrangement, you convey, or propagate by procuring conveyance of, a
++covered work, and grant a patent license to some of the parties
++receiving the covered work authorizing them to use, propagate, modify
++or convey a specific copy of the covered work, then the patent license
++you grant is automatically extended to all recipients of the covered
++work and works based on it.
++
++  A patent license is "discriminatory" if it does not include within
++the scope of its coverage, prohibits the exercise of, or is
++conditioned on the non-exercise of one or more of the rights that are
++specifically granted under this License.  You may not convey a covered
++work if you are a party to an arrangement with a third party that is
++in the business of distributing software, under which you make payment
++to the third party based on the extent of your activity of conveying
++the work, and under which the third party grants, to any of the
++parties who would receive the covered work from you, a discriminatory
++patent license (a) in connection with copies of the covered work
++conveyed by you (or copies made from those copies), or (b) primarily
++for and in connection with specific products or compilations that
++contain the covered work, unless you entered into that arrangement,
++or that patent license was granted, prior to 28 March 2007.
++
++  Nothing in this License shall be construed as excluding or limiting
++any implied license or other defenses to infringement that may
++otherwise be available to you under applicable patent law.
++
++  12. No Surrender of Others' Freedom.
++
++  If conditions are imposed on you (whether by court order, agreement or
++otherwise) that contradict the conditions of this License, they do not
++excuse you from the conditions of this License.  If you cannot convey a
++covered work so as to satisfy simultaneously your obligations under this
++License and any other pertinent obligations, then as a consequence you may
++not convey it at all.  For example, if you agree to terms that obligate you
++to collect a royalty for further conveying from those to whom you convey
++the Program, the only way you could satisfy both those terms and this
++License would be to refrain entirely from conveying the Program.
++
++  13. Use with the GNU Affero General Public License.
++
++  Notwithstanding any other provision of this License, you have
++permission to link or combine any covered work with a work licensed
++under version 3 of the GNU Affero General Public License into a single
++combined work, and to convey the resulting work.  The terms of this
++License will continue to apply to the part which is the covered work,
++but the special requirements of the GNU Affero General Public License,
++section 13, concerning interaction through a network will apply to the
++combination as such.
++
++  14. Revised Versions of this License.
++
++  The Free Software Foundation may publish revised and/or new versions of
++the GNU General Public License from time to time.  Such new versions will
++be similar in spirit to the present version, but may differ in detail to
++address new problems or concerns.
++
++  Each version is given a distinguishing version number.  If the
++Program specifies that a certain numbered version of the GNU General
++Public License "or any later version" applies to it, you have the
++option of following the terms and conditions either of that numbered
++version or of any later version published by the Free Software
++Foundation.  If the Program does not specify a version number of the
++GNU General Public License, you may choose any version ever published
++by the Free Software Foundation.
++
++  If the Program specifies that a proxy can decide which future
++versions of the GNU General Public License can be used, that proxy's
++public statement of acceptance of a version permanently authorizes you
++to choose that version for the Program.
++
++  Later license versions may give you additional or different
++permissions.  However, no additional obligations are imposed on any
++author or copyright holder as a result of your choosing to follow a
++later version.
++
++  15. Disclaimer of Warranty.
++
++  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
++APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
++HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
++OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
++THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
++PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
++IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
++ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
++
++  16. Limitation of Liability.
++
++  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
++WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
++THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
++GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
++USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
++DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
++PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
++EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
++SUCH DAMAGES.
++
++  17. Interpretation of Sections 15 and 16.
++
++  If the disclaimer of warranty and limitation of liability provided
++above cannot be given local legal effect according to their terms,
++reviewing courts shall apply local law that most closely approximates
++an absolute waiver of all civil liability in connection with the
++Program, unless a warranty or assumption of liability accompanies a
++copy of the Program in return for a fee.
++
++                     END OF TERMS AND CONDITIONS
++
++            How to Apply These Terms to Your New Programs
++
++  If you develop a new program, and you want it to be of the greatest
++possible use to the public, the best way to achieve this is to make it
++free software which everyone can redistribute and change under these terms.
++
++  To do so, attach the following notices to the program.  It is safest
++to attach them to the start of each source file to most effectively
++state the exclusion of warranty; and each file should have at least
++the "copyright" line and a pointer to where the full notice is found.
++
++    <one line to give the program's name and a brief idea of what it does.>
++    Copyright (C) <year>  <name of author>
++
++    This program is free software: you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation, either version 3 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program.  If not, see <https://www.gnu.org/licenses/>.
++
++Also add information on how to contact you by electronic and paper mail.
++
++  If the program does terminal interaction, make it output a short
++notice like this when it starts in an interactive mode:
++
++    <program>  Copyright (C) <year>  <name of author>
++    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
++    This is free software, and you are welcome to redistribute it
++    under certain conditions; type `show c' for details.
++
++The hypothetical commands `show w' and `show c' should show the appropriate
++parts of the General Public License.  Of course, your program's commands
++might be different; for a GUI interface, you would use an "about box".
++
++  You should also get your employer (if you work as a programmer) or school,
++if any, to sign a "copyright disclaimer" for the program, if necessary.
++For more information on this, and how to apply and follow the GNU GPL, see
++<https://www.gnu.org/licenses/>.
++
++  The GNU General Public License does not permit incorporating your program
++into proprietary programs.  If your program is a subroutine library, you
++may consider it more useful to permit linking proprietary applications with
++the library.  If this is what you want to do, use the GNU Lesser General
++Public License instead of this License.  But first, please read
++<https://www.gnu.org/licenses/why-not-lgpl.html>.
+Index: wp-content/plugins/trustmary/languages/trustmary-widgets.pot
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/plugins/trustmary/languages/trustmary-widgets.pot b/wp-content/plugins/trustmary/languages/trustmary-widgets.pot
+new file mode 100644
+--- /dev/null	(date 1714741732000)
++++ b/wp-content/plugins/trustmary/languages/trustmary-widgets.pot	(date 1714741732000)
+@@ -0,0 +1,153 @@
++#, fuzzy
++msgid ""
++msgstr ""
++"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
++"Project-Id-Version: Trustmary\n"
++"POT-Creation-Date: 2022-07-04 14:46+0300\n"
++"PO-Revision-Date: 2022-07-01 20:28+0300\n"
++"Last-Translator: \n"
++"Language-Team: \n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: Poedit 1.8.8\n"
++"X-Poedit-Basepath: ..\n"
++"X-Poedit-WPHeader: trustmary.php\n"
++"X-Poedit-SourceCharset: UTF-8\n"
++"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
++"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
++"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
++"X-Poedit-SearchPath-0: .\n"
++"X-Poedit-SearchPathExcluded-0: *.js\n"
++
++#: includes/pages.php:57 trustmary.php:124
++msgid "Dashboard"
++msgstr ""
++
++#: includes/pages.php:60
++msgid "You are good to go!"
++msgstr ""
++
++#: includes/pages.php:61
++msgid ""
++"You can now create popups, review widgets, lead generation forms and review "
++"gathering forms inside Trustmary!"
++msgstr ""
++
++#: includes/pages.php:62
++msgid "Go to Trustmary"
++msgstr ""
++
++#: includes/pages.php:63 includes/pages.php:82 trustmary.php:125
++msgid "Popups"
++msgstr ""
++
++#: includes/pages.php:64 includes/pages.php:96 trustmary.php:126
++msgid "Inline widgets"
++msgstr ""
++
++#: includes/pages.php:65 includes/pages.php:115 trustmary.php:127
++msgid "Experiments"
++msgstr ""
++
++#: includes/pages.php:66 includes/pages.php:132 trustmary.php:128
++msgid "Gather reviews"
++msgstr ""
++
++#: includes/pages.php:68
++msgid "Sign Up for Free"
++msgstr ""
++
++#: includes/pages.php:69
++msgid "Sign up!"
++msgstr ""
++
++#: includes/pages.php:70
++msgid "Already have an account?"
++msgstr ""
++
++#: includes/pages.php:71
++msgid "Set up API key here"
++msgstr ""
++
++#: includes/pages.php:83
++msgid "Create a new popup now!"
++msgstr ""
++
++#: includes/pages.php:84
++msgid "Create new popup!"
++msgstr ""
++
++#: includes/pages.php:97 includes/pages.php:116
++msgid "You can copy the shortcode by clicking the shortcode field."
++msgstr ""
++
++#: includes/pages.php:100 includes/pages.php:119
++msgid "ID"
++msgstr ""
++
++#: includes/pages.php:101 includes/pages.php:120
++msgid "Name"
++msgstr ""
++
++#: includes/pages.php:102 includes/pages.php:121
++msgid "Shortcode"
++msgstr ""
++
++#: includes/pages.php:133
++msgid "Create review gathering form and gather more reviews!"
++msgstr ""
++
++#: includes/pages.php:134
++msgid "Create new review form!"
++msgstr ""
++
++#: includes/settings.php:137 includes/settings.php:144
++msgid "API key"
++msgstr ""
++
++#: includes/settings.php:155 includes/settings.php:162
++msgid "Organization ID"
++msgstr ""
++
++#: includes/settings.php:173 includes/settings.php:180
++msgid "Organization Name"
++msgstr ""
++
++#: includes/settings.php:191
++msgid "Add Trustmary scripts automatically"
++msgstr ""
++
++#: includes/settings.php:198
++msgid "Add trustmary script automatically"
++msgstr ""
++
++#: includes/settings.php:258
++msgid "API key is invalid."
++msgstr ""
++
++#: includes/settings.php:303
++msgid "Organization info will be fetched automatically using API key."
++msgstr ""
++
++#: includes/settings.php:325
++msgid "Yes (Scripts will be added automatically)"
++msgstr ""
++
++#: includes/settings.php:331
++msgid "No (I want to add scripts myself, see below)"
++msgstr ""
++
++#. Plugin Name of the plugin/theme
++#. Author of the plugin/theme
++msgid "Trustmary"
++msgstr ""
++
++#. Plugin URI of the plugin/theme
++#. Author URI of the plugin/theme
++msgid "https://trustmary.com/"
++msgstr ""
++
++#. Description of the plugin/theme
++msgid "Display Trustmary Widgets and Experiments on your site."
++msgstr ""
+Index: wp-content/plugins/trustmary/trustmary.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wp-content/plugins/trustmary/trustmary.php b/wp-content/plugins/trustmary/trustmary.php
+new file mode 100644
+--- /dev/null	(date 1714741732000)
++++ b/wp-content/plugins/trustmary/trustmary.php	(date 1714741732000)
+@@ -0,0 +1,166 @@
++<?php
++
++/**
++ * Plugin Name: Trustmary
++ * Plugin URI:  https://trustmary.com/
++ * Description: Display Trustmary Widgets and Experiments on your site.
++ * Version:     1.0.5
++ * Tested up to: 6.0
++ * Author:      Trustmary
++ * Text Domain: trustmary-widgets
++ * Domain Path: /languages
++ * License: GPLv3 or later
++ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
++ */
++
++/**
++ * Prevent direct access to this file
++ */
++defined('ABSPATH') or die('No');
++
++/**
++ * Main class for the plugin
++ */
++class Trustmary_Widgets
++{
++    /**
++     * Identifier for config array to be stored in WP options
++     *
++     * @var string
++     */
++    private $_config_idenfifier = 'trustmary_widgets_config';
++
++    /**
++     * An array of plugin configuration
++     *
++     * @var array
++     */
++    private $_config;
++
++    /**
++     * An object for admin pages
++     *
++     * @var Trustmary_Pages
++     */
++    private $_pages;
++
++    /**
++     * Constructor
++     * 
++     * Includes plugin files and adds main hooks.
++     */
++    public function __construct()
++    {
++        register_activation_hook(__FILE__, array($this, 'activate'));
++        register_deactivation_hook(__FILE__, array($this, 'deactivate'));
++
++        require_once plugin_dir_path(__FILE__) . 'includes/helper.php';
++        require_once plugin_dir_path(__FILE__) . 'includes/connect.php';
++        require_once plugin_dir_path(__FILE__) . 'includes/settings.php';
++        require_once plugin_dir_path(__FILE__) . 'includes/pages.php';
++        require_once plugin_dir_path(__FILE__) . 'includes/shortcodes.php';
++
++        $this->_config = get_option($this->_config_idenfifier);
++        if (!$this->_config)
++            $this->_config = array();
++
++        add_action('wp_head', array($this, 'add_scripts'));
++        add_action('admin_menu', array($this, 'admin_pages'));
++        add_action('admin_enqueue_scripts', array($this, 'admin_styles'));
++        add_action('plugins_loaded', array($this, 'init_textdomain'));
++
++        new Trustmary_Settings($this->_config_idenfifier, $this->_config);
++        new Trustmary_Shortcodes();
++        $this->_pages = new Trustmary_Pages($this->_config);
++    }
++
++    /**
++     * Checks if necessary functions are available in current PHP build. If not,
++     * prevents the activation.
++     * 
++     * Also checks if SECURE_AUTH_KEY and SECURE_AUTH_SALT have been set 
++     * (should be on all up-to-date WP installations).
++     *
++     * @return void
++     */
++    public function activate()
++    {
++        if (!function_exists('openssl_encrypt')) {
++            deactivate_plugins(plugin_basename(__FILE__));
++            wp_die('Please upgrade PHP. This plugin requires openssl, which is available from PHP 5.3+.', 'Plugin dependency', array('back_link' => true));
++        }
++        if (!defined('SECURE_AUTH_KEY') || SECURE_AUTH_KEY === '' || !defined('SECURE_AUTH_SALT') || SECURE_AUTH_SALT === '') {
++            deactivate_plugins(plugin_basename(__FILE__));
++            wp_die('SECURE_AUTH_KEY and SECURE_AUTH_SALT cannot be empty. See wp-config.php for more information.', 'Plugin dependency', array('back_link' => true));
++        }
++    }
++
++    /**
++     * Removes plugin configuration on plugin deactivation.
++     *
++     * @return void
++     */
++    public function deactivate()
++    {
++        delete_option($this->_config_idenfifier);
++    }
++
++    /**
++     * Loads plugin textdomain for translations
++     *
++     * @return void
++     */
++    public function init_textdomain()
++    {
++        load_plugin_textdomain('trustmary-widgets', false, basename(dirname(__FILE__)) . '/languages/');
++    }
++
++    /**
++     * Creates admin menu links and pages
++     *
++     * @return void
++     */
++    public function admin_pages()
++    {
++        add_menu_page('Trustmary', 'Trustmary', 'manage_options', 'trustmary-dashboard', array($this->_pages, 'dashboard'), plugins_url('/assets/images/logo-icon.svg', __FILE__), 30);
++        add_submenu_page('trustmary-dashboard', esc_attr__('Dashboard', 'trustmary-widgets'),  esc_attr__('Dashboard', 'trustmary-widgets'), 'manage_options', 'trustmary-dashboard', array($this->_pages, 'dashboard'));
++        add_submenu_page('trustmary-dashboard', esc_attr__('Popups', 'trustmary-widgets'),  esc_attr__('Popups', 'trustmary-widgets'), 'manage_options', 'trustmary-popups', array($this->_pages, 'popups'));
++        add_submenu_page('trustmary-dashboard', esc_attr__('Inline widgets', 'trustmary-widgets'),  esc_attr__('Inline widgets', 'trustmary-widgets'), 'manage_options', 'trustmary-inline', array($this->_pages, 'inline'));
++        add_submenu_page('trustmary-dashboard', esc_attr__('Experiments', 'trustmary-widgets'),  esc_attr__('Experiments', 'trustmary-widgets'), 'manage_options', 'trustmary-experiments', array($this->_pages, 'experiments'));
++        add_submenu_page('trustmary-dashboard', esc_attr__('Gather reviews', 'trustmary-widgets'),  esc_attr__('Gather reviews', 'trustmary-widgets'), 'manage_options', 'trustmary-reviews', array($this->_pages, 'reviews'));
++    }
++
++    /**
++     * Adds admin css
++     *
++     * @return void
++     */
++    public function admin_styles()
++    {
++        wp_enqueue_style('trustmary-admin-styles', plugins_url('/assets/css/admin.css', __FILE__));
++        wp_enqueue_script('trustmary-admin-scripts', plugins_url('/assets/js/admin.js', __FILE__), array(), false, true);
++    }
++
++    /**
++     * Inserts javascript to WP head if organization ID has been set and add_scripts setting is on.
++     *
++     * @return void
++     */
++    public function add_scripts()
++    {
++        if (!isset($this->_config['organization_id']) || (isset($this->_config['add_scripts']) && !$this->_config['add_scripts']))
++            return;
++
++        ?><script>(function (w,d,s,o,r,js,fjs) {
++w[r]=w[r]||function() {(w[r].q = w[r].q || []).push(arguments)}
++w[r]('app', '<?php echo esc_attr($this->_config['organization_id']); ?>');
++if(d.getElementById(o)) return;
++js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
++js.id = o; js.src = 'https://embed.trustmary.com/embed.js';
++js.async = 1; fjs.parentNode.insertBefore(js, fjs);
++}(window, document, 'script', 'trustmary-embed', 'tmary'));
++</script><?php
++    }
++}
++
++new Trustmary_Widgets();
