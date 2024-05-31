@@ -7,11 +7,17 @@
                 'post_type' => 'car',
                 'post_status' => 'publish',
                 'posts_per_page' => -1,
+                'meta_query' => [
+                        ['key' => 'available',
+                         'value' => true]
+                ]
             ];
             $query = new WP_Query($args);
             if ($query->have_posts()) {
                 while ($query->have_posts()) {
-                    $query->the_post(); ?>
+                    $query->the_post();
+                    if(!in_array('Rent',get_field('visibility',get_the_id()))) continue;
+                    ?>
                     <?php $colors = get_field('colors',get_the_id()); ?>
                     <div data-product="<?=get_the_title().' '.get_field('volume',get_the_id()).', '.get_field('fuel',get_the_id())?>" class="<?=get_field('transmission',get_the_id())?get_field('transmission',get_the_id())['value']:''?> catalog-item 768:w-[calc(50%-.625rem)] 1024:w-[calc(33.333%-.833rem)]">
                         <div class="flip-card relative flex flex-wrap items-center justify-center rounded-md aspect-[4/3] 1100:aspect-[1/.83]">
@@ -34,7 +40,7 @@
                                     </div>
                                     <div class="absolute z-[2] right-5 bottom-5 colors flex justify-end items-center gap-x-2.5">
                                         <?php if($colors) foreach($colors as $color) { ?>
-                                        <div class="w-4 h-4 border border-white rounded-full indent-[-9999px]" style="background:<?=$color['value']?>;"><?=$color['label']?></div>
+                                        <div class="w-4 h-4 border border-white rounded-full indent-[-9999px]" style="background:<?=$color['color']?>;"><?=$color['color']?></div>
                                         <?php   } ?>
                                     </div>
                                 </div>

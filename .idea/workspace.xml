@@ -4,66 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d74bb30-0ac9-4a01-9116-d70f5f49baf1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/reviews/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/reviews/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="1d74bb30-0ac9-4a01-9116-d70f5f49baf1" name="Changes" comment="Fix Bags" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="alex" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;alex-gerlakh&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/vitalikpetreniuk/leocar.git&quot;,
-    &quot;accountId&quot;: &quot;0d27d06b-634d-41cd-aac7-088626cffe45&quot;
-  }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 6
-}</component>
   <component name="ProjectId" id="2fuSv62uMt35rissACetxGIZVsA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/OSPanel/domains/leocar.loc/wp-content/plugins",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/DOMAINS/leocar" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\OSPanel\domains\leocar.loc\wp-content\plugins" />
-      <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes\leocar\assets" />
-      <recent name="C:\OSPanel\domains\leocar.loc\wp-content" />
       <recent name="C:\OSPanel\domains\leocar.loc" />
+      <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes\leocar\assets" />
+      <recent name="C:\OSPanel\domains\leocar.loc\wp-content\plugins" />
+      <recent name="C:\OSPanel\domains\leocar.loc\wp-content" />
       <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes\leocar\blocks" />
     </key>
   </component>
@@ -75,7 +48,10 @@
       </set>
     </attachedChunks>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1d74bb30-0ac9-4a01-9116-d70f5f49baf1" name="Changes" comment="" />
@@ -84,11 +60,22 @@
       <option name="presentableId" value="Default" />
       <updated>1714649696970</updated>
       <workItem from="1714649698052" duration="2516000" />
-      <workItem from="1714652970283" duration="11593000" />
+      <workItem from="1714652970283" duration="15459000" />
+      <workItem from="1715780289775" duration="980000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix Bags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Bags" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="321" y="15" key="FileChooserDialogImpl" timestamp="1715781140681">
+      <screen x="0" y="0" width="1280" height="752" />
+    </state>
+    <state x="321" y="15" key="FileChooserDialogImpl/0.0.1280.752@0.0.1280.752" timestamp="1715781140681" />
   </component>
 </project>
