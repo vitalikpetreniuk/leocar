@@ -39,6 +39,7 @@
     }
 
 
+
     .modal form input#td-date {
         @apply box-border !w-32 !text-white text-center outline-0 !shadow-none
     }
