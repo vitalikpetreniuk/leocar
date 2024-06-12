@@ -7,16 +7,26 @@
         </div>
     </div>
     <?php   } ?>
-    <div class="relative z-30 mt-2.5 1024:mt-4">
+    <div class="relative bg-[rgba(64,64,64,.2)] blur-25 z-30">
         <div class="container max-w-[85rem]">
-            <div class="flex justify-between items-center bg-[rgba(64,64,64,.2)] rounded-2xl p-4 blur-25 1024:py-3.5 1024:px-6 1100:pr-14">
-                <div>
-                    <a href="<?=home_url()?>" class="leo-logo block h-11 1024:h-16">
+            <div class="flex items-center gap-1 px-1.5 py-3.5 1024:py-4">
+                <div class="grow shrink basis-[auto]">
+                    <a href="<?=home_url()?>" class="leo-logo block h-11 1024:h-14">
                         <?php echo file_get_contents(get_field('logo','options')); ?>
                     </a>
-
                 </div>
-                <div class="flex justify-end items-center relative mr-[-10px] 1024:mr-0">
+					 <div class="flex items-center gap-1">
+						<a class="w-7 h-7" href="#">
+							<img class="w-full h-full object-contain" src="<?php renderImages('icons/header-location.png') ?>" alt="">
+						</a>
+						<a class="w-7 h-7" href="#">
+							<img class="w-full h-full object-contain" src="<?php renderImages('icons/header-mail.png') ?>" alt="">
+						</a>
+						<a class="w-7 h-7" href="#">
+							<img class="w-full h-full object-contain" src="<?php renderImages('icons/header-tel.png') ?>" alt="">
+						</a>
+					 </div>
+                <div class="flex justify-end items-center relative">
                     <div class="hidden flex-end items-center gap-x-6 1024:flex 1100:gap-x-9">
                         <span class="flex justify-center items-center gap-x-2.5 whitespace-nowrap"><?php renderAssetsSVG('svg/clock'); ?><?=get_field('hours','options')?></span>
                         <?php
@@ -31,15 +41,14 @@
                             }
                         ?>
                     </div>
-                    <div class="leo-burger p-[10px] ml-[3px] 1024:hidden"><?php renderAssetsSVG('svg/burger'); ?></div>
+                    <div class="leo-burger p-[10px] pr-0 ml-1 1024:hidden"><?php renderAssetsSVG('svg/burger'); ?></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="mobile-menu opacity-0 invisible bg-black absolute top-0 right-[100vw] w-full h-[100svh]">
-        <div class="container text-center pt-40 flex flex-col gap-y-4">
-            <span class="flex justify-center items-center gap-x-2.5"><?php renderAssetsSVG('svg/clock'); ?><?=get_field('hours','options')?></span>
+    <div class="mobile-menu opacity-0 invisible bg-[#1e1e1ecc] blur-25 absolute top-0 right-0 w-full max-w-[250px] h-[100svh]">
+        <div class="container pt-40 pl-10 flex flex-col gap-y-4">
             <nav>
                 <?php
                 $menu_args = array(); // Initialize empty array
@@ -66,17 +75,19 @@
                 ?>
             </nav>
         </div>
-        <div class="container absolute bottom-9 left-0 w-full">
-            <span class="block font-700 uppercase"><?php esc_html_e('Контакти','leocar'); ?></span>
-            <ul class="mm-contact mt-4 flex flex-col gap-y-1">
-                <li><a class="flex justify-start items-center gap-x-2" href="tel:<?=str_replace(['(',')','-',' '],'',get_field('phone','options'))?>"><?php renderAssetsSVG('svg/call'); ?><?=get_field('phone','options')?></a></li>
-                <li><a class="flex justify-start items-center gap-x-2" href="mailto:<?=get_field('email','options')?>"><?php renderAssetsSVG('svg/mail'); ?><?=get_field('email','options')?></a></li>
-            </ul>
-            <span class="block mt-8 font-700 uppercase"><?php esc_html_e('Соціальні мережі','leocar'); ?></span>
-            <ul class="mm-social mt-4 flex justify-start items-center gap-x-3.5">
-                <li><a href="<?=get_field('instagram','options')?>"><?php renderAssetsSVG('svg/instagram'); ?></a></li>
-                <li><a href="<?=get_field('facebook','options')?>"><?php renderAssetsSVG('svg/facebook'); ?></a></li>
-            </ul>
+        <div class="absolute bottom-0 left-0 w-full">
+		 	 <div class="container pl-10 mb-16">
+		 	 	<span class="flex items-center gap-x-2.5"><?php renderAssetsSVG('svg/clock'); ?><?=get_field('hours','options')?></span>
+	            <span class="block mt-6 font-700 uppercase"><?php esc_html_e('Написати нам','leocar'); ?></span>
+	            <ul class="mm-social mt-4 flex justify-start items-center gap-x-3.5">
+	                <li class="w-8 h-8"><a href="<?=get_field('telegram','options')?>"><img class="w-full h-full object-contain" src="<?php renderImages('icons/telegram.png') ?>" alt=""></a></li>
+	                <li class="w-8 h-8"><a href="<?=get_field('viber','options')?>"><img class="w-full h-full object-contain" src="<?php renderImages('icons/viber.png') ?>" alt=""></a></li>
+	                <li class="w-8 h-8"><a href="<?=get_field('whats_app','options')?>"><img class="w-full h-full object-contain" src="<?php renderImages('icons/whatsapp.png') ?>" alt=""></a></li>
+	            </ul>
+		 	 </div>
+				<div class="bg-[#0F0F0F] px-5 py-2">
+					<p class="relative pl-6 before:absolute before:top-[50%] before:left-0 before:translate-y-[-50%] before:w-5 before:h-3 before:bg-[url(../images/icons/ua-flag.svg)] before:bg-cover before:bg-no-repeat before:bg-center">10% на ЗСУ</p>
+				</div>
         </div>
     </div>
 </header>

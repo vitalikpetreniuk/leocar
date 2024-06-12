@@ -1343,12 +1343,12 @@ footer .leo-logo svg{
 }
 
 .mobile-menu{
-  transform:translate3d(0,0,0);
+  transform:translate3d(100%,0,0);
   transition:opacity .6s ease,transform .6s ease,visibility 0s linear .6s
 }
 
 body.menu-open .mobile-menu{
-  transform:translate3d(100%,0,0);
+  transform:translate3d(0,0,0);
   transition:opacity .6s ease,transform .6s ease,visibility 0s linear;
   visibility:visible;
   opacity:1
@@ -2262,10 +2262,6 @@ video {
   right:1.25rem
 }
 
-.right-\[100vw\]{
-  right:100vw
-}
-
 .top-0{
   top:0px
 }
@@ -2276,6 +2272,10 @@ video {
 
 .top-\[50\%\]{
   top:50%
+}
+
+.bottom-0{
+  bottom:0px
 }
 
 .z-10{
@@ -2321,12 +2321,12 @@ video {
   margin-top:-6rem
 }
 
-.ml-7{
-  margin-left:1.75rem
+.ml-1{
+  margin-left:0.25rem
 }
 
-.ml-\[3px\]{
-  margin-left:3px
+.ml-7{
+  margin-left:1.75rem
 }
 
 .mr-2{
@@ -2335,10 +2335,6 @@ video {
 
 .mr-2\.5{
   margin-right:0.625rem
-}
-
-.mr-\[-10px\]{
-  margin-right:-10px
 }
 
 .mt-1{
@@ -2413,6 +2409,14 @@ video {
   margin-top:60px
 }
 
+.mb-1{
+  margin-bottom:0.25rem
+}
+
+.mb-16{
+  margin-bottom:4rem
+}
+
 .box-border{
   box-sizing:border-box
 }
@@ -2455,6 +2459,10 @@ video {
 
 .h-7{
   height:1.75rem
+}
+
+.h-8{
+  height:2rem
 }
 
 .h-9{
@@ -2517,6 +2525,10 @@ video {
   width:58.333333%
 }
 
+.w-8{
+  width:2rem
+}
+
 .w-9{
   width:2.25rem
 }
@@ -2549,6 +2561,10 @@ video {
   min-width:40px
 }
 
+.max-w-\[250px\]{
+  max-width:250px
+}
+
 .max-w-\[485px\]{
   max-width:485px
 }
@@ -2573,6 +2589,10 @@ video {
   flex-shrink:0
 }
 
+.shrink{
+  flex-shrink:1
+}
+
 .shrink-0{
   flex-shrink:0
 }
@@ -2581,12 +2601,20 @@ video {
   flex-grow:0
 }
 
+.grow{
+  flex-grow:1
+}
+
 .basis-10{
   flex-basis:2.5rem
 }
 
 .basis-\[120px\]{
   flex-basis:120px
+}
+
+.basis-\[auto\]{
+  flex-basis:auto
 }
 
 .translate-y-\[-50\%\]{
@@ -2636,6 +2664,10 @@ video {
 
 .justify-between{
   justify-content:space-between
+}
+
+.gap-1{
+  gap:0.25rem
 }
 
 .gap-2{
@@ -2818,6 +2850,23 @@ video {
   background-color:rgb(250 250 250 / var(--tw-bg-opacity))
 }
 
+.bg-\[\]{
+  background-color:
+}
+
+.bg-\[\#\]{
+  background-color:#
+}
+
+.bg-\[\#1e1e1ecc\]{
+  background-color:#1e1e1ecc
+}
+
+.bg-\[\#0F0F0F\]{
+  --tw-bg-opacity:1;
+  background-color:rgb(15 15 15 / var(--tw-bg-opacity))
+}
+
 .bg-\[url\(\'\.\.\/images\/purchase-mobile\.jpg\'\)\]{
   background-image:url('../images/purchase-mobile.jpg')
 }
@@ -2832,6 +2881,10 @@ video {
 
 .bg-\[url\(\'\.\.\/images\/types\.png\'\)\]{
   background-image:url('../images/types.png')
+}
+
+.bg-\[url\(\.\.\/images\/\)\]{
+  background-image:url(../images/)
 }
 
 .bg-\[100vw_auto\]{
@@ -2874,6 +2927,16 @@ video {
 
 .p-\[10px\]{
   padding:10px
+}
+
+.px-1{
+  padding-left:0.25rem;
+  padding-right:0.25rem
+}
+
+.px-1\.5{
+  padding-left:0.375rem;
+  padding-right:0.375rem
 }
 
 .px-4{
@@ -2931,6 +2994,11 @@ video {
   padding-bottom:1rem
 }
 
+.py-2{
+  padding-top:0.5rem;
+  padding-bottom:0.5rem
+}
+
 .pb-11{
   padding-bottom:2.75rem
 }
@@ -2955,6 +3023,10 @@ video {
   padding-bottom:2.25rem
 }
 
+.pl-10{
+  padding-left:2.5rem
+}
+
 .pl-2{
   padding-left:0.5rem
 }
@@ -2965,6 +3037,10 @@ video {
 
 .pl-6{
   padding-left:1.5rem
+}
+
+.pr-0{
+  padding-right:0px
 }
 
 .pr-6{
@@ -3175,6 +3251,16 @@ video {
   top:0px
 }
 
+.before\:top-\[\]::before{
+  content:var(--tw-content);
+  top:
+}
+
+.before\:top-\[50\%\]::before{
+  content:var(--tw-content);
+  top:50%
+}
+
 .before\:ml-\[-100\%\]::before{
   content:var(--tw-content);
   margin-left:-100%
@@ -3210,6 +3296,11 @@ video {
   height:100%
 }
 
+.before\:h-3::before{
+  content:var(--tw-content);
+  height:0.75rem
+}
+
 .before\:w-\[300\%\]::before{
   content:var(--tw-content);
   width:300%
@@ -3218,6 +3309,39 @@ video {
 .before\:w-full::before{
   content:var(--tw-content);
   width:100%
+}
+
+.before\:w-\[\]::before{
+  content:var(--tw-content);
+  width:
+}
+
+.before\:w-\[5\]::before{
+  content:var(--tw-content);
+  width:5
+}
+
+.before\:w-5::before{
+  content:var(--tw-content);
+  width:1.25rem
+}
+
+.before\:translate-y-\[\]::before{
+  content:var(--tw-content);
+  --tw-translate-y:;
+  transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.before\:translate-y-\[-\]::before{
+  content:var(--tw-content);
+  --tw-translate-y:-;
+  transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.before\:translate-y-\[-50\%\]::before{
+  content:var(--tw-content);
+  --tw-translate-y:-50%;
+  transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
 .before\:rounded-\[2\.5rem\]::before{
@@ -3244,6 +3368,81 @@ video {
 .before\:bg-accent\/\[\.5\]::before{
   content:var(--tw-content);
   background-color:rgb(39 172 91 / .5)
+}
+
+.before\:bg-\[url\(\.\.\/images\/\)\]::before{
+  content:var(--tw-content);
+  background-image:url(../images/)
+}
+
+.before\:bg-\[url\(\.\.\/images\/i\)\]::before{
+  content:var(--tw-content);
+  background-image:url(../images/i)
+}
+
+.before\:bg-\[url\(\.\.\/images\/ico\)\]::before{
+  content:var(--tw-content);
+  background-image:url(../images/ico)
+}
+
+.before\:bg-\[url\(\.\.\/images\/icon\)\]::before{
+  content:var(--tw-content);
+  background-image:url(../images/icon)
+}
+
+.before\:bg-\[url\(\.\.\/images\/icons\/\)\]::before{
+  content:var(--tw-content);
+  background-image:url(../images/icons/)
+}
+
+.before\:bg-\[url\(\.\.\/images\/icons\/ua\)\]::before{
+  content:var(--tw-content);
+  background-image:url(../images/icons/ua)
+}
+
+.before\:bg-\[url\(\.\.\/images\/icons\/ua-fla\)\]::before{
+  content:var(--tw-content);
+  background-image:url(../images/icons/ua-fla)
+}
+
+.before\:bg-\[url\(\.\.\/images\/icons\/ua-flag\)\]::before{
+  content:var(--tw-content);
+  background-image:url(../images/icons/ua-flag)
+}
+
+.before\:bg-\[url\(\.\.\/images\/icons\/ua-flag\.\)\]::before{
+  content:var(--tw-content);
+  background-image:url(../images/icons/ua-flag.)
+}
+
+.before\:bg-\[url\(\.\.\/images\/icons\/ua-flag\.s\)\]::before{
+  content:var(--tw-content);
+  background-image:url(../images/icons/ua-flag.s)
+}
+
+.before\:bg-\[url\(\.\.\/images\/icons\/ua-flag\.sv\)\]::before{
+  content:var(--tw-content);
+  background-image:url(../images/icons/ua-flag.sv)
+}
+
+.before\:bg-\[url\(\.\.\/images\/icons\/ua-flag\.svg\)\]::before{
+  content:var(--tw-content);
+  background-image:url(../images/icons/ua-flag.svg)
+}
+
+.before\:bg-cover::before{
+  content:var(--tw-content);
+  background-size:cover
+}
+
+.before\:bg-center::before{
+  content:var(--tw-content);
+  background-position:center
+}
+
+.before\:bg-no-repeat::before{
+  content:var(--tw-content);
+  background-repeat:no-repeat
 }
 
 .before\:opacity-\[\.4\]::before{
@@ -3547,10 +3746,6 @@ video {
     margin-left:50%
   }
 
-  .\31 024\:mr-0{
-    margin-right:0px
-  }
-
   .\31 024\:mt-0{
     margin-top:0px
   }
@@ -3565,10 +3760,6 @@ video {
 
   .\31 024\:mt-32{
     margin-top:8rem
-  }
-
-  .\31 024\:mt-4{
-    margin-top:1rem
   }
 
   .\31 024\:mt-5{
@@ -3603,8 +3794,8 @@ video {
     display:none
   }
 
-  .\31 024\:h-16{
-    height:4rem
+  .\31 024\:h-14{
+    height:3.5rem
   }
 
   .\31 024\:h-\[75svh\]{
@@ -3767,11 +3958,6 @@ video {
     padding:0px
   }
 
-  .\31 024\:px-6{
-    padding-left:1.5rem;
-    padding-right:1.5rem
-  }
-
   .\31 024\:px-8{
     padding-left:2rem;
     padding-right:2rem
@@ -3782,14 +3968,9 @@ video {
     padding-bottom:0.25rem
   }
 
-  .\31 024\:py-3{
-    padding-top:0.75rem;
-    padding-bottom:0.75rem
-  }
-
-  .\31 024\:py-3\.5{
-    padding-top:0.875rem;
-    padding-bottom:0.875rem
+  .\31 024\:py-4{
+    padding-top:1rem;
+    padding-bottom:1rem
   }
 
   .\31 024\:pb-0{
@@ -4036,10 +4217,6 @@ video {
 
   .\31 100\:pb-52{
     padding-bottom:13rem
-  }
-
-  .\31 100\:pr-14{
-    padding-right:3.5rem
   }
 
   .\31 100\:pr-4{
