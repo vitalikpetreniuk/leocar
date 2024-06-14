@@ -25,7 +25,7 @@ export default function header() {
 		// Умова, щоб працювало тільки коли попап відкритий
 		if (document.querySelector('body').classList.contains('menu-open')) {
 			 
-			 if (!e.target.closest('a') && !container.contains(e.target)) {
+			 if (!e.target.closest('a') && !container.contains(e.target) && !e.target.closest('.leo-burger')) {
 				document.querySelector('.leo-burger').click();
 			 }
 		}

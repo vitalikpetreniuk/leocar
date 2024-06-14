@@ -61,36 +61,7 @@ export default function home() {
     if(navLinks) {
 		navLinks.forEach(link => link.addEventListener('click', scrollToSection));
     }
-    if (window.screen.width >= 768) {
-        let $grid = $('.reviews-list').masonry({
-            gutter: 20
-        });
-
-
-        let borderHeight = '700px'
-        let reviewsSection = document.querySelector('.leo-reviews');
-        let outerDiv = reviewsSection.querySelector('.reviews-outer');
-        let innerDiv = reviewsSection.querySelector('.reviews-list');
-        let toggleButton = reviewsSection.querySelector('.show-reviews');
-
-        if(reviewsSection) {
-            outerDiv.style.height = borderHeight;
-            toggleButton.addEventListener('click', toggleHeight);
-        }
-
-        function toggleHeight() {
-
-            if (outerDiv.style.height === borderHeight || outerDiv.style.height === '') {
-                outerDiv.style.height = innerDiv.clientHeight + 'px';
-                outerDiv.classList.add('no-gradient');
-                toggleButton.textContent = 'Приховати';
-            } else {
-                outerDiv.style.height = borderHeight;
-                outerDiv.classList.remove('no-gradient');
-                toggleButton.textContent = 'Показати більше';
-            }
-        }
-    }
+    
     if (window.screen.width > 1099) {
         $('.flip-card').each(function(){
             let $this = $(this);
