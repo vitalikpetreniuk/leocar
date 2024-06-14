@@ -6,37 +6,37 @@
 				<a class="button hidden max-w-none 1024:flex" href="#">Замовити тест-драйв</a>
 			</div>
 			<ul class="flex flex-col gap-2 mb-6 768:flex-row 768:flex-wrap 768:gap-x-5 768:gap-y-7 1440:gap-x-[18px]">
-				<li class="relative flex items-center gap-3 min-h-[37px] 768:w-[calc(50%-10px)] 1440:w-[calc(33.33%-12px)]">
+				<li class="relative flex items-center gap-3 font-700 min-h-[37px] 768:w-[calc(50%-10px)] 1440:w-[calc(33.33%-12px)]">
 					<div class="w-10 h-9">
 						<img class="" src="<?php renderImages('icons/subscription-includes-01.png') ?>" alt="">
 					</div>
 					<p class="">Оформлення без довідок</p>
 				</li>
-				<li class="relative flex items-center gap-3 min-h-[37px] 768:w-[calc(50%-10px)] 1440:w-[calc(33.33%-12px)]">
+				<li class="relative flex items-center gap-3 font-700 min-h-[37px] 768:w-[calc(50%-10px)] 1440:w-[calc(33.33%-12px)]">
 					<div class="w-10 h-9">
 						<img class="" src="<?php renderImages('icons/subscription-includes-02.png') ?>" alt="">
 					</div>
 					<p class="">Сезонна зміна шин</p>
 				</li>
-				<li class="relative flex items-center gap-3 min-h-[37px] 768:w-[calc(50%-10px)] 1440:w-[calc(33.33%-12px)]">
+				<li class="relative flex items-center gap-3 font-700 min-h-[37px] 768:w-[calc(50%-10px)] 1440:w-[calc(33.33%-12px)]">
 					<div class="w-10 h-9">
 						<img class="" src="<?php renderImages('icons/subscription-includes-03.png') ?>" alt="">
 					</div>
 					<p class="">Страхування авто</p>
 				</li>
-				<li class="relative flex items-center gap-3 min-h-[37px] 768:w-[calc(50%-10px)] 1440:w-[calc(33.33%-12px)]">
+				<li class="relative flex items-center gap-3 font-700 min-h-[37px] 768:w-[calc(50%-10px)] 1440:w-[calc(33.33%-12px)]">
 					<div class="w-10 h-9">
 						<img class="" src="<?php renderImages('icons/subscription-includes-04.png') ?>" alt="">
 					</div>
 					<p class="">Регулярний тех. огляд</p>
 				</li>
-				<li class="relative flex items-center gap-3 min-h-[37px] 768:w-[calc(50%-10px)] 1440:w-[calc(33.33%-12px)]">
+				<li class="relative flex items-center gap-3 font-700 min-h-[37px] 768:w-[calc(50%-10px)] 1440:w-[calc(33.33%-12px)]">
 					<div class="w-10 h-9">
 						<img class="" src="<?php renderImages('icons/subscription-includes-05.png') ?>" alt="">
 					</div>
 					<p class="">Підтримка 24/7</p>
 				</li>
-				<li class="relative flex items-center gap-3 min-h-[37px] 768:w-[calc(50%-10px)] 1440:w-[calc(33.33%-12px)]">
+				<li class="relative flex items-center gap-3 font-700 min-h-[37px] 768:w-[calc(50%-10px)] 1440:w-[calc(33.33%-12px)]">
 					<div class="w-10 h-9">
 						<img class="" src="<?php renderImages('icons/subscription-includes-06.png') ?>" alt="">
 					</div>

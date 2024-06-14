@@ -14,7 +14,7 @@
 		<div class="container max-w-[85rem]">
 			<div class="flex items-center gap-1 px-1.5 py-3.5 1024:py-4">
 				<div class="grow shrink basis-[auto]">
-					<a href="<?=home_url()?>" class="leo-logo block h-11 1024:h-14">
+					<a href="<?=home_url()?>" class="leo-logo inline-block h-11 1024:h-14">
 						<img src="<?= get_field('logo','options'); ?>" alt="">
 					</a>
 				</div>
@@ -39,7 +39,7 @@
 					</a>
 				</div>
 				<div class="flex justify-end items-center relative">
-					<div class="leo-burger w-5 p-[10px] pr-0 ml-1 box-content 1024:w-6 1100:ml-20"><?php renderAssetsSVG('svg/burger'); ?></div>
+					<div class="leo-burger w-5 p-[10px] pr-0 ml-1 box-content cursor-pointer 1024:w-6 1100:ml-20"><?php renderAssetsSVG('svg/burger'); ?></div>
 				</div>
 			</div>
 		</div>

@@ -142,4 +142,14 @@ export default function home() {
         const rect = header.getBoundingClientRect();
         return rect.height;
     }
+
+	document.querySelectorAll('.scroll-top').forEach(function(scrollTopBtn) {
+
+		scrollTopBtn.addEventListener('click', function(e) {
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+		  	});
+		})
+	});
 }

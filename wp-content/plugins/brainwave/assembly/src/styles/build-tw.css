@@ -1358,7 +1358,7 @@ form p{
   scrollbar-width:none
 }
 
-body.menu-open,body.modal{
+body.modal-open{
   height:100%;
   overflow:hidden
 }
@@ -1382,9 +1382,7 @@ body.menu-open,body.modal{
 }
 
 .form-bg{
-  background:radial-gradient(191.05% 134.36% at 9.1% 2.14%,#212121 0,rgba(102,102,102,0) 100%),linear-gradient(189deg,#3d3d3d 2.37%,#101010 93.31%);
-  -webkit-backdrop-filter:blur(25px);
-          backdrop-filter:blur(25px)
+  background:radial-gradient(191.05% 134.36% at 9.1% 2.14%,#212121 0,rgba(102,102,102,0) 100%),linear-gradient(189deg,#3d3d3d 2.37%,#101010 93.31%)
 }
 
 input[type=email],input[type=tel],input[type=text],textarea{
@@ -3149,6 +3147,10 @@ video {
   margin-bottom:1.5rem
 }
 
+.mb-7{
+  margin-bottom:1.75rem
+}
+
 .ml-1{
   margin-left:0.25rem
 }
@@ -3233,8 +3235,8 @@ video {
   margin-top:60px
 }
 
-.mb-7{
-  margin-bottom:1.75rem
+.mb-1{
+  margin-bottom:0.25rem
 }
 
 .box-border{
@@ -3251,6 +3253,10 @@ video {
 
 .inline-block{
   display:inline-block
+}
+
+.inline{
+  display:inline
 }
 
 .flex{
@@ -3772,12 +3778,40 @@ video {
   background-image:url(../images/subscription-dark.jpg)
 }
 
+.bg-\[url\(\.\.\/images\/\)\]{
+  background-image:url(../images/)
+}
+
+.bg-\[url\(\.\.\/images\/i\)\]{
+  background-image:url(../images/i)
+}
+
+.bg-\[url\(\.\.\/images\/ico\)\]{
+  background-image:url(../images/ico)
+}
+
+.bg-\[url\(\.\.\/images\/icons\)\]{
+  background-image:url(../images/icons)
+}
+
+.bg-\[url\(\.\.\/images\/icons\/\)\]{
+  background-image:url(../images/icons/)
+}
+
+.bg-\[url\(\.\.\/images\/icons\/scroll-top\.png\)\]{
+  background-image:url(../images/icons/scroll-top.png)
+}
+
 .bg-\[100vw_auto\]{
   background-size:100vw auto
 }
 
 .bg-cover{
   background-size:cover
+}
+
+.bg-contain{
+  background-size:contain
 }
 
 .bg-\[left_4px\]{
@@ -4155,6 +4189,11 @@ video {
 
 .duration-100{
   transition-duration:100ms
+}
+
+.before\:pointer-events-none::before{
+  content:var(--tw-content);
+  pointer-events:none
 }
 
 .before\:absolute::before{
@@ -4651,6 +4690,10 @@ video {
     margin-bottom:1.5rem
   }
 
+  .\31 024\:mb-9{
+    margin-bottom:2.25rem
+  }
+
   .\31 024\:ml-\[50\%\]{
     margin-left:50%
   }
@@ -4685,14 +4728,6 @@ video {
 
   .\31 024\:mt-9{
     margin-top:2.25rem
-  }
-
-  .\31 024\:mb-7{
-    margin-bottom:1.75rem
-  }
-
-  .\31 024\:mb-9{
-    margin-bottom:2.25rem
   }
 
   .\31 024\:box-border{
@@ -4992,6 +5027,10 @@ video {
 
   .\31 024\:pt-\[27vw\]{
     padding-top:27vw
+  }
+
+  .\31 024\:text-left{
+    text-align:left
   }
 
   .\31 024\:\!text-4xl\/\[1\.4\]{

@@ -17,7 +17,7 @@
             <?php echo wp_get_attachment_image(get_field('image'), 'full', false, ['class' => "block relative -mt-24 left-[-30px] w-[calc(100%+60px)] max-w-none 500:-mt-[30vw] 1024:left-0 1024:w-7/12 1024:-mt-44 1100:-mt-36"]); ?>
             <div class="1024:w-5/12">
                 <?php if(get_field('title')) { ?>
-                <h2 class="box-border 1024:!text-4xl/[1.4] 1024:px-8 1100:!text-5xl/[1.4]"><?=get_field('title')?></h2>
+                <h2 class="box-border 1024:!text-4xl/[1.4] 1024:text-left 1024:px-8 1100:!text-5xl/[1.4]"><?=get_field('title')?></h2>
                 <?php   } ?>
                 <button class="test-drive button button-inverted mt-5 1024:max-w-[275px] 1024:mx-8"><?=get_field('button_text')?></button>
             </div>
