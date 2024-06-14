@@ -59,7 +59,7 @@ export default function home() {
     let offset = getHeaderHeight();
 
     if(navLinks) {
-        navLinks.forEach(link => link.addEventListener('click', scrollToSection));
+		navLinks.forEach(link => link.addEventListener('click', scrollToSection));
     }
     if (window.screen.width >= 768) {
         let $grid = $('.reviews-list').masonry({
@@ -117,6 +117,8 @@ export default function home() {
         const targetSectionId = event.target.getAttribute('href').slice(1); // Remove the leading #
         const targetSection = document.getElementById(targetSectionId);
         const targetSectionTop = targetSection.offsetTop - offset; // Account for offset
+
+		  document.querySelector('.leo-burger').click();
 
         if (window.screen.width < 1024) {
             document.body.classList.remove('menu-open');

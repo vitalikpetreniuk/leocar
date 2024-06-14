@@ -2,7 +2,7 @@
     <div class="container">
         <div class="flex flex-col 1024:flex-row 1024:justify-between 1024:items-center">
             <a href="<?=home_url()?>" class="leo-logo block w-52 1024:w-64">
-                <?php echo file_get_contents(get_field('logo','options')); ?>
+				<img src="<?= get_field('logo','options'); ?>" alt="">
             </a>
 
             <div class="font-400 text-2xl/normal mt-6 1024:mt-0 1024:text-3xl/normal"><?=get_field('slogan','options')?></div>

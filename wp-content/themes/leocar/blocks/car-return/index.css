@@ -1,0 +1,18 @@
+.leo-car-return__spoiler > h5::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	width: 13px;
+	height: 13px;
+	background: url(../images/svg/white-plus.svg) center/contain no-repeat;
+}
+
+.leo-car-return__spoiler.open > h5::before {
+	background: url(../images/svg/white-minus.svg) center/contain no-repeat;
+}
+
+.leo-car-return__spoiler.open > ul {
+	display: flex;
+}
