@@ -275,14 +275,6 @@
 			<div class="leo-reviews__button leo-reviews__button_next swiper-button-next hidden 1280:block"></div>
 		</div>
 		<div class="leo-reviews__pagination swiper-pagination"></div>
-		<button class="show-reviews button button-no-hover mt-4 768:max-w-[275px] 768:mx-auto 1100:mt-9">Google Reviews</button>
+		<a class="show-reviews button button-no-hover mt-4 768:max-w-[275px] 768:mx-auto 1100:mt-9" href="#">Google Reviews</a>
 	</div>
-</section>
-
-<section id="leo-reviews" class="leo-reviews pt-8 mt-16 1100:mt-24">
-	 <div class="container">
-		  <h2>Відгуки наших клієнтів</h2>
-
-		
-	 </div>
 </section>

@@ -30,6 +30,7 @@ if (ourTeamSwiper.length > 0) {
 
 	new Swiper(document.querySelector('.leo-reviews__slider'), {
 		modules: [Pagination,Navigation],
+		
 		pagination: {
 			el: '.leo-reviews__pagination',
 			type: 'bullets',

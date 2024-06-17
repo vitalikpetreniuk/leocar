@@ -3127,6 +3127,10 @@ video {
   margin-top:-6rem
 }
 
+.mb-1{
+  margin-bottom:0.25rem
+}
+
 .mb-10{
   margin-bottom:2.5rem
 }
@@ -3149,6 +3153,10 @@ video {
 
 .mb-7{
   margin-bottom:1.75rem
+}
+
+.mb-8{
+  margin-bottom:2rem
 }
 
 .ml-1{
@@ -3235,10 +3243,6 @@ video {
   margin-top:60px
 }
 
-.mb-1{
-  margin-bottom:0.25rem
-}
-
 .box-border{
   box-sizing:border-box
 }
@@ -3253,10 +3257,6 @@ video {
 
 .inline-block{
   display:inline-block
-}
-
-.inline{
-  display:inline
 }
 
 .flex{
@@ -3329,10 +3329,6 @@ video {
 
 .w-10{
   width:2.5rem
-}
-
-.w-10\/12{
-  width:83.333333%
 }
 
 .w-11{
@@ -3473,10 +3469,6 @@ video {
 
 .basis-10{
   flex-basis:2.5rem
-}
-
-.basis-\[120px\]{
-  flex-basis:120px
 }
 
 .basis-\[274px\]{
@@ -3627,10 +3619,6 @@ video {
   row-gap:1rem
 }
 
-.gap-y-5{
-  row-gap:1.25rem
-}
-
 .gap-y-7{
   row-gap:1.75rem
 }
@@ -3657,10 +3645,6 @@ video {
 
 .rounded-\[20px\]{
   border-radius:20px
-}
-
-.rounded-\[40px\]{
-  border-radius:40px
 }
 
 .rounded-\[50\%\]{
@@ -3748,14 +3732,13 @@ video {
   background-color:rgb(21 21 21 / var(--tw-bg-opacity))
 }
 
-.bg-condition{
-  --tw-bg-opacity:1;
-  background-color:rgb(31 31 31 / var(--tw-bg-opacity))
-}
-
 .bg-white{
   --tw-bg-opacity:1;
   background-color:rgb(250 250 250 / var(--tw-bg-opacity))
+}
+
+.bg-\[\]{
+  background-color:
 }
 
 .bg-\[url\(\'\.\.\/images\/purchase-mobile\.jpg\'\)\]{
@@ -3774,44 +3757,24 @@ video {
   background-image:url('../images/types.png')
 }
 
-.bg-\[url\(\.\.\/images\/subscription-dark\.jpg\)\]{
-  background-image:url(../images/subscription-dark.jpg)
-}
-
-.bg-\[url\(\.\.\/images\/\)\]{
-  background-image:url(../images/)
-}
-
-.bg-\[url\(\.\.\/images\/i\)\]{
-  background-image:url(../images/i)
-}
-
-.bg-\[url\(\.\.\/images\/ico\)\]{
-  background-image:url(../images/ico)
-}
-
-.bg-\[url\(\.\.\/images\/icons\)\]{
-  background-image:url(../images/icons)
-}
-
-.bg-\[url\(\.\.\/images\/icons\/\)\]{
-  background-image:url(../images/icons/)
-}
-
 .bg-\[url\(\.\.\/images\/icons\/scroll-top\.png\)\]{
   background-image:url(../images/icons/scroll-top.png)
+}
+
+.bg-\[url\(\.\.\/images\/subscription-dark\.jpg\)\]{
+  background-image:url(../images/subscription-dark.jpg)
 }
 
 .bg-\[100vw_auto\]{
   background-size:100vw auto
 }
 
-.bg-cover{
-  background-size:cover
-}
-
 .bg-contain{
   background-size:contain
+}
+
+.bg-cover{
+  background-size:cover
 }
 
 .bg-\[left_4px\]{
@@ -3923,6 +3886,11 @@ video {
   padding-bottom:1rem
 }
 
+.py-6{
+  padding-top:1.5rem;
+  padding-bottom:1.5rem
+}
+
 .pb-11{
   padding-bottom:2.75rem
 }
@@ -3937,6 +3905,10 @@ video {
 
 .pb-16{
   padding-bottom:4rem
+}
+
+.pb-24{
+  padding-bottom:6rem
 }
 
 .pb-4{
@@ -3977,6 +3949,10 @@ video {
 
 .pl-6{
   padding-left:1.5rem
+}
+
+.pl-8{
+  padding-left:2rem
 }
 
 .pl-9{
@@ -4043,6 +4019,14 @@ video {
   padding-top:2rem
 }
 
+.pb-1{
+  padding-bottom:0.25rem
+}
+
+.pt-9{
+  padding-top:2.25rem
+}
+
 .text-center{
   text-align:center
 }
@@ -4070,16 +4054,6 @@ video {
 
 .text-4xl{
   font-size:1.625rem
-}
-
-.text-5xl\/\[1\.4\]{
-  font-size:2.187rem;
-  line-height:1.4
-}
-
-.text-\[1\.875rem\]\/\[2\.75rem\]{
-  font-size:1.875rem;
-  line-height:2.75rem
 }
 
 .text-\[15px\]{
@@ -4142,6 +4116,10 @@ video {
 
 .leading-none{
   line-height:1
+}
+
+.text-\[\#fafafacc\]{
+  color:#fafafacc
 }
 
 .text-accent{
@@ -4221,6 +4199,11 @@ video {
   top:0px
 }
 
+.before\:top-\[2px\]::before{
+  content:var(--tw-content);
+  top:2px
+}
+
 .before\:top-\[50\%\]::before{
   content:var(--tw-content);
   top:50%
@@ -4251,6 +4234,16 @@ video {
   height:0.75rem
 }
 
+.before\:h-4::before{
+  content:var(--tw-content);
+  height:1rem
+}
+
+.before\:h-5::before{
+  content:var(--tw-content);
+  height:1.25rem
+}
+
 .before\:h-9::before{
   content:var(--tw-content);
   height:2.25rem
@@ -4269,6 +4262,11 @@ video {
 .before\:w-10::before{
   content:var(--tw-content);
   width:2.5rem
+}
+
+.before\:w-4::before{
+  content:var(--tw-content);
+  width:1rem
 }
 
 .before\:w-5::before{
@@ -4326,6 +4324,16 @@ video {
 .before\:bg-\[url\(\.\.\/images\/icons\/ua-flag\.svg\)\]::before{
   content:var(--tw-content);
   background-image:url(../images/icons/ua-flag.svg)
+}
+
+.before\:bg-\[url\(\.\.\/images\/svg\/green-check-02\.svg\)\]::before{
+  content:var(--tw-content);
+  background-image:url(../images/svg/green-check-02.svg)
+}
+
+.before\:bg-\[url\(\.\.\/images\/svg\/green-check\.svg\)\]::before{
+  content:var(--tw-content);
+  background-image:url(../images/svg/green-check.svg)
 }
 
 .before\:bg-contain::before{
@@ -4574,6 +4582,10 @@ video {
     padding-bottom:14rem
   }
 
+  .\37 68\:pl-0{
+    padding-left:0px
+  }
+
   .\37 68\:text-center{
     text-align:center
   }
@@ -4633,14 +4645,6 @@ video {
 @media (min-width: 1024px){
   .\31 024\:absolute{
     position:absolute
-  }
-
-  .\31 024\:relative{
-    position:relative
-  }
-
-  .\31 024\:-top-6{
-    top:-1.5rem
   }
 
   .\31 024\:left-0{
@@ -4724,10 +4728,6 @@ video {
 
   .\31 024\:mt-8{
     margin-top:2rem
-  }
-
-  .\31 024\:mt-9{
-    margin-top:2.25rem
   }
 
   .\31 024\:box-border{
@@ -4822,10 +4822,6 @@ video {
     width:100%
   }
 
-  .\31 024\:max-w-\[190px\]{
-    max-width:190px
-  }
-
   .\31 024\:max-w-\[220px\]{
     max-width:220px
   }
@@ -4844,10 +4840,6 @@ video {
 
   .\31 024\:max-w-none{
     max-width:none
-  }
-
-  .\31 024\:basis-auto{
-    flex-basis:auto
   }
 
   .\31 024\:flex-row{
@@ -4914,11 +4906,6 @@ video {
     gap:18px
   }
 
-  .\31 024\:gap-x-12{
-    -moz-column-gap:3rem;
-         column-gap:3rem
-  }
-
   .\31 024\:gap-x-16{
     -moz-column-gap:4rem;
          column-gap:4rem
@@ -4959,6 +4946,11 @@ video {
     padding-right:2rem
   }
 
+  .\31 024\:px-9{
+    padding-left:2.25rem;
+    padding-right:2.25rem
+  }
+
   .\31 024\:py-1{
     padding-top:0.25rem;
     padding-bottom:0.25rem
@@ -4967,6 +4959,11 @@ video {
   .\31 024\:py-4{
     padding-top:1rem;
     padding-bottom:1rem
+  }
+
+  .\31 024\:py-24{
+    padding-top:6rem;
+    padding-bottom:6rem
   }
 
   .\31 024\:pb-0{
@@ -4981,6 +4978,10 @@ video {
     padding-bottom:4rem
   }
 
+  .\31 024\:pb-28{
+    padding-bottom:7rem
+  }
+
   .\31 024\:pb-3{
     padding-bottom:0.75rem
   }
@@ -4993,6 +4994,10 @@ video {
     padding-bottom:1.5rem
   }
 
+  .\31 024\:pb-\[70px\]{
+    padding-bottom:70px
+  }
+
   .\31 024\:pl-5{
     padding-left:1.25rem
   }
@@ -5001,12 +5006,20 @@ video {
     padding-left:1.75rem
   }
 
+  .\31 024\:pl-9{
+    padding-left:2.25rem
+  }
+
   .\31 024\:pr-2{
     padding-right:0.5rem
   }
 
   .\31 024\:pr-9{
     padding-right:2.25rem
+  }
+
+  .\31 024\:pt-11{
+    padding-top:2.75rem
   }
 
   .\31 024\:pt-14{
@@ -5025,8 +5038,28 @@ video {
     padding-top:1.25rem
   }
 
+  .\31 024\:pt-\[134px\]{
+    padding-top:134px
+  }
+
   .\31 024\:pt-\[27vw\]{
     padding-top:27vw
+  }
+
+  .\31 024\:pb-24{
+    padding-bottom:6rem
+  }
+
+  .\31 024\:pt-28{
+    padding-top:7rem
+  }
+
+  .\31 024\:pb-8{
+    padding-bottom:2rem
+  }
+
+  .\31 024\:pt-8{
+    padding-top:2rem
   }
 
   .\31 024\:text-left{
@@ -5066,8 +5099,12 @@ video {
     font-size:15px
   }
 
-  .\31 024\:text-\[3\.125rem\]{
-    font-size:3.125rem
+  .\31 024\:text-\[25px\]{
+    font-size:25px
+  }
+
+  .\31 024\:text-\[26px\]{
+    font-size:26px
   }
 
   .\31 024\:text-base{
@@ -5103,9 +5140,24 @@ video {
     top:-80px
   }
 
+  .\31 024\:before\:top-\[3px\]::before{
+    content:var(--tw-content);
+    top:3px
+  }
+
+  .\31 024\:before\:h-7::before{
+    content:var(--tw-content);
+    height:1.75rem
+  }
+
   .\31 024\:before\:h-\[200px\]::before{
     content:var(--tw-content);
     height:200px
+  }
+
+  .\31 024\:before\:w-7::before{
+    content:var(--tw-content);
+    width:1.75rem
   }
 
   .\31 024\:before\:w-\[200px\]::before{
@@ -5296,10 +5348,6 @@ video {
     padding-bottom:13rem
   }
 
-  .\31 100\:pr-4{
-    padding-right:1rem
-  }
-
   .\31 100\:pt-0{
     padding-top:0px
   }
@@ -5417,8 +5465,16 @@ video {
 }
 
 @media (min-width: 1440px){
+  .\31 440\:w-\[calc\(20\%-12px\)\]{
+    width:calc(20% - 12px)
+  }
+
   .\31 440\:w-\[calc\(33\.33\%-12px\)\]{
     width:calc(33.33% - 12px)
+  }
+
+  .\31 440\:gap-\[15px\]{
+    gap:15px
   }
 
   .\31 440\:gap-x-\[18px\]{
