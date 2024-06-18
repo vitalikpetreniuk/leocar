@@ -2,7 +2,7 @@
 
 @layer components {
 
-    .gear span, .drive {
+    .gear span {
         backdrop-filter: blur(15px);
     }
     .mechanics .gear span:first-child {

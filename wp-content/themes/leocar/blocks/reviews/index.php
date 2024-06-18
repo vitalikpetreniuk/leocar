@@ -1,4 +1,4 @@
-<section id="leo-reviews" class="leo-reviews pt-8 mt-16 1100:mt-24">
+<section id="leo-reviews" class="leo-reviews pt-8 1100:mt-24">
 	<div class="max-w-[1370px] px-5 mx-auto">
 		<h2 class="mb-7 1024:mb-9"><?php esc_html_e('Відгуки','leocar'); ?></h2>
 		<!-- <?php echo do_shortcode('[trustmary_widget id="iN-6LVM_i"]'); ?> -->

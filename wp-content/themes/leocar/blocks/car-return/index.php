@@ -10,19 +10,19 @@
 						<div class="w-7 h-7 1024:w-5 1024:h-5">
 							<img class="w-full h-full object-contain" src="/wp-content/themes/leocar/assets/images/icons/header-location.png" alt="">
 						</div>
-						<p class="text-body text-[15px]">Львів, вул. Княгині Ольги 5а</p>
+						<p class="text-body font-700 text-[15px]">Львів, вул. Княгині Ольги 5а</p>
 					</a>
 					<a class="flex items-center gap-2" href="#">
 						<div class="w-7 h-7 1024:w-5 1024:h-5">
 							<img class="w-full h-full object-contain" src="/wp-content/themes/leocar/assets/images/icons/header-tel.png" alt="">
 						</div>
-						<p class="text-body text-[15px]">+38 (093) 039-33-33</p>
+						<p class="text-body font-700 text-[15px]">+38 (093) 039-33-33</p>
 					</a>
 					<a class="flex items-center gap-2" href="#">
 						<div class="w-7 h-7 1024:w-5 1024:h-5">
 							<img class="w-full h-full object-contain" src="/wp-content/themes/leocar/assets/images/icons/header-mail.png" alt="">
 						</div>
-						<p class="text-body text-[15px]">ua.leocar@gmail.com</p>
+						<p class="text-body font-700 text-[15px]">ua.leocar@gmail.com</p>
 					</a>
 				</div>
 			</div>
@@ -108,19 +108,19 @@
 					<div class="w-7 h-7 1024:w-5 1024:h-5">
 						<img class="w-full h-full object-contain" src="/wp-content/themes/leocar/assets/images/icons/header-location.png" alt="">
 					</div>
-					<p class="text-body text-[15px]">Львів, вул. Княгині Ольги 5а</p>
+					<p class="text-body font-700 text-[15px]">Львів, вул. Княгині Ольги 5а</p>
 				</a>
 				<a class="flex items-center gap-2" href="#">
 					<div class="w-7 h-7 1024:w-5 1024:h-5">
 						<img class="w-full h-full object-contain" src="/wp-content/themes/leocar/assets/images/icons/header-tel.png" alt="">
 					</div>
-					<p class="text-body text-[15px]">+38 (093) 039-33-33</p>
+					<p class="text-body font-700 text-[15px]">+38 (093) 039-33-33</p>
 				</a>
 				<a class="flex items-center gap-2" href="#">
 					<div class="w-7 h-7 1024:w-5 1024:h-5">
 						<img class="w-full h-full object-contain" src="/wp-content/themes/leocar/assets/images/icons/header-mail.png" alt="">
 					</div>
-					<p class="text-body text-[15px]">ua.leocar@gmail.com</p>
+					<p class="text-body font-700 text-[15px]">ua.leocar@gmail.com</p>
 				</a>
 			</div>
 		</div>

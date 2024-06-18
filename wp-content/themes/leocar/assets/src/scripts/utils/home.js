@@ -122,5 +122,17 @@ export default function home() {
 				behavior: 'smooth'
 		  	});
 		})
+
+		window.addEventListener('scroll', function() {
+			
+			if (window.pageYOffset > 1 && !scrollTopBtn.classList.contains('active')) {
+	
+				scrollTopBtn.classList.add('active')
+	
+			} else if (window.pageYOffset < 1 && scrollTopBtn.classList.contains('active')) {
+	
+				scrollTopBtn.classList.remove('active')
+			}
+		});
 	});
 }

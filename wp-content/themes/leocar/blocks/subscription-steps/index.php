@@ -1,4 +1,4 @@
-<section class="leo-subscription-steps pt-28 pb-16">
+<section class="leo-subscription-steps pt-16 pb-16">
 	<div class="container">
 		<div class="1024:flex 1024:items-start 1024:gap-10">
 			<div class="mb-6 1024:mb-0 grow-0 shrink-0 basis-[274px]">

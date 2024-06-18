@@ -77,10 +77,10 @@
     }
     .modal form .wpcf7-not-valid-tip {
         @apply mt-0 font-400 text-sm/[1.4] text-error
-        absolute bottom-2.5 right-0
     }
     .modal form .wpcf7-response-output {
-        @apply mt-5 font-400 text-sm/[1.4] text-white/[.7]
+        @apply hidden
+		  /* mt-5 font-400 text-sm/[1.4] text-white/[.7] */
     }
     .modal form .wpcf7-response-output {
         @apply !mb-0 !mx-0 !mt-5 !p-0 !border-0
@@ -90,8 +90,27 @@
     }
 
     .modal.conditions h2 + div {
-        @apply overflow-y-scroll
+      overflow: auto;
+		padding-right: 5px;
     }
+	 /* width */
+	.modal.conditions h2 + div::-webkit-scrollbar {
+		width: 5px;
+	}
+	/* Track */
+	.modal.conditions h2 + div::-webkit-scrollbar-track {
+		background: #000;
+		border-radius: 5px;
+	}
+	/* Handle */
+	.modal.conditions h2 + div::-webkit-scrollbar-thumb {
+		background: #27ac5b;
+		border-radius: 5px;
+	}
+	/* Handle on hover */
+	.modal.conditions h2 + div::-webkit-scrollbar-thumb:hover {
+		background: #1e8445;
+	}
     .modal div p:not(:first-child) {
         @apply mt-5
     }

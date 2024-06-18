@@ -2,8 +2,8 @@
 	<?php if(get_field('announce_text','options')) { ?>
 	<div class="relative z-10 leo-announcement bg-white py-1.5">
 		<div class="container relative max-w-[85rem]">
-			<div class="hidden absolute top-[50%] left-3 translate-y-[-50%] 1280:block">
-				<p class="relative text-black pl-6 before:absolute before:top-[50%] before:left-0 before:translate-y-[-50%] before:w-5 before:h-3 before:bg-[url(../images/icons/ua-flag.svg)] before:bg-cover before:bg-no-repeat before:bg-center">10% на ЗСУ</p>
+			<div class="hidden absolute top-[50%] left-3 translate-y-[-50%] 768:block">
+				<p class="relative text-black text-[14px] pl-6 before:absolute before:top-[50%] before:left-0 before:translate-y-[-50%] before:w-5 before:h-3 before:bg-[url(../images/icons/ua-flag.svg)] before:bg-cover before:bg-no-repeat before:bg-center">10% на ЗСУ</p>
 			</div>
 			<span class="block font-400 text-xs leading-5 text-black text-center 1100:text-sm 1100:leading-6"><?=get_field('announce_text','options')?></span>
 			<div class="close absolute top-0 right-0 h-full aspect-square cursor-pointer flex justify-center items-center"><?php renderAssetsSVG('svg/close'); ?></div>
@@ -83,8 +83,8 @@
 						 <li class="w-8 h-8"><a href="<?=get_field('whats_app','options')?>"><img class="w-full h-full object-contain" src="<?php renderImages('icons/whatsapp.png') ?>" alt=""></a></li>
 					</ul>
 		 	 </div>
-				<div class="bg-[#0F0F0F] px-5 py-2 1280:hidden">
-					<p class="relative pl-6 before:absolute before:top-[50%] before:left-0 before:translate-y-[-50%] before:w-5 before:h-3 before:bg-[url(../images/icons/ua-flag.svg)] before:bg-cover before:bg-no-repeat before:bg-center">10% на ЗСУ</p>
+				<div class="bg-[#0F0F0F] px-5 py-2 768:hidden">
+					<p class="relative text-[14px] pl-6 before:absolute before:top-[50%] before:left-0 before:translate-y-[-50%] before:w-5 before:h-3 before:bg-[url(../images/icons/ua-flag.svg)] before:bg-cover before:bg-no-repeat before:bg-center">10% на ЗСУ</p>
 				</div>
 		  </div>
 	 </div>
