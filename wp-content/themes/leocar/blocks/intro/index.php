@@ -13,6 +13,7 @@
     </picture>
     <div class="container relative z-[2] 500:mt-8">
         <div class="1024:w-5/12 1024:min-h-[50vw] 1024:pl-5 1024:pr-2 1024:box-border 1024:flex 1024:flex-col 1024:justify-end 1100:h-[100svh] 1100:min-h-0 2000:max-h-[1000px] 1100:justify-center">
+		 		 <span class="hidden 1024:flex 1024:items-center 1024:gap-x-2.5"><?php renderAssetsSVG('svg/clock'); ?><?=get_field('hours','options')?></span>
             <h1><?php echo $intro_title ?></h1>
             <div class="text-body mt-2 max-h-20 overflow-hidden 414:mt-3.5 1024:mt-5"><?php echo $intro_description ?></div>
 
@@ -23,8 +24,11 @@
         </div>
     </div>
 
-    <div class="require-call cursor-pointer fixed left-5 bottom-5 z-[5] flex justify-center items-center w-11 h-11 rounded-full box-border border border-black bg-accent 1100:hidden"><?php renderAssetsSVG('svg/call'); ?></div>
-    <div class="leo-message cursor-pointer fixed right-5 bottom-5 z-[5] 1100:right-auto 1100:left-10 1100:bottom-10 1100:w-14 1100:h-14">
+	<div class="fixed left-5 bottom-5 z-[5] 1100:hidden">
+	 	<button class="scroll-top inline-block w-11 h-11 mb-1 bg-[url(../images/icons/scroll-top.png)] bg-contain bg-no-repeat bg-center opacity-0 invisible pointer-events-none translate-y-[10px] transition-all"></button>
+		<div class="require-call cursor-pointer flex justify-center items-center w-11 h-11 rounded-full box-border border border-black bg-accent"><?php renderAssetsSVG('svg/call'); ?></div>
+	</div>
+    <div class="leo-message cursor-pointer fixed right-5 bottom-5 z-[5] 1100:right-auto 1100:left-10 1100:bottom-10 1100:w-14 1100:h-14 1280:z-[55]">
         <ul class="opacity-0  invisible absolute right-0 bottom-14 flex flex-col gap-y-1.5 1100:right-auto 1100:left-0 1100:bottom-16">
             <?php if(get_field('telegram','options')) { ?>
                 <li><a href="<?=get_field('telegram','options')?>"><?php renderAssetsSVG('svg/telegram'); ?></a></li>
@@ -38,5 +42,8 @@
         </ul>
         <span class="relative flex justify-center items-center w-11 h-11 rounded-full box-border border border-accent bg-black 1100:w-14 1100:h-14"><?php renderAssetsSVG('svg/mail'); ?><?php renderAssetsSVG('svg/close-thin'); ?></span>
     </div>
-    <div class="require-call pulsating hidden fixed right-10 bottom-10 w-14 h-14 z-[5] cursor-pointer 1100:block before:content-[''] before:relative before:block before:w-[300%] before:h-[300%] before:box-border before:mt-[-100%] before:ml-[-100%] before:rounded-[50%] before:bg-accent/[.5] after:content-[''] after:absolute after:top-0 after:left-0 after:block after:w-full after:h-full after:bg-accent after:bg-[url('../images/svg/call.svg')] after:bg-no-repeat after:bg-center after:rounded-[50%] after:hover:bg-white after:transition after:duration-150"></div>
+	<div class="hidden fixed right-10 bottom-10 z-[5] 1100:block 1280:z-[55]">
+		<button class="scroll-top inline-block w-14 h-14 mb-1 bg-[url(../images/icons/scroll-top.png)] bg-contain bg-no-repeat bg-center opacity-0 invisible pointer-events-none translate-y-[10px] transition-all"></button>
+		<div class="require-call pulsating relative w-14 h-14 cursor-pointer before:content-[''] before:absolute before:block before:w-[300%] before:h-[300%] before:box-border before:mt-[-100%] before:ml-[-100%] before:rounded-[50%] before:bg-accent/[.5] before:pointer-events-none after:content-[''] after:absolute after:top-0 after:left-0 after:block after:w-full after:h-full after:bg-accent after:bg-[url('../images/svg/call.svg')] after:bg-no-repeat after:bg-center after:rounded-[50%] after:hover:bg-white after:transition after:duration-150"></div>
+	</div>
 </section>

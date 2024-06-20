@@ -18,4 +18,16 @@ export default function header() {
 
         burgerElement.addEventListener('click', toggleMobileOpen);
     }
+
+	 document.addEventListener('mouseup', function(e) {
+		// Назва контейнеру
+		let container = document.querySelector('.mobile-menu');
+		// Умова, щоб працювало тільки коли попап відкритий
+		if (document.querySelector('body').classList.contains('menu-open')) {
+			 
+			 if (!e.target.closest('a') && !container.contains(e.target) && !e.target.closest('.leo-burger')) {
+				document.querySelector('.leo-burger').click();
+			 }
+		}
+  });
 }

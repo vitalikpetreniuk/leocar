@@ -1,3 +1,5 @@
+@import "../../../../../plugins/brainwave/assembly/node_modules/swiper/swiper-bundle.css";
+
 @tailwind components;
 
 @layer components {
@@ -18,6 +20,7 @@
         @apply antialiased
         font-700 font-normal !text-2xl/[1.6] text-white
         1100:!text-2xl
+		  text-center
     }
     h3, .h3 {
         @apply antialiased
@@ -151,7 +154,9 @@
     }
 }
 
-body.modal, body.menu-open {
+body.modal-open
+/* , body.menu-open */
+ {
     height: 100%;
     overflow: hidden;
 }
@@ -168,9 +173,12 @@ body.modal, body.menu-open {
 .blur-25 {
     backdrop-filter: blur(25px);
 }
+.blur-15 {
+    backdrop-filter: blur(15px);
+}
 .form-bg {
     background: radial-gradient(191.05% 134.36% at 9.1% 2.14%, #212121 0%, rgba(102, 102, 102, 0.00) 100%), linear-gradient(189deg, #3D3D3D 2.37%, #101010 93.31%);
-    backdrop-filter: blur(25px);
+    /* backdrop-filter: blur(25px); */
 }
 
 

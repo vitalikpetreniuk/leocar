@@ -8,7 +8,7 @@ export default function modal() {
     if(modalTriggers) {
         modalTriggers.forEach(trigger => {
             trigger.addEventListener('click', () => {
-                body.classList.add('modal');
+                body.classList.add('modal-open');
                 modalWrap.classList.toggle('call', trigger.classList.contains('require-call'));
                 modalWrap.classList.toggle('drive', trigger.classList.contains('test-drive'));
                 modalWrap.classList.toggle('conditions', trigger.classList.contains('show-conditions'));
@@ -33,6 +33,6 @@ export default function modal() {
 
     function closeModals() {
         modalWrap.classList.remove('call', 'drive', 'conditions');
-        body.classList.remove('modal');
+        body.classList.remove('modal-open');
     }
 }

@@ -1,0 +1,40 @@
+.leo-our-clients__slider {
+	opacity: 1;
+}
+
+.leo-our-clients__slide {
+}
+
+.leo-our-clients__pagination {
+	position: static !important;
+	margin-top: 35px;
+}
+
+.leo-our-clients__pagination .swiper-pagination-bullet {
+	background: #363636 !important;
+	opacity: 1 !important;
+}
+
+.leo-our-clients__pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background: #D9D9D9 !important;
+}
+
+.leo-our-clients__button {
+	top: 50% !important;
+	transform: translateY(50%) !important;
+	width: 20px;
+	height: 20px;
+	color: #999999 !important;
+}
+
+.leo-our-clients__button::after {
+	font-size: 16px !important;
+}
+
+.leo-our-clients__button_prev {
+	left: 0 !important;
+}
+
+.leo-our-clients__button_next {
+	right: 0 !important;
+}

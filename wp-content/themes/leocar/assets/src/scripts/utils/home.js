@@ -59,38 +59,9 @@ export default function home() {
     let offset = getHeaderHeight();
 
     if(navLinks) {
-        navLinks.forEach(link => link.addEventListener('click', scrollToSection));
+		navLinks.forEach(link => link.addEventListener('click', scrollToSection));
     }
-    if (window.screen.width >= 768) {
-        let $grid = $('.reviews-list').masonry({
-            gutter: 20
-        });
-
-
-        let borderHeight = '700px'
-        let reviewsSection = document.querySelector('.leo-reviews');
-        let outerDiv = reviewsSection.querySelector('.reviews-outer');
-        let innerDiv = reviewsSection.querySelector('.reviews-list');
-        let toggleButton = reviewsSection.querySelector('.show-reviews');
-
-        if(reviewsSection) {
-            outerDiv.style.height = borderHeight;
-            toggleButton.addEventListener('click', toggleHeight);
-        }
-
-        function toggleHeight() {
-
-            if (outerDiv.style.height === borderHeight || outerDiv.style.height === '') {
-                outerDiv.style.height = innerDiv.clientHeight + 'px';
-                outerDiv.classList.add('no-gradient');
-                toggleButton.textContent = 'Приховати';
-            } else {
-                outerDiv.style.height = borderHeight;
-                outerDiv.classList.remove('no-gradient');
-                toggleButton.textContent = 'Показати більше';
-            }
-        }
-    }
+    
     if (window.screen.width > 1099) {
         $('.flip-card').each(function(){
             let $this = $(this);
@@ -118,6 +89,8 @@ export default function home() {
         const targetSection = document.getElementById(targetSectionId);
         const targetSectionTop = targetSection.offsetTop - offset; // Account for offset
 
+		  document.querySelector('.leo-burger').click();
+
         if (window.screen.width < 1024) {
             document.body.classList.remove('menu-open');
             window.scrollTo({
@@ -140,4 +113,26 @@ export default function home() {
         const rect = header.getBoundingClientRect();
         return rect.height;
     }
+
+	document.querySelectorAll('.scroll-top').forEach(function(scrollTopBtn) {
+
+		scrollTopBtn.addEventListener('click', function(e) {
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+		  	});
+		})
+
+		window.addEventListener('scroll', function() {
+			
+			if (window.pageYOffset > 1 && !scrollTopBtn.classList.contains('active')) {
+	
+				scrollTopBtn.classList.add('active')
+	
+			} else if (window.pageYOffset < 1 && scrollTopBtn.classList.contains('active')) {
+	
+				scrollTopBtn.classList.remove('active')
+			}
+		});
+	});
 }

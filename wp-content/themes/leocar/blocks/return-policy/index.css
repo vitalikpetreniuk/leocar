@@ -1,0 +1,8 @@
+@tailwind components;
+
+@layer components {
+    #leo-return_policy .rp-background:before {
+        background: radial-gradient(191.05% 134.36% at 9.1% 2.14%, #212121 0%, rgba(102, 102, 102, 0.00) 100%), linear-gradient(189deg, #3D3D3D 2.37%, #101010 93.31%);
+        backdrop-filter: blur(25px);
+    }
+}

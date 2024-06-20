@@ -5,6 +5,9 @@
     .leo-intro picture.toyota img {
         @apply -mt-20 768:mt-[-30vw] 1024:mt-0
     }
+    .leo-intro picture.hyundai {
+        @apply max-w-[133svh]
+    }
     .leo-intro picture.hyundai img {
         @apply -mt-8 768:mt-0 1024:mt-0
     }
@@ -35,6 +38,13 @@
     .pulsating:hover:after {
         @apply bg-[url('../images/svg/call-accent.svg')]
     }
+}
+
+.scroll-top.active {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: all;
+	transform: translateY(0);
 }
 
 .leo-message ul {

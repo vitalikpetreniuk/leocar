@@ -5,71 +5,164 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bba2faf-1766-4774-818c-35782027063f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/car-return-decor.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-01 – копія.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-01.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-02 – копія.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-02.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-03 – копія.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-03.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-04 – копія.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-04.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-05 – копія.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-05.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-06 – копія.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-01-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-01-300x247.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-01-–-kopiya-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-01-–-kopiya-300x247.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-01-–-kopiya.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-02-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-02-300x244.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-02-–-kopiya-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-02-–-kopiya-300x244.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-02-–-kopiya.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-03-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-03-300x244.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-03-–-kopiya-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-03-–-kopiya-300x244.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-03-–-kopiya.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-04-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-04-300x244.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-04-–-kopiya-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-04-–-kopiya-300x244.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-04-–-kopiya.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-05-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-05-300x244.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-05-–-kopiya-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-05-–-kopiya-300x244.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-05-–-kopiya.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-06-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-06-300x244.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-06-–-kopiya-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-06-–-kopiya-300x244.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-06-–-kopiya.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/leocar-owner-1024x673.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/leocar-owner-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/leocar-owner-300x197.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/leocar-owner-768x505.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/leocar-owner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/subscription-includes-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/subscription-includes-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/subscription-includes-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/subscription-includes-04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/subscription-includes-05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/subscription-includes-06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/icons/header-location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/icons/header-mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/icons/header-tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/icons/point-plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/icons/scroll-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/icons/subscription-includes-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/icons/subscription-includes-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/icons/subscription-includes-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/icons/subscription-includes-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/icons/subscription-includes-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/icons/subscription-includes-06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/icons/ua-flag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/leocar-owner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/subscription-dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/checkmarks.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/contents1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/email-green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/green-check-02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/green-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/hour24.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/phone-green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/pin-green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/refresh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/shield.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/time.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/tire.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/white-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/white-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/advantages/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/advantages/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/car-return/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/contents/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/contents/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/our-clients/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/return-policy/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/return-policy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/steps/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/steps/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leocar.loc.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/css/bw-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/css/bw-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/automat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/automat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/automatic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/automatic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/burger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/burger.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/call-accent.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/call-accent.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/call.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/call.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/car.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/car.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/clock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/close-thin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/close-thin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/close.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/down-payment.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/down-payment.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/driver-license.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/driver-license.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/gas.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/gas.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/google.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/google.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/id.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/id.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/mail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/mail.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/mechanics.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/mechanics.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/nine.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/nine.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/passport.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/passport.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/payment.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/payment.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/pin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/pin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/reason1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/reason1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/reason2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/reason2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/reason3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/reason3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/reason4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/reason4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/reason5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/reason5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/reason6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/reason6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/send-green.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/send-green.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/send.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/send.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/telegram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/telegram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/viber.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/viber.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/whatsapp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/svg/whatsapp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/js/bw-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/js/bw-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/faq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/scripts/utils/reviews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/src/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/about-block/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/about-block/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/car-return/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/car-return/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog-purchase/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog-purchase/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog-purchase/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog-purchase/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/conditions/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/conditions/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/conditions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/conditions/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/consult/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/consult/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/consult/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/consult/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/faq/group_662f4a69eddf9.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/faq/group_662f4a69eddf9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/faq/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/faq/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/faq/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/faq/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/footer/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/footer/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/footer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/footer/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/header/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/header/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/header/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/header/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/intro/group_662ba7507a4b2.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/intro/group_662ba7507a4b2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/intro/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/intro/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/intro/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/intro/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/options/group_662f56c313691.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/options/group_662f56c313691.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/our-clients/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/our-clients/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/page/group_662f8cfbaba11.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/page/group_662f8cfbaba11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/purch-intro/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/purch-intro/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/purch-intro/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/purch-intro/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/purchase/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/purchase/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/purchase/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/purchase/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/reasons/group_662bada346c21.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/reasons/group_662bada346c21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/reasons/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/reasons/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/reasons/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/reasons/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/redemption-algorithm/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/redemption-algorithm/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/reviews/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/reviews/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/reviews/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/reviews/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/seo/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/seo/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/seo/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/seo/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/subscription-includes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/subscription-includes/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/subscription-provides/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/subscription-provides/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/subscription-steps/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/subscription-steps/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/subscription/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/subscription/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/subscription/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/subscription/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/test-drive/group_662f47936765c.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/test-drive/group_662f47936765c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/test-drive/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/test-drive/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/test-drive/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/test-drive/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/types-purchase/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/types-purchase/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/types-purchase/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/types-purchase/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/types/group_662bc0878eece.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/types/group_662bc0878eece.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/types/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/types/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/types/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/types/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/РђРІС‚РѕРјРѕР±С–Р»СЊ/group_662fa256030ed.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/РђРІС‚РѕРјРѕР±С–Р»СЊ/group_662fa256030ed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/templates/archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/templates/archive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/templates/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/templates/single.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,15 +188,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes" />
       <recent name="C:\OSPanel\domains\leocar.loc" />
       <recent name="C:\OSPanel\domains" />
       <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes\leocar\assets" />
       <recent name="C:\OSPanel\domains\leocar.loc\wp-content\plugins" />
-      <recent name="C:\OSPanel\domains\leocar.loc\wp-content" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -129,7 +222,8 @@
       <workItem from="1714652970283" duration="15459000" />
       <workItem from="1715780289775" duration="980000" />
       <workItem from="1718786968195" duration="1711000" />
-      <workItem from="1718795832463" duration="13295000" />
+      <workItem from="1718795832463" duration="22745000" />
+      <workItem from="1718891015003" duration="2249000" />
     </task>
     <servers />
   </component>
@@ -141,13 +235,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="Fix Bags" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="321" y="15" key="FileChooserDialogImpl" timestamp="1715781140681">
+    <state x="321" y="15" key="FileChooserDialogImpl" timestamp="1718873280827">
       <screen x="0" y="0" width="1280" height="752" />
     </state>
-    <state x="321" y="15" key="FileChooserDialogImpl/0.0.1280.752@0.0.1280.752" timestamp="1715781140681" />
-    <state x="250" y="42" width="787" height="682" key="find.popup" timestamp="1718803351508">
+    <state x="321" y="15" key="FileChooserDialogImpl/0.0.1280.752@0.0.1280.752" timestamp="1718873280827" />
+    <state x="250" y="42" width="787" height="682" key="find.popup" timestamp="1718886450506">
       <screen x="0" y="0" width="1280" height="752" />
     </state>
-    <state x="250" y="42" width="787" height="682" key="find.popup/0.0.1280.752@0.0.1280.752" timestamp="1718803351508" />
+    <state x="250" y="42" width="787" height="682" key="find.popup/0.0.1280.752@0.0.1280.752" timestamp="1718886450506" />
   </component>
 </project>

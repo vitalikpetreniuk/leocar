@@ -6,12 +6,12 @@
                 <p class="font-700 text-xl 768:text-3xl 1024:mb-24"><?=get_field('title')?></p>
                 <?php   } ?>
 				<div class="hidden flex-col gap-2 1024:flex">
-                    <?php if(get_field('address','options')) { ?>
+                    <?php if(get_field('address_2','options')) { ?>
 					<a class="flex items-center gap-2" href="#">
 						<div class="w-7 h-7 1024:w-5 1024:h-5">
 							<img class="w-full h-full object-contain" src="/wp-content/themes/leocar/assets/images/icons/header-location.png" alt="">
 						</div>
-						<p class="text-body font-700 text-[15px]"><?=get_field('address','options')?></p>
+						<p class="text-body font-700 text-[15px]"><?=get_field('address_2','options')?></p>
 					</a>
                     <?php   } ?>
                     <?php if(get_field('phone','options')) { ?>
@@ -57,12 +57,12 @@
                 <?php } ?>
 			</div>
 			<div class="flex flex-col gap-2 1024:hidden">
-                <?php if(get_field('address','options')) { ?>
+                <?php if(get_field('address_2','options')) { ?>
                     <a class="flex items-center gap-2" href="#">
                         <div class="w-7 h-7 1024:w-5 1024:h-5">
                             <img class="w-full h-full object-contain" src="/wp-content/themes/leocar/assets/images/icons/header-location.png" alt="">
                         </div>
-                        <p class="text-body font-700 text-[15px]"><?=get_field('address','options')?></p>
+                        <p class="text-body font-700 text-[15px]"><?=get_field('address_2','options')?></p>
                     </a>
                 <?php   } ?>
                 <?php if(get_field('phone','options')) { ?>

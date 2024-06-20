@@ -42,7 +42,7 @@
                                     </div>
                                     <div class="absolute z-[2] right-5 bottom-5 colors flex justify-end items-center gap-x-2.5">
                                         <?php if($colors) foreach($colors as $color) { ?>
-                                        <div class="w-4 h-4 border border-white rounded-full indent-[-9999px]" style="background:<?=$color['color']?>;"><?=$color['color']?></div>
+                                        <a class="w-4 h-4 border border-white rounded-full indent-[-9999px]" href="#" style="background:<?=$color['color']?>;"><?=$color['color']?></a>
                                         <?php   } ?>
                                     </div>
                                 </div>
