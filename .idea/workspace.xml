@@ -4,7 +4,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d74bb30-0ac9-4a01-9116-d70f5f49baf1" name="Changes" comment="Fix Bags" />
+    <list default="true" id="7bba2faf-1766-4774-818c-35782027063f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-01 – копія.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-02 – копія.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-03 – копія.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-04 – копія.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-05 – копія.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/leocar/assets/images/client-06 – копія.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-01-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-01-300x247.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-01-–-kopiya-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-01-–-kopiya-300x247.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-01-–-kopiya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-02-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-02-300x244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-02-–-kopiya-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-02-–-kopiya-300x244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-02-–-kopiya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-03-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-03-300x244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-03-–-kopiya-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-03-–-kopiya-300x244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-03-–-kopiya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-04-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-04-300x244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-04-–-kopiya-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-04-–-kopiya-300x244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-04-–-kopiya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-05-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-05-300x244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-05-–-kopiya-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-05-–-kopiya-300x244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-05-–-kopiya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-06-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-06-300x244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-06-–-kopiya-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-06-–-kopiya-300x244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-06-–-kopiya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/client-06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/leocar-owner-1024x673.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/leocar-owner-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/leocar-owner-300x197.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/leocar-owner-768x505.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/leocar-owner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/subscription-includes-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/subscription-includes-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/subscription-includes-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/subscription-includes-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/subscription-includes-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2024/06/subscription-includes-06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leocar.loc.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/about-block/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/about-block/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/car-return/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/car-return/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog-purchase/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog-purchase/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/catalog/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/intro/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/intro/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/our-clients/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/our-clients/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/redemption-algorithm/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/redemption-algorithm/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/subscription-includes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/subscription-includes/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/subscription-provides/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/subscription-provides/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/subscription-steps/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/subscription-steps/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,15 +95,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/DOMAINS/leocar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\OSPanel\domains\leocar.loc" />
+      <recent name="C:\OSPanel\domains" />
       <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes\leocar\assets" />
       <recent name="C:\OSPanel\domains\leocar.loc\wp-content\plugins" />
       <recent name="C:\OSPanel\domains\leocar.loc\wp-content" />
-      <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes\leocar\blocks" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -54,7 +120,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1d74bb30-0ac9-4a01-9116-d70f5f49baf1" name="Changes" comment="" />
+      <changelist id="7bba2faf-1766-4774-818c-35782027063f" name="Default Changelist" comment="" />
       <created>1714649696970</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -62,6 +128,8 @@
       <workItem from="1714649698052" duration="2516000" />
       <workItem from="1714652970283" duration="15459000" />
       <workItem from="1715780289775" duration="980000" />
+      <workItem from="1718786968195" duration="1711000" />
+      <workItem from="1718795832463" duration="13295000" />
     </task>
     <servers />
   </component>
@@ -77,5 +145,9 @@
       <screen x="0" y="0" width="1280" height="752" />
     </state>
     <state x="321" y="15" key="FileChooserDialogImpl/0.0.1280.752@0.0.1280.752" timestamp="1715781140681" />
+    <state x="250" y="42" width="787" height="682" key="find.popup" timestamp="1718803351508">
+      <screen x="0" y="0" width="1280" height="752" />
+    </state>
+    <state x="250" y="42" width="787" height="682" key="find.popup/0.0.1280.752@0.0.1280.752" timestamp="1718803351508" />
   </component>
 </project>

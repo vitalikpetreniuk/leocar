@@ -1,6 +1,8 @@
 <section id="leo-catalog" class="leo-catalog relative z-[2] mt-16 pt-4 pb-4 1100:mt-20">
     <div class="container">
-        <h2><?php esc_html_e('Каталог автомобілів','leocar'); ?></h2>
+        <?php if(get_field('title')) { ?>
+            <h2><?=get_field('title')?></h2>
+        <?php   } ?>
         <div class="catalog-list mt-11 flex flex-col gap-y-14 768:flex-row 768:flex-wrap 768:gap-x-5">
             <!-- якщо додати клас mechanics для ітема, то виведеться плашка механіки -->
             <?php $args = [
