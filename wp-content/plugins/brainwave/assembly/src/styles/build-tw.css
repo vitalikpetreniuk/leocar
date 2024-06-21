@@ -1269,7 +1269,7 @@ form input[type=email]::placeholder,form input[type=tel]::placeholder,form input
   color:rgb(250 250 250 / .7)
 }
 
-form input#td-date,form input#td-time{
+form input#td-date,form select#td-time{
   display:block;
   width:100%;
   border-radius:2.5rem;
@@ -1286,17 +1286,22 @@ form input#td-date,form input#td-time{
   --tw-text-opacity:1;
   color:rgb(250 250 250 / var(--tw-text-opacity));
   outline:2px solid transparent;
-  outline-offset:2px;
-  -webkit-backdrop-filter:blur(25px);
-          backdrop-filter:blur(25px)
+  outline-offset:2px
 }
 
-form input#td-date::-moz-placeholder, form input#td-time::-moz-placeholder{
+form input#td-date::-moz-placeholder, form select#td-time::-moz-placeholder{
   color:rgb(250 250 250 / .7)
 }
 
-form input#td-date::placeholder,form input#td-time::placeholder{
+form input#td-date::placeholder,form select#td-time::placeholder{
   color:rgb(250 250 250 / .7)
+}
+
+form select#td-time{
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  text-indent:1px;
+  text-overflow:''
 }
 
 form input[type=email][aria-invalid=true],form input[type=tel][aria-invalid=true],form input[type=text][aria-invalid=true]{
@@ -1956,9 +1961,9 @@ footer .leo-logo img{
   outline-width:0
 }
 
-.modal form input#td-time{
+.modal form select#td-time{
   box-sizing:border-box;
-  width:4rem!important;
+  width:5rem!important;
   text-align:center;
   --tw-text-opacity:1!important;
   color:rgb(250 250 250 / var(--tw-text-opacity))!important;
@@ -4114,10 +4119,6 @@ video {
   line-height:1rem
 }
 
-.text-\[13px\]{
-  font-size:13px
-}
-
 .font-normal{
   font-weight:400
 }
@@ -5238,12 +5239,12 @@ video {
     margin-top:0.875rem
   }
 
-  .\31 100\:mt-36{
-    margin-top:9rem
-  }
-
   .\31 100\:mt-7{
     margin-top:1.75rem
+  }
+
+  .\31 100\:mt-8{
+    margin-top:2rem
   }
 
   .\31 100\:mt-9{

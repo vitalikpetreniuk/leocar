@@ -1,4 +1,4 @@
-<section id="leo-catalog" class="leo-catalog relative z-[2] mt-32 pt-4 pb-4 1100:mt-36">
+<section id="leo-catalog" class="leo-catalog relative z-[2] mt-32 pt-4 pb-4 1100:mt-8">
     <div class="container">
         <?php if(get_field('title')) { ?>
             <h2><?=get_field('title')?></h2>

@@ -99,12 +99,18 @@
         placeholder:text-white/[.7]
     }
     form input#td-date,
-    form input#td-time {
-        @apply block w-full px-3 py-2 !bg-car blur-25 rounded-[2.5rem] border-0
+    form select#td-time {
+        @apply block w-full px-3 py-2 !bg-car rounded-[2.5rem] border-0
         font-400 text-base/[1.35] text-white
         outline-none
 
         placeholder:text-white/[.7]
+    }
+    form select#td-time {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		text-indent: 1px;
+		text-overflow: '';
     }
     form input[type="tel"][aria-invalid="true"],
     form input[type="email"][aria-invalid="true"],

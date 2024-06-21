@@ -42,8 +42,8 @@
     .modal form input#td-date {
         @apply box-border !w-32 !text-white text-center outline-0 !shadow-none
     }
-    .modal form input#td-time {
-        @apply box-border !w-16 !text-white text-center outline-0 !shadow-none
+    .modal form select#td-time {
+        @apply box-border !w-20 !text-white text-center outline-0 !shadow-none
     }
 
     .modal form .wpcf7-checkbox input[type="checkbox"] {
