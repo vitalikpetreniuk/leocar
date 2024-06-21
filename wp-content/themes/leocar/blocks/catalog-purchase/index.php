@@ -82,8 +82,9 @@
     </div>
 </section>
 <script>
-    jQuery('.test-drive').on('click', function()    {
+    jQuery('.test-drive').not('.simple').on('click', function()    {
         var product = jQuery(this).parent().data('product');
+        jQuery('.modal.drive form input.product').val('');
         jQuery('.modal.drive form input.product').val(product);
     });
 </script>

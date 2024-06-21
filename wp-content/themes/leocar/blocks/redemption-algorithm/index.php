@@ -16,8 +16,6 @@
                     </li>
                 <?php } ?>
 			</ul>
-        <?php if(get_field('button')['title']&&get_field('button')['url']) { ?>
-            <a class="button button-no-hover mt-4 768:max-w-[275px] 768:mx-auto 1100:mt-9" target="<?=get_field('button')['title']?>" href="<?=get_field('button')['url']?>"><?=get_field('button')['title']?></a>
-        <?php   } ?>
+            <button class="require-call button button-no-hover mt-4 768:max-w-[275px] 768:mx-auto 1100:mt-9"><?php esc_html_e('Замовити консультацію','leocar'); ?></button>
 	</div>
 </section>

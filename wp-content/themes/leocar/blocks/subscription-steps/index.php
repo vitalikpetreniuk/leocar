@@ -5,9 +5,7 @@
                 <?php if(get_field('title')) { ?>
                 <p class="font-700 text-2xl 1024:text-3xl 1024:mb-6"><?=get_field('title')?></p>
                 <?php   } ?>
-                <?php if(get_field('button_1')['title']&&get_field('button_1')['url']) { ?>
-                    <a class="button hidden max-w-none mb-2 1024:flex" target="<?=get_field('button_1')['title']?>" href="<?=get_field('button_1')['url']?>"><?=get_field('button_1')['title']?></a>
-                <?php   } ?>
+                <button class="require-call button hidden max-w-none mb-2 1024:flex"><?php esc_html_e('Замовити консультацію','leocar'); ?></button>
                 <?php if(get_field('button_2')['title']&&get_field('button_2')['url']) { ?>
                     <a class="button button-transparent hidden max-w-none 1024:flex" target="<?=get_field('button_2')['title']?>" href="<?=get_field('button_2')['url']?>"><?=get_field('button_2')['title']?></a>
                 <?php   } ?>
@@ -25,9 +23,7 @@
                     </li>
                 <?php } ?>
 			</ul>
-            <?php if(get_field('button_1')['title']&&get_field('button_1')['url']) { ?>
-                <a class="button max-w-none mb-2 1024:hidden" target="<?=get_field('button_1')['title']?>" href="<?=get_field('button_1')['url']?>"><?=get_field('button_1')['title']?></a>
-            <?php   } ?>
+            <button class="require-call button max-w-none mb-2 1024:hidden"><?php esc_html_e('Замовити консультацію','leocar'); ?></button>
             <?php if(get_field('button_2')['title']&&get_field('button_2')['url']) { ?>
                 <a class="button button-transparent max-w-none 1024:hidden" target="<?=get_field('button_2')['title']?>" href="<?=get_field('button_2')['url']?>"><?=get_field('button_2')['title']?></a>
             <?php   } ?>

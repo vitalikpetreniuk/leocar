@@ -42,7 +42,7 @@
                                     </div>
                                     <div class="absolute z-[2] right-5 bottom-5 colors flex justify-end items-center gap-x-2.5">
                                         <?php if($colors) foreach($colors as $color) { ?>
-                                        <a class="w-4 h-4 border border-white rounded-full indent-[-9999px]" href="#" style="background:<?=$color['color']?>;"><?=$color['color']?></a>
+                                        <button class="w-4 h-4 border border-white rounded-full indent-[-9999px]" style="background:<?=$color['color']?>;cursor:auto;"><?=$color['color']?></button>
                                         <?php   } ?>
                                     </div>
                                 </div>
@@ -87,8 +87,9 @@
     </div>
 </section>
 <script>
-    jQuery('.test-drive').on('click', function()    {
+    jQuery('.test-drive').not('.simple').on('click', function()    {
         var product = jQuery(this).parent().data('product');
+        jQuery('.modal.drive form input.product').val('');
         jQuery('.modal.drive form input.product').val(product);
     });
 </script>

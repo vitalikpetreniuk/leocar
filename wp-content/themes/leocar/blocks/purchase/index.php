@@ -12,9 +12,12 @@
 			<div class="max-w-[610px]">
 				<p class="font-700 text-lg 1024:text-[25px]"><?=get_field('text')?></p>
 			</div>
-			<?php if(get_field('button_text')) { ?>
-				<button class="test-drive button mt-5 1024:max-w-[335px] 1024:mt-6"><?php echo get_field('button_text')?></button>
-			<?php } ?>
+    		<button class="test-drive simple button mt-5 1024:max-w-[335px] 1024:mt-6"><?php esc_html_e('Замовити тест-драйв','leocar'); ?></button>
 		</div>
 	</div>
 </section>
+<script>
+    jQuery('.test-drive.simple').on('click', function()    {
+        jQuery('.modal.drive form input.product').val('Будь-яке авто');
+    });
+</script>
