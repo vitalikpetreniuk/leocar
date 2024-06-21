@@ -1,7 +1,7 @@
 <section class="leo-car-return pt- 1024:pt-24 1024:pb-12">
 	<div class="container">
-		<div class="1024:flex 1024:items-start">
-			<div class="mb-5 max-w-[500px] 1024:mb-0 1024:pr-9">
+		<div class="1024:flex 1024:items-start 1024:gap-8">
+			<div class="mb-5 max-w-[500px] 1024:max-w-none 1024:w-[calc(50%-16px)] 1024:mb-0 1024:pr-9">
                 <?php if(get_field('title')) { ?>
                 <p class="font-700 text-xl 768:text-3xl 1024:mb-24"><?=get_field('title')?></p>
                 <?php   } ?>
@@ -32,7 +32,7 @@
                     <?php   } ?>
 				</div>
 			</div>
-			<div class="relative flex flex-col gap-1 mb-6 1024:w-full 1024:before:absolute 1024:before:top-[-80px] 1024:before:right-[-20px] 1024:before:w-[200px] 1024:before:h-[200px] 1024:before:bg-[url(../images/car-return-decor.png)] 1024:before:bg-contain 1024:before:bg-no-repeat 1024:before:bg-center 1024:before:pointer-events-none z-[2]">
+			<div class="relative flex flex-col gap-1 mb-6 1024:w-[calc(50%-16px)] 1024:before:absolute 1024:before:top-[-80px] 1024:before:right-[-20px] 1024:before:w-[200px] 1024:before:h-[200px] 1024:before:bg-[url(../images/car-return-decor.png)] 1024:before:bg-contain 1024:before:bg-no-repeat 1024:before:bg-center 1024:before:pointer-events-none z-[2]">
                 <?php if(get_field('list_items')) foreach(get_field('list_items') as $item)  { ?>
                     <div class="leo-car-return__spoiler bg-[#1c1c1c] px-4 rounded-[20px] 1024:px-8">
                         <?php if($item['zagolovok']) { ?>

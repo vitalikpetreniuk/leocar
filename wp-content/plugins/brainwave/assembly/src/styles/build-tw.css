@@ -4838,6 +4838,10 @@ video {
     width:100%
   }
 
+  .\31 024\:w-\[calc\(50\%-16px\)\]{
+    width:calc(50% - 16px)
+  }
+
   .\31 024\:max-w-\[220px\]{
     max-width:220px
   }
