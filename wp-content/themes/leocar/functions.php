@@ -74,3 +74,26 @@ function custom_car_column( $column, $post_id ) {
     if($column == 'available' && get_post_meta( $post_id , 'available' , true ) == 1)
         echo '<img style="width:25px;" src="'.get_template_directory_uri().'/assets/images/check.png">';
 }
+
+function timeago($date) {
+    $timestamp = strtotime($date);
+    $strTime_1 = array("секунду", "хвилину", "годину", "день", "місяць", "рік");
+    $strTime_2 = array("секунди", "хвилини", "години", "дні", "місяці", "роки");
+    $strTime_3 = array("секунд", "хвилин", "годин", "днів", "місяців", "років");
+    $strTime = [$strTime_1, $strTime_2, $strTime_3];
+    $length = array("60","60","24","30","12","10");
+
+    $currentTime = time();
+    if($currentTime >= $timestamp) {
+        $diff     = time() - $timestamp;
+        for($i = 0; $diff >= $length[$i] && $i < count($length)-1; $i++) {
+            $diff = $diff / $length[$i];
+        }
+
+        $diff = round($diff);
+        $period = 2;
+        if($diff % 10 == 1) $period = 0;
+        elseif($diff % 10 == 2||$diff % 10 == 3||$diff % 10 == 4) $period = 1;
+        return $diff . " " . $strTime[$period][$i] . " тому ";
+    }
+}

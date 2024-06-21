@@ -19,8 +19,13 @@
                 <?php if(get_field('title')) { ?>
                 <h2 class="box-border 1024:!text-4xl/[1.4] 1024:text-left 1024:px-8 1100:!text-5xl/[1.4]"><?=get_field('title')?></h2>
                 <?php   } ?>
-                <button class="test-drive button button-inverted mt-5 1024:max-w-[275px] 1024:mx-8"><?=get_field('button_text')?></button>
+                <button class="test-drive simple button button-inverted mt-5 1024:max-w-[275px] 1024:mx-8"><?=get_field('button_text')?></button>
             </div>
         </div>
     </div>
 </section>
+<script>
+    jQuery('.test-drive.simple').on('click', function()    {
+        jQuery('.modal.drive form input.product').val('Будь-яке авто');
+    });
+</script>

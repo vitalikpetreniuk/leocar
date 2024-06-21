@@ -30,9 +30,15 @@
 	</div>
     <div class="leo-message cursor-pointer fixed right-5 bottom-5 z-[5] 1100:right-auto 1100:left-10 1100:bottom-10 1100:w-14 1100:h-14 1280:z-[55]">
         <ul class="opacity-0  invisible absolute right-0 bottom-14 flex flex-col gap-y-1.5 1100:right-auto 1100:left-0 1100:bottom-16">
-            <li><a href="#"><?php renderAssetsSVG('svg/telegram'); ?></a></li>
-            <li><a href="#"><?php renderAssetsSVG('svg/viber'); ?></a></li>
-            <li><a href="#"><?php renderAssetsSVG('svg/whatsapp'); ?></a></li>
+            <?php if(get_field('telegram','options')) { ?>
+                <li><a href="<?=get_field('telegram','options')?>"><?php renderAssetsSVG('svg/telegram'); ?></a></li>
+            <?php   } ?>
+            <?php if(get_field('viber','options')) { ?>
+                <li><a href="<?=get_field('viber','options')?>"><?php renderAssetsSVG('svg/viber'); ?></a></li>
+            <?php   } ?>
+            <?php if(get_field('whats_app','options')) { ?>
+                <li><a href="<?=get_field('whats_app','options')?>"><?php renderAssetsSVG('svg/whatsapp'); ?></a></li>
+            <?php   } ?>
         </ul>
         <span class="relative flex justify-center items-center w-11 h-11 rounded-full box-border border border-accent bg-black 1100:w-14 1100:h-14"><?php renderAssetsSVG('svg/mail'); ?><?php renderAssetsSVG('svg/close-thin'); ?></span>
     </div>
