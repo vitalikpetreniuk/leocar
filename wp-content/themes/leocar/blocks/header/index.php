@@ -57,6 +57,22 @@
                 <?php
                 $menu_args = array(); // Initialize empty array
 
+                if ( is_page() ) { // Check if it's a page
+                    $body_class = join(' ', get_body_class()); // Get all body classes as a string
+                    if ( strpos( $body_class, 'page-id-8' ) !== false ) {
+                        $menu_args = array(
+                            'theme_location' => 'rent-header',
+                            'items_wrap'     => '<ul class="leo-nav flex flex-col gap-y-4">%3$s</ul>'
+                        );
+                    } elseif ( strpos( $body_class, 'page-id-29' ) !== false ) {
+                        $menu_args = array(
+                            'theme_location' => 'purchase-header',
+                            'items_wrap'     => '<ul class="leo-nav flex flex-col gap-y-4">%3$s</ul>'
+                        );
+
+                    }
+                }
+
                 if ( !empty( $menu_args ) ) {
                     wp_nav_menu( $menu_args );
                 }
