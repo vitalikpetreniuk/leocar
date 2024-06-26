@@ -29,8 +29,10 @@ export default function home() {
         }
     }
 
-    // Insert the select element after the input
-    timeInput.parentNode.insertBefore(timeSelect, timeInput.nextSibling);
+	if (timeInput) {
+		// Insert the select element after the input
+		timeInput.parentNode.insertBefore(timeSelect, timeInput.nextSibling);
+	}
 
     /* TIME */
 

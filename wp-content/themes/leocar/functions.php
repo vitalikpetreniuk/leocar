@@ -63,6 +63,7 @@ function set_custom_edit_car_columns($columns) {
         'cb' => $columns['cb'],
         'title' => $columns['title'],
         'available' => __( 'В наявності', 'leocar' ),
+        'visibility' => __( 'Видимість', 'leocar' ),
         'date' => $columns['date']
     ];
     return $new_columns;
@@ -73,6 +74,12 @@ add_action( 'manage_car_posts_custom_column' , 'custom_car_column', 10, 2 );
 function custom_car_column( $column, $post_id ) {
     if($column == 'available' && get_post_meta( $post_id , 'available' , true ) == 1)
         echo '<img style="width:25px;" src="'.get_template_directory_uri().'/assets/images/check.png">';
+    if($column == 'visibility') {
+        $arr = get_field('visibility', $post_id);
+        asort($arr);
+        echo implode(', ', $arr);
+    }
+
 }
 
 function timeago($date) {

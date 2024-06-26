@@ -40,7 +40,7 @@
                             <div class="w-7 h-7 1024:w-5 1024:h-5">
                                 <img class="w-full h-full object-contain" src="/wp-content/themes/leocar/assets/images/icons/header-tel.png" alt="">
                             </div>
-                            <p class="text-body font-700 text-[15px]"><?=get_field('phone','options')?></p>
+                            <p class="hidden text-body text-[15px] 1024:block"><?=get_field('phone','options')?></p>
                         </a>
                     <?php   } ?>
                 </div>

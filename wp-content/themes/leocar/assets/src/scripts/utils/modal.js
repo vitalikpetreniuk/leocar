@@ -31,8 +31,42 @@ export default function modal() {
         });
     }
 
-    function closeModals() {
-        modalWrap.classList.remove('call', 'drive', 'conditions');
-        body.classList.remove('modal-open');
-    }
+	document.addEventListener('mouseup', function(e) {
+		// Назва контейнеру
+		let container = document.querySelector('.modal.call');
+		// Умова, щоб працювало тільки коли попап відкритий
+		if (modalWrap.classList.contains('call')) {
+  
+			 if (!e.target.closest('a') && !container.contains(e.target)) {
+				closeModals();
+			}
+		}
+	});
+	document.addEventListener('mouseup', function(e) {
+		// Назва контейнеру
+		let container = document.querySelector('.modal.drive');
+		// Умова, щоб працювало тільки коли попап відкритий
+		if (modalWrap.classList.contains('drive')) {
+  
+			 if (!e.target.closest('a') && !container.contains(e.target)) {
+				closeModals();
+			}
+		}
+	});
+	document.addEventListener('mouseup', function(e) {
+		// Назва контейнеру
+		let container = document.querySelector('.modal.conditions');
+		// Умова, щоб працювало тільки коли попап відкритий
+		if (modalWrap.classList.contains('conditions')) {
+  
+			 if (!e.target.closest('a') && !container.contains(e.target)) {
+				closeModals();
+			}
+		}
+	});
+
+	function closeModals() {
+		modalWrap.classList.remove('call', 'drive', 'conditions');
+		body.classList.remove('modal-open');
+	}
 }
