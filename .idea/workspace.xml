@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="7bba2faf-1766-4774-818c-35782027063f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/header/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/header/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/our-clients/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/leocar/blocks/our-clients/index.php" afterDir="false" />
+=======
+    <list default="true" id="1d74bb30-0ac9-4a01-9116-d70f5f49baf1" name="Changes" comment="Fix Bags">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +41,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< Updated upstream
       <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes" />
+=======
+      <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes\leocar\blocks" />
+>>>>>>> Stashed changes
       <recent name="C:\OSPanel\domains\leocar.loc" />
       <recent name="C:\OSPanel\domains" />
       <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes\leocar\assets" />
       <recent name="C:\OSPanel\domains\leocar.loc\wp-content\plugins" />
+<<<<<<< Updated upstream
+=======
+      <recent name="C:\OSPanel\domains\leocar.loc\wp-content" />
+>>>>>>> Stashed changes
     </key>
   </component>
   <component name="SharedIndexes">
@@ -65,6 +78,7 @@
       <workItem from="1714649698052" duration="2516000" />
       <workItem from="1714652970283" duration="15459000" />
       <workItem from="1715780289775" duration="980000" />
+<<<<<<< Updated upstream
       <workItem from="1718786968195" duration="1711000" />
       <workItem from="1718795832463" duration="22745000" />
       <workItem from="1718891015003" duration="5444000" />
@@ -73,6 +87,9 @@
       <workItem from="1719813806141" duration="1849000" />
       <workItem from="1720075131352" duration="17000" />
       <workItem from="1720085778986" duration="108000" />
+=======
+      <workItem from="1720096723379" duration="388000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -84,6 +101,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Fix Bags" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< Updated upstream
     <state x="321" y="15" key="FileChooserDialogImpl" timestamp="1719815119087">
       <screen x="0" y="0" width="1280" height="752" />
     </state>
@@ -96,5 +114,11 @@
       <screen x="0" y="0" width="1280" height="752" />
     </state>
     <state x="250" y="42" width="787" height="682" key="find.popup/0.0.1280.752@0.0.1280.752" timestamp="1718886450506" />
+=======
+    <state x="321" y="15" key="FileChooserDialogImpl" timestamp="1720093013695">
+      <screen x="0" y="0" width="1280" height="752" />
+    </state>
+    <state x="321" y="15" key="FileChooserDialogImpl/0.0.1280.752@0.0.1280.752" timestamp="1720093013695" />
+>>>>>>> Stashed changes
   </component>
 </project>
