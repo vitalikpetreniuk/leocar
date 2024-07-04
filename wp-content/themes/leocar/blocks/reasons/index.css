@@ -1,7 +1,0 @@
-@tailwind components;
-
-@layer components {
-    .leo-reasons svg {
-        @apply block w-full h-auto
-    }
-}
