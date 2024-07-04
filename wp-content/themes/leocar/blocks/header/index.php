@@ -55,29 +55,29 @@
         <div class="container pt-40 pl-10 flex flex-col gap-y-4 1280:pt-44">
             <nav>
                 <?php
-                $menu_args = array(); // Initialize empty array
-
-                if ( is_page() ) { // Check if it's a page
-                    $body_class = join(' ', get_body_class()); // Get all body classes as a string
-                    if ( strpos( $body_class, 'page-id-8' ) !== false ) {
-                        $menu_args = array(
-                            'theme_location' => 'rent-header',
-                            'items_wrap'     => '<ul class="leo-nav flex flex-col gap-y-4">%3$s</ul>'
-                        );
-                    } elseif ( strpos( $body_class, 'page-id-29' ) !== false ) {
-                        $menu_args = array(
-                            'theme_location' => 'purchase-header',
-                            'items_wrap'     => '<ul class="leo-nav flex flex-col gap-y-4">%3$s</ul>'
-                        );
-
-                    }
-                }
+                if(get_field('menu'))
+                    $menu_args = array(
+                        'theme_location' => get_field('menu')->slug.'-header',
+                        'items_wrap'     => '<ul class="leo-nav flex flex-col gap-y-4">%3$s</ul>'
+                    );
 
                 if ( !empty( $menu_args ) ) {
-                    wp_nav_menu( $menu_args );
+                    wp_nav_menu( $menu_args ); ?>
+                    <?php
                 }
                 ?>
             </nav>
+            <!-- Додаєм пункт "Ціни" в меню -->
+            <?php if(get_field('add_purchase_price')) { ?>
+                <?php if(get_field('price_purchase','options')['title']&&get_field('price_purchase','options')['url']) { ?>
+                    <a class="" target="<?=get_field('price_purchase','options')['title']?>" href="<?=get_field('price_purchase','options')['url']?>"><?=get_field('price_purchase','options')['title']?></a>
+                <?php   } ?>
+            <?php   } ?>
+            <?php if(get_field('add_rent_price')) { ?>
+                <?php if(get_field('price_rent','options')['title']&&get_field('price_rent','options')['url']) { ?>
+                    <a class="" target="<?=get_field('price_rent','options')['title']?>" href="<?=get_field('price_rent','options')['url']?>"><?=get_field('price_rent','options')['title']?></a>
+                <?php   } ?>
+            <?php   } ?>
         </div>
         <div class="absolute bottom-0 left-0 w-full 1280:bottom-24">
             <div class="container pl-10 mb-16 1280:mb-0">
