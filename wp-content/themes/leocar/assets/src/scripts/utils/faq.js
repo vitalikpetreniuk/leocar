@@ -1,0 +1,36 @@
+export default function faq() {
+	let faq = document.querySelector('.faq-list');
+	if (faq) {
+		let faqItems = faq.querySelectorAll('.faq-list > div');
+		faqItems.forEach(item => {
+			item.querySelector('h5').addEventListener('click', () => {
+				// Close siblings with class 'open' before toggling this item
+				item.parentElement.querySelectorAll('.open').forEach(openedItem => {
+					if (openedItem !== item) { // Exclude the clicked item itself
+						openedItem.classList.remove('open');
+					}
+				});
+
+				// Toggle the clicked item
+				item.classList.toggle('open');
+			});
+		});
+	}
+
+	let return_spoiler = document.querySelector('.leo-car-return__spoiler');
+	if (return_spoiler) {
+		document.querySelectorAll('.leo-car-return__spoiler').forEach(item => {
+			item.querySelector('h5').addEventListener('click', () => {
+				// Close siblings with class 'open' before toggling this item
+				item.parentElement.querySelectorAll('.open').forEach(openedItem => {
+					if (openedItem !== item) { // Exclude the clicked item itself
+						openedItem.classList.remove('open');
+					}
+				});
+
+				// Toggle the clicked item
+				item.classList.toggle('open');
+			});
+		});
+	}
+}

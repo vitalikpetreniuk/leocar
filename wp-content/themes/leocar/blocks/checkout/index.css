@@ -1,0 +1,250 @@
+@tailwind components;
+
+@layer components {
+    .leo-checkout form {
+        @apply mt-6 1100:flex 1100:flex-wrap 1100:justify-start 1100:items-start 1100:mt-4
+    }
+
+    .leo-checkout form select {
+        @apply hidden max-w-[100%]
+    }
+
+    .fields-left {
+        @apply flex flex-col gap-y-2.5
+        1100:w-[calc(66.667%-10px)] 1100:mr-5
+    }
+    .fields-left .fields {
+        @apply bg-dark rounded-[15px] px-4 py-6
+    }
+    .fields-left .fields .fields-header h4 {
+        @apply text-base font-700
+    }
+    .fields-left .fields-body {
+        @apply mt-7
+    }
+    .fields-left .fields-body label {
+        @apply cursor-pointer py-4 1100:py-3.5
+    }
+    .fields-left .fields-body fieldset > div {
+        @apply relative
+    }
+    .fields-left .additional-fields .fields-body > div {
+        @apply relative
+    }
+    .fields-left .fields-body fieldset > div:not(:last-child):after,
+    .fields-left .additional-fields .fields-body > div:not(:nth-last-child(2)):after {
+        background: linear-gradient(90deg, rgba(21, 21, 21, 0.15) 0%, rgba(153, 153, 153, 0.15) 46%, rgba(21, 21, 21, 0.15) 100%);
+
+        @apply content-[''] block absolute left-0 right-0 bottom-0 h-px
+    }
+    .fields-left .fields-body fieldset > div input {
+        @apply hidden
+    }
+    .fields-left .fields-body fieldset > div label {
+        @apply relative pl-7 font-700 text-sm flex justify-between items-center
+        before:content-[''] before:block before:absolute before:left-0 before:top-[50%] before:-translate-y-[50%] before:w-4 before:h-4 before:rounded-[50%] before:box-border before:border before:border-accent
+        after:content-[''] after:block after:absolute after:left-1 after:top-[50%] after:-translate-y-[50%] after:w-2 after:h-2 after:rounded-[50%] after:bg-accent after:invisible
+    }
+    .fields-left .fields-body fieldset > div input:checked + label {
+        @apply after:visible
+    }
+    .fields-left .fields-body fieldset > div label[for="additional"] {
+        @apply text-[#F8B132]
+    }
+    .fields-left .fields-body fieldset > div label[for="plus"] {
+        @apply text-accent
+    }
+    .fields-left .fields-body fieldset > div label span {
+        @apply font-400 text-white
+    }
+
+    .fields-left .additional-fields .fields-body > div label {
+        @apply relative pl-7 text-sm flex justify-between items-start
+        before:content-[''] before:block before:w-4 before:h-4 before:absolute before:left-0 before:top-[18px] before:rounded-[5px] before:box-border before:border before:border-white
+        after:content-[''] after:block after:w-2 after:h-1.5 after:absolute after:left-1 after:top-[23px] after:bg-[url('../images/svg/checkmark.svg')] after:bg-no-repeat after:bg-center after:invisible
+
+        1100:before:top-4 1100:after:top-[21px]
+    }
+    .fields-left .additional-fields .fields-body > div input:checked + label {
+        @apply before:border-accent after:visible
+    }
+    .fields-left .additional-fields .fields-body > div input {
+        @apply hidden
+    }
+    .fields-left .additional-fields .fields-body > div label span {
+        @apply block text-right min-w-[120px] box-border
+    }
+
+    .fields-left .additional-fields .fields-body > input {
+        @apply mt-10
+    }
+
+    .fields-left .driver-fields {
+        @apply pb-10 1100:order-1
+    }
+    .fields-left .driver-fields .fields-body {
+        @apply flex-row gap-x-5
+    }
+
+
+    .fields-right {
+        @apply flex flex-col
+        820:flex-row 820:flex-wrap 820:gap-x-5
+        1100:w-[calc(33.333%-10px)] 1100:-mt-[61px]
+    }
+
+    .fields-right .receive-fields,
+    .fields-right .return-fields {
+        @apply relative mt-11 bg-dark rounded-[15px] px-4 py-8
+        820:w-[calc(50%-10px)] 1100:w-full 1100:order-2
+    }
+    .fields-right .receive-fields .header,
+    .fields-right .return-fields .header {
+        @apply absolute left-3.5 -top-5 h-9 px-3 bg-[#363636] rounded-[15px]
+        text-white font-400 text-sm/[36px]
+    }
+    .fields-right .receive-fields .body .fields > div,
+    .fields-right .return-fields .body .fields > div {
+        @apply flex flex-wrap items-center gap-x-1 gap-y-5
+    }
+    .fields-right .receive-fields .body .fields > div > span,
+    .fields-right .return-fields .body .fields > div > span {
+        @apply block w-full
+    }
+    .fields-right .receive-fields .body .fields > select,
+    .fields-right .return-fields .body .fields > select {
+        @apply mt-5
+    }
+
+    .fields-right .receive-fields .body .fields input#date-receive,
+    .fields-right .return-fields .body .fields input#date-return {
+        @apply px-4 !w-[120px] !h-9 rounded-[40px] !bg-[#000000]/[.3] !border-none text-center
+    }
+    .fields-right .receive-fields .body .fields button,
+    .fields-right .return-fields .body .fields button {
+        @apply w-full max-w-none mt-5 mb-2.5
+    }
+
+    .fields-right .receive-fields .body .receive-info,
+    .fields-right .return-fields .body .return-info {
+        @apply relative
+    }
+    .fields-right .receive-fields .body .receive-info,
+    .fields-right .return-fields .body .return-info {
+        @apply relative
+    }
+    .fields-right .receive-fields .body .receive-info .edit,
+    .fields-right .return-fields .body .return-info .edit {
+        @apply absolute z-[2] -top-1 right-0 p-2.5 cursor-pointer
+    }
+    .fields-right .receive-fields .body .receive-info .date,
+    .fields-right .return-fields .body .return-info .date {
+        @apply relative
+    }
+    .fields-right .receive-fields .body .receive-info .date > div,
+    .fields-right .return-fields .body .return-info .date > div {
+        @apply font-700 text-base
+    }
+    .fields-right .receive-fields .body .receive-info .date > div span,
+    .fields-right .return-fields .body .return-info .date > div span {
+        @apply font-400 text-[#25D366]
+    }
+    .fields-right .receive-fields .body .receive-info .date > div + span,
+    .fields-right .return-fields .body .return-info .date > div + span {
+        @apply absolute top-[calc(100%-1px)] left-0 text-[12px]/[.9] text-[#25D366]
+    }
+    .fields-right .receive-fields .body .receive-info > span,
+    .fields-right .return-fields .body .return-info > span {
+        @apply block mt-5 text-sm
+    }
+
+    .fields-right .car-info {
+        @apply w-full
+    }
+    .fields-right .car-info .car-image {
+        @apply mt-5 bg-car rounded-[5px] px-4 aspect-[1/.82]
+        flex items-center justify-center
+        1100:mt-0
+    }
+    .fields-right .car-info .car-image img {
+        @apply block w-full h-auto
+    }
+    .fields-right .car-info .car-content {
+        @apply mt-5
+    }
+
+    .fields-right .car-info .car-content > div:first-child > span {
+        @apply block relative mt-4 py-4
+    }
+    .fields-right .car-info .car-content > div:first-child > span:before,
+    .fields-right .car-info .car-content > div:first-child > span:after {
+        background: linear-gradient(90deg, rgba(21, 21, 21, 0.15) 0%, rgba(153, 153, 153, 0.15) 46%, rgba(21, 21, 21, 0.15) 100%);
+    }
+    .fields-right .car-info .car-content > div:first-child > span:before {
+        @apply content-[''] block absolute left-0 right-0 top-0 h-px
+    }
+    .fields-right .car-info .car-content > div:first-child > span:after {
+        @apply content-[''] block absolute left-0 right-0 bottom-0 h-px
+    }
+    .fields-right .car-info .car-content h5 {
+        @apply uppercase
+    }
+    .fields-right .car-info .car-content ul {
+        @apply mt-4
+    }
+
+    .fields-right .car-info .car-content > div.not-empty ul {
+        @apply block
+    }
+    .fields-right .car-info .car-content > div.not-empty .empty {
+        @apply hidden
+    }
+
+    .fields-right .car-info .car-content ul li {
+        @apply relative py-4 flex justify-between items-center
+    }
+    .fields-right .car-info .car-content ul li:before {
+        background: linear-gradient(90deg, rgba(21, 21, 21, 0.15) 0%, rgba(153, 153, 153, 0.15) 46%, rgba(21, 21, 21, 0.15) 100%);
+
+        @apply content-[''] block absolute left-0 right-0 top-0 h-px
+    }
+    .fields-right .car-info .car-content ul li:last-child:after {
+        background: linear-gradient(90deg, rgba(21, 21, 21, 0.15) 0%, rgba(153, 153, 153, 0.15) 46%, rgba(21, 21, 21, 0.15) 100%);
+
+        @apply content-[''] block absolute left-0 right-0 bottom-0 h-px
+    }
+
+    .fields-right .car-info .car-content .total {
+        @apply mt-4 flex justify-between items-baseline
+    }
+    .fields-right .car-info .car-content .total > span {
+        @apply text-accent text-[26px] font-700
+    }
+
+    .fields-right .car-info .car-content .deposit {
+        @apply text-[15px] text-right leading-[1]
+    }
+
+    .leo-checkout form input[type="submit"] {
+        @apply bg-none pr-0
+        1100:w-[calc(66.667%-10px)]
+    }
+
+    .leo-checkout .fields-body .iti {
+        @apply block w-full
+    }
+    .leo-checkout .fields-body > .iti {
+        @apply max-w-[calc(50%-10px)]
+    }
+    .leo-checkout form input[type="submit"] {
+        @apply bg-none pr-0
+        1100:w-[calc(66.667%-10px)]
+    }
+
+    .leo-checkout .iti__selected-country-primary {
+        @apply !p-0
+    }
+    .leo-checkout .iti__search-input {
+        @apply !bg-transparent
+    }
+}

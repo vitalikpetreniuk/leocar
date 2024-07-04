@@ -1,0 +1,219 @@
+@import "../../../../../plugins/brainwave/assembly/node_modules/swiper/swiper-bundle.css";
+
+@tailwind components;
+
+@layer components {
+    .container {
+        @apply w-full max-w-[80rem]
+        mx-auto px-5
+    }
+
+    /*Typography*/
+
+    h1, .h1 {
+        @apply antialiased
+        font-700 font-normal !text-3xl/[1.4] text-white
+        1100:!text-5xl/[1.4]
+
+    }
+    h2, .h2 {
+        @apply antialiased
+        font-700 font-normal !text-2xl/[1.6] text-white
+        1100:!text-2xl
+		  text-center
+    }
+    h3, .h3 {
+        @apply antialiased
+        font-700 font-normal !text-xl/[1.6] text-white
+    }
+
+    .text-body {
+        @apply antialiased
+        font-400 font-normal text-base/[1.6] text-white
+    }
+    .text-small {
+        @apply antialiased
+        font-400 font-normal text-sm/[1.4] text-white
+    }
+
+    .button {
+        @apply flex justify-center items-center gap-x-[10px]
+        w-full h-12 rounded-2xl bg-accent
+        font-700 text-base
+        !cursor-pointer
+        transition duration-150
+
+        hover:bg-button-hover
+
+        1100:max-w-[21rem]
+    }
+
+    .button.button-transparent {
+        @apply bg-accent-transparent text-accent
+        hover:bg-accent-transparent-hover
+    }
+    .button.button-transparent.button-no-hover {
+        @apply hover:bg-accent-transparent hover:text-accent
+    }
+    .button.button-inverted {
+        @apply cursor-pointer hover:bg-white hover:text-accent
+    }
+    .button.button-sm {
+        @apply max-w-[17rem]
+    }
+
+    .button svg path {
+        @apply transition duration-150
+    }
+    .button.button-transparent svg path {
+        @apply fill-accent transition duration-150
+    }
+
+    header {
+        @apply flex-header z-50
+    }
+    main {
+        @apply flex-main
+    }
+    footer {
+        @apply flex-footer
+    }
+
+    body {
+        @apply
+        flex flex-col min-h-[100svh]
+        bg-black text-white
+        font-400 font-normal text-base/[1.6] antialiased
+    }
+    body.page-id-670 main.site-main,
+    body.page-id-673 main.site-main,
+    body.page-id-677 main.site-main,
+    body.page-id-679 main.site-main,
+    body.page-id-682 main.site-main
+    {
+        @apply pt-[105px] 1100:pt-[125px]
+    }
+
+    body.modal-open {
+        @apply h-full overflow-hidden
+    }
+
+    form {
+        @apply mt-4
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="tel"] {
+        @apply block w-full py-2.5 !bg-transparent border-b border-white/[.7]
+        font-400 text-base/[1.35] text-white
+        outline-none
+
+        placeholder:text-white/[.7]
+    }
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active{
+        -webkit-box-shadow: 0 0 0 30px rgb(32,32,32) inset !important;
+        outline: none !important;
+        background: transparent !important;
+        -webkit-text-fill-color: #FAFAFA !important;
+    }
+    form input#td-date,
+    form select#td-time {
+        @apply block w-full px-3 py-2 !bg-car rounded-[2.5rem] border-0
+        font-400 text-base/[1.35] text-white
+        outline-none
+
+        placeholder:text-white/[.7]
+    }
+    form select#td-time {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		text-indent: 1px;
+		text-overflow: '';
+    }
+    form input[type="tel"][aria-invalid="true"],
+    form input[type="email"][aria-invalid="true"],
+    form input[type="text"][aria-invalid="true"] {
+        border-color: #E31919 !important;
+    }
+    form input[type="text"]:active,
+    form input[type="text"]:focus,
+    form input[type="email"]:active,
+    form input[type="email"]:focus,
+    form input[type="tel"]:active,
+    form input[type="tel"]:focus {
+        @apply border-accent
+    }
+    form input[type="submit"] {
+        background-position: calc(50% + 45px) center;
+        @apply mt-5 pr-7
+        flex justify-center items-center gap-x-[10px]
+        w-full h-12 rounded-2xl
+        bg-accent bg-[url('../images/svg/send.svg')] bg-no-repeat
+        font-700 text-base
+        cursor-pointer
+        transition duration-150
+
+        hover:bg-[#25D366]
+    }
+
+    form p {
+        @apply flex flex-col gap-y-4
+    }
+    form .wpcf7-form-control-wrap {
+        @apply block relative
+    }
+
+
+    #leo-modals form .wpcf7-checkbox .wpcf7-list-item-label,
+    .leo-consult form .wpcf7-checkbox .wpcf7-list-item-label {
+        cursor: pointer !important;
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+        display:none
+    }
+    .scrollbar-hide {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+}
+
+body.modal-open
+/* , body.menu-open */
+ {
+    height: 100%;
+    overflow: hidden;
+}
+.scrollbar-hide::-webkit-scrollbar {
+    width: 0;
+}
+.subtitle-1 {
+    text-shadow:
+            -1px -1px 0 #FCFF00,
+            1px -1px 0 #FCFF00,
+            -1px 1px 0 #FCFF00,
+            1px 1px 0 #FCFF00;
+}
+.blur-25 {
+    backdrop-filter: blur(25px);
+}
+.blur-15 {
+    backdrop-filter: blur(15px);
+}
+.form-bg {
+    background: radial-gradient(191.05% 134.36% at 9.1% 2.14%, #212121 0%, rgba(102, 102, 102, 0.00) 100%), linear-gradient(189deg, #3D3D3D 2.37%, #101010 93.31%);
+    /* backdrop-filter: blur(25px); */
+}
+
+
+
+textarea,
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    -webkit-appearance: none;
+    border-radius: 0;
+}

@@ -1,0 +1,13 @@
+@tailwind components;
+
+@layer components {
+    .leo-page-title-alternative .breadcrumbs {
+        @apply 1100:justify-start 1100:text-sm/[19px]
+    }
+    .leo-page-title-alternative h2 {
+        @apply 1100:text-left 1100:!text-2xl/[26px]
+    }
+    .leo-page-title-alternative .breadcrumbs span:not(:last-child) {
+        @apply after:content-['-'] after:px-1
+    }
+}

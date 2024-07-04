@@ -1,0 +1,106 @@
+@tailwind components;
+
+@layer components {
+    footer {
+        background: radial-gradient(191.05% 134.36% at 9.1% 2.14%, #212121 0%, rgba(102, 102, 102, 0.00) 100%), linear-gradient(189deg, #3D3D3D 2.37%, #101010 93.31%);
+    }
+    footer .leo-logo svg {
+        @apply block !w-full !h-auto
+    }
+
+    footer .payment-svg {
+        @apply w-[80px]
+    }
+    footer .payment-svg svg {
+        @apply block w-full h-auto
+    }
+
+    #leo-modals.call, #leo-modals.drive, #leo-modals.thanks, #leo-modals.conditions,
+    #leo-modals.call .modal.call,
+    #leo-modals.drive .modal.drive,
+    #leo-modals.thanks .modal.thanks,
+    #leo-modals.conditions .modal.conditions {
+        @apply visible opacity-100
+    }
+
+    .modal form .date-time {
+        @apply font-400 text-base/[1.4] text-white/[.7]
+        500:flex 500:justify-between 500:items-center
+    }
+    .modal form .date-time > span {
+        @apply mt-1 flex justify-start items-center gap-x-1
+    }
+    .modal form .date-time > span > span:last-child {
+        @apply relative
+    }
+    .modal form .date-time > span > span:last-child ul {
+        @apply opacity-0 hidden absolute z-[2] left-0 right-0 top-[calc(100%+5px)] py-2
+        text-center bg-[rgb(21,21,21)] rounded-2xl
+        max-h-[8.7rem] overflow-y-scroll
+    }
+    .modal form .date-time > span > span:last-child ul::-webkit-scrollbar {
+        width: 0;
+    }
+    .modal form .date-time > span > span:last-child ul li {
+        @apply leading-[1.6] cursor-pointer
+    }
+
+
+
+    .modal form input#date-td  {
+        @apply box-border !w-32 !text-white text-center outline-0 !shadow-none
+    }
+    .modal form input#td-time {
+        @apply box-border !w-16 !text-white text-center outline-0 !shadow-none
+    }
+
+    .modal form .wpcf7-checkbox input[type="checkbox"] {
+        @apply hidden
+    }
+    .modal form .wpcf7-checkbox span {
+        @apply block
+    }
+    .modal form .wpcf7-checkbox .wpcf7-list-item {
+        @apply ml-0
+    }
+    .modal form .wpcf7-checkbox .wpcf7-list-item label {
+        @apply block mt-2.5 font-400 text-sm/[1.4] text-white/[.7]
+    }
+    .modal form .wpcf7-checkbox .wpcf7-list-item label .wpcf7-list-item-label {
+        @apply relative pl-8
+
+        before:content-[''] before:absolute before:left-0 before:top-[calc(50%-8px)] before:block before:w-4 before:h-4 before:rounded-full before:box-border before:border before:border-white/[.7]
+    }
+    .modal form .wpcf7-checkbox .wpcf7-list-item label input:checked + .wpcf7-list-item-label {
+        @apply before:border-accent
+
+        after:content-[''] after:absolute after:left-1 after:top-[calc(50%-4px)] after:block after:w-2 after:h-2 after:rounded-full after:bg-accent
+    }
+    .modal form .wpcf7-checkbox + .wpcf7-not-valid-tip {
+        @apply !hidden
+    }
+
+    .modal form .wpcf7-spinner {
+        @apply !hidden
+    }
+    .modal form .wpcf7-not-valid-tip {
+        @apply mt-0 font-400 text-sm/[1.4] text-error
+        absolute bottom-2.5 right-0
+    }
+    .modal form .wpcf7-response-output {
+        @apply mt-5 font-400 text-sm/[1.4] text-white/[.7]
+    }
+    .modal form .wpcf7-response-output {
+        @apply !mb-0 !mx-0 !mt-5 !p-0 !border-0
+    }
+    .modal form .wpcf7-response-output:before {
+        content: '( ! ) ';
+    }
+
+    .modal.conditions h2 + div {
+        @apply overflow-y-scroll
+    }
+    .modal div p:not(:first-child) {
+        @apply mt-5
+    }
+}

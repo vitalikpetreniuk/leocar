@@ -1,0 +1,39 @@
+.leo-reviews__slider {
+	opacity: 1;
+}
+
+.leo-reviews__slide {
+}
+
+.leo-reviews__pagination {
+	position: static !important;
+	margin-top: 35px;
+}
+
+.leo-reviews__pagination .swiper-pagination-bullet {
+	background: #363636 !important;
+	opacity: 1 !important;
+}
+
+.leo-reviews__pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background: #D9D9D9 !important;
+}
+
+.leo-reviews__button {
+	top: 50% !important;
+	width: 20px;
+	height: 20px;
+	color: #999999 !important;
+}
+
+.leo-reviews__button::after {
+	font-size: 16px !important;
+}
+
+.leo-reviews__button_prev {
+	left: 0px !important;
+}
+
+.leo-reviews__button_next {
+	right: 0px !important;
+}

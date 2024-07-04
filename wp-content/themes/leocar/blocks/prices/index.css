@@ -1,0 +1,24 @@
+@tailwind components;
+
+@layer components {
+    .prices-desktop > .container > div:not(.table-header) {
+        @apply relative
+    }
+    .prices-desktop > .container > div:not(.table-header):after {
+        background: linear-gradient(90deg, rgba(21, 21, 21, 0.15) 0%, rgba(153, 153, 153, 0.15) 46%, rgba(21, 21, 21, 0.15) 100%);
+
+        @apply absolute bottom-0 left-0 content-[''] block h-px w-full
+
+    }
+    .prices-desktop > .container > div:not(.table-header):nth-child(odd),
+    .prices-mobile > div:nth-child(even) {
+        @apply bg-car
+    }
+    ul.terms li.active {
+        @apply bg-dark
+    }
+
+    .price.discount {
+        @apply text-accent
+    }
+}

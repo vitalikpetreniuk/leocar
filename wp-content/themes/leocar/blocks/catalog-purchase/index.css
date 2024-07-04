@@ -1,0 +1,95 @@
+@tailwind components;
+
+@layer components {
+    .gear span {
+        backdrop-filter: blur(15px);
+    }
+    .mechanics .gear span:first-child {
+        @apply hidden
+    }
+    .mechanics .gear span:last-child {
+        @apply flex
+    }
+
+    .dissolve:after {
+        background: linear-gradient(90deg, rgba(21, 21, 21, 0.15) 0%, rgba(153, 153, 153, 0.15) 46%, rgba(21, 21, 21, 0.15) 100%);
+    }
+    .lease li.active {
+        @apply bg-car-active text-white
+    }
+
+    div.info p:not(:first-child) {
+        @apply mt-6
+    }
+
+    .flip-card {
+        perspective: 1000px;
+        @apply border-0 w-full
+    }
+
+    .flip-card-inner {
+        transform-style: preserve-3d;
+        @apply relative w-full h-full transform duration-700
+    }
+    .flip-card-inner img {
+        @apply transition duration-150
+    }
+    .flip-card-inner:hover img:first-child {
+        @apply opacity-0
+    }
+    .flip-card-inner:hover img:last-child {
+        @apply opacity-100
+    }
+
+    .flip-card.flipped .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-card-front, .flip-card-back {
+        -webkit-box-orient: vertical;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        @apply absolute w-full h-full text-left px-8 flex items-center
+    }
+
+    .flip-card-front {
+        @apply bg-car text-black
+    }
+    .flip-card-back {
+        transform: rotateY(180deg);
+        @apply bg-car text-white/[.7]
+    }
+    .flip-card-back > div {
+        @apply max-h-[192px] overflow-hidden
+    }
+}
+
+.catalog-list .catalog-item:not(:nth-child(-n+3)) {
+    display: none;
+}
+.catalog-list.open .catalog-item:not(:nth-child(-n+3)) {
+    display: block;
+}
+
+@media only screen and (min-width:768px) {
+    .catalog-list .catalog-item {
+        display: block !important;
+    }
+    .catalog-list .catalog-item:not(:nth-child(-n+4)) {
+        display: none !important;
+    }
+    .catalog-list.open .catalog-item:not(:nth-child(-n+4)) {
+        display: block !important;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .catalog-list .catalog-item {
+        display: block !important;
+    }
+    .catalog-list .catalog-item:not(:nth-child(-n+3)) {
+        display: none !important;
+    }
+    .catalog-list.open .catalog-item:not(:nth-child(-n+3)) {
+        display: block !important;
+    }
+}
