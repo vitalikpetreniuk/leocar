@@ -2,6 +2,7 @@
 
 @tailwind components;
 
+
 @layer components {
     .container {
         @apply w-full max-w-[80rem]

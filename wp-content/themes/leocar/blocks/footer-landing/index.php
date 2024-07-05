@@ -1,4 +1,4 @@
-<footer class="mt-28 pt-8 pb-32 1100:pt-12 1280:pb-40 1440:pb-12">
+<footer class="footer-landing mt-28 pt-8 pb-32 1100:pt-12 1280:pb-40 1440:pb-12">
 	<div class="container">
 		<div class="flex flex-col gap-9 768:flex-row 768:flex-wrap 768:gap-x-[50px] 768:gap-y-8 1280:gap-[36px]">
 			<div class="768:w-[calc(50%-25px)] 1280:w-[calc(30%-27px)]">

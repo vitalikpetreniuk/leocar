@@ -72,6 +72,10 @@
         @apply after:rotate-180
     }
 
+    .current-menu-item {
+        @apply font-700
+    }
+
     .menu-bar-footer > div.open span,
     div.currency.open span, div.language.open span {
         @apply after:rotate-[180deg]

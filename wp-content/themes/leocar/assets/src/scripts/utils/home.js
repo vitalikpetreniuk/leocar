@@ -56,7 +56,7 @@ export default function home() {
         });
     }
 
-    let navLinks = document.querySelectorAll('header ul li, .quick-links ul li');
+    let navLinks = document.querySelectorAll('header.header-landing ul li, .footer-landing .quick-links ul li');
     let sections = document.querySelectorAll('section');
     let offset = getHeaderHeight();
 

@@ -1,4 +1,4 @@
-<header class="fixed top-0 left-0 w-full">
+<header class="header-landing fixed top-0 left-0 w-full">
     <?php if(get_field('announce_text','options')||get_field('zsu_text','options')) { ?>
         <div class="relative z-10 leo-announcement bg-white py-1.5">
             <div class="container relative max-w-[85rem]">

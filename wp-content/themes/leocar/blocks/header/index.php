@@ -62,13 +62,14 @@
 
     <div class="mobile-menu opacity-0 invisible bg-black blur-15 absolute top-0 right-0 w-full h-[100svh] 1280:max-w-[313px] 1100:bg-[#1D1D1D]/[.7]">
           <div class="container pt-[185px] px-16 flex flex-col gap-y-2 1280:pt-44">
-                <h6 class="m-0 font-700">Каталог</h6>
+
                 <nav>
                      <ul class="mobile-main flex flex-col gap-y-2">
+                         <li class="menu-item current-menu-item"><a href="#">Каталог</a></li>
                          <li class="menu-item"><a href="#">Ціни</a></li>
                          <li class="menu-item menu-item-has-children">
                              <span class="cursor-pointer">Типи оренди</span>
-                             <ul class="sub-menu hidden relative mt-1.5 flex-col gap-y-2 mb-4 pt-5 pb-1 pl-8 max-w-[255px] box-border">
+                             <ul class="sub-menu hidden relative mt-1.5 flex-col gap-y-2 mb-4 pt-3 pb-3 pl-8 max-w-[255px] box-border">
                                  <li><a href="#">Оренда під викуп</a></li>
                                  <li><a href="#">Підписка на авто</a></li>
                                  <li><a href="#">Оренда під викуп</a></li>
