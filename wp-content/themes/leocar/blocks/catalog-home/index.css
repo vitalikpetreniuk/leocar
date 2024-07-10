@@ -74,54 +74,38 @@
     .sort.active > ul {
         @apply block
     }
-
     .sort-model > div span {
         @apply hidden
     }
 
+    .filter-catalog {
+        @apply h-full 1100:h-auto
+    }
     .filter-catalog ul li {
         @apply rounded-[5px]
     }
     .filter-catalog ul li.active {
         @apply bg-[#404040]/[.2]
     }
-}
 
+    .filter-catalog > button {
+        @apply absolute w-auto bottom-5 left-5 right-5
+        1100:static 1100:w-full
+    }
 
-
-.leo-catalog-home .catalog-list .catalog-item:not(:nth-child(-n+3)) {
-    display: none;
-}
-.leo-catalog-home .catalog-list.open .catalog-item:not(:nth-child(-n+3)) {
-    display: block;
-}
-.leo-catalog-home .catalog-list .catalog-item.sorted-out {
-    display: none !important;
-}
-
-@media only screen and (min-width:768px) {
-    .leo-catalog-home .catalog-list .catalog-item {
-        display: block !important;
+    .leo-catalog-home .catalog-list .catalog-item:not(:nth-child(-n+3)) {
+        @apply hidden 768:block
     }
     .leo-catalog-home .catalog-list .catalog-item:not(:nth-child(-n+4)) {
-        display: none !important;
+        @apply 768:hidden 1024:block
     }
-    .leo-catalog-home .catalog-list.open .catalog-item:not(:nth-child(-n+4)) {
-        display: block !important;
+    .leo-catalog-home .catalog-list .catalog-item:not(:nth-child(-n+6)) {
+        @apply 1024:hidden
     }
-}
-@media only screen and (min-width:1024px) {
-    .leo-catalog-home .catalog-list .catalog-item {
-        display: block !important;
+    .leo-catalog-home .catalog-list.open .catalog-item {
+        @apply !block
     }
-    .leo-catalog-home .catalog-list .catalog-item:not(:nth-child(-n+3)) {
-        display: none !important;
-    }
-    .leo-catalog-home .catalog-list.open .catalog-item:not(:nth-child(-n+3)) {
-        display: block !important;
-    }
-    .leo-catalog-home .catalog-list.open .catalog-item.sorted-out:not(:nth-child(-n+3)),
-    .leo-catalog-home .catalog-list .catalog-item.sorted-out {
-        display: none !important;
+    .leo-catalog-home .catalog-list.open .catalog-item.sorted-out {
+        @apply !hidden
     }
 }

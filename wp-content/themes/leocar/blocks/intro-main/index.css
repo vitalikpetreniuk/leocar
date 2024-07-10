@@ -23,6 +23,9 @@
     form.priceForm input[name="name"] + div.iti {
         @apply block w-full max-w-[calc(50%-10px)]
     }
+    form.priceForm input[name="name"] + div.iti > .iti__country-container {
+        @apply !hidden
+    }
     form.priceForm input[name="name"] + div.iti .iti {
         @apply block w-full
     }

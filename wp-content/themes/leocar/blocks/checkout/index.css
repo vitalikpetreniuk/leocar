@@ -82,9 +82,6 @@
     .fields-left .driver-fields {
         @apply pb-10 1100:order-1
     }
-    .fields-left .driver-fields .fields-body {
-        @apply flex-row gap-x-5
-    }
 
 
     .fields-right {
@@ -103,6 +100,18 @@
         @apply absolute left-3.5 -top-5 h-9 px-3 bg-[#363636] rounded-[15px]
         text-white font-400 text-sm/[36px]
     }
+
+    .fields-right .receive-fields .body.open > .fields,
+    .fields-right .return-fields .body.open > .fields {
+        @apply block
+    }
+    .fields-right .receive-fields .body.open .edit,
+    .fields-right .receive-fields .body.open .date,
+    .fields-right .return-fields .body.open .edit,
+    .fields-right .return-fields .body.open .date {
+        @apply hidden
+    }
+
     .fields-right .receive-fields .body .fields > div,
     .fields-right .return-fields .body .fields > div {
         @apply flex flex-wrap items-center gap-x-1 gap-y-5
@@ -227,14 +236,16 @@
 
     .leo-checkout form input[type="submit"] {
         @apply bg-none pr-0
-        1100:w-[calc(66.667%-10px)]
     }
 
+    .leo-checkout .fields-body > .iti > .iti__country-container {
+        @apply !hidden
+    }
     .leo-checkout .fields-body .iti {
         @apply block w-full
     }
     .leo-checkout .fields-body > .iti {
-        @apply max-w-[calc(50%-10px)]
+        @apply 1024:max-w-[calc(50%-10px)]
     }
     .leo-checkout form input[type="submit"] {
         @apply bg-none pr-0
@@ -246,5 +257,80 @@
     }
     .leo-checkout .iti__search-input {
         @apply !bg-transparent
+    }
+
+
+
+    .choose-receive,
+    .choose-return {
+        @apply relative
+    }
+    .choose-receive > span,
+    .choose-return > span {
+        @apply block pt-5 pb-2.5 border-b border-white/[.7]
+    }
+    .choose-return > span {
+        @apply !pt-2.5
+    }
+    .choose-receive.empty > span,
+    .choose-return.empty > span {
+        @apply text-white/[.7] cursor-pointer
+    }
+
+    .choose-receive.open span,
+    .choose-return.open span {
+        @apply border-white
+    }
+    #receive-time + div ul div::-webkit-scrollbar,
+    #return-time + div ul div::-webkit-scrollbar {
+        width: 2px;
+    }
+    #receive-time + div ul div::-webkit-scrollbar-thumb,
+    #return-time + div ul div::-webkit-scrollbar-thumb {
+        background: #ffffff;
+    }
+    .choose-receive.open ul,
+    .choose-return.open ul {
+        @apply flex
+    }
+    .choose-receive ul li,
+    .choose-return ul li {
+        @apply flex cursor-pointer
+    }
+
+
+    .checkoutForm #receive-time + div.open ul,
+    .checkoutForm #return-time + div.open ul {
+        @apply !flex
+    }
+    #receive-time + div ul li,
+    #return-time + div ul li {
+        @apply text-center py-1 cursor-pointer
+    }
+    #receive-time + div ul > div,
+    #return-time + div ul > div {
+        @apply max-h-[128px] overflow-y-scroll
+    }
+
+
+
+    label[for="change-return"]:before {
+        @apply content-[''] absolute left-0 top-[50%] -translate-y-[50%] block w-3.5 h-3.5 box-border border border-white/[.7] rounded-[50%]
+        1100:w-4 1100:h-4
+    }
+    label[for="change-return"]:after {
+        @apply content-[''] absolute top-[50%] -translate-y-[50%] left-[3px] w-[8px] h-[6px] bg-[url('../images/svg/checkmark-white.svg')] bg-no-repeat bg-center bg-contain hidden
+        1100:w-2.5 1100:h-2
+    }
+    input:checked + label[for="change-return"]:before {
+        @apply bg-accent border-accent
+    }
+    input:checked + label[for="change-return"]:after {
+        @apply block
+    }
+
+    input#receive-date,
+    input#return-date {
+        @apply w-[128px] !bg-[#000000]/[.3] !border-none !p-0 !h-9 rounded-[40px] text-center
     }
 }

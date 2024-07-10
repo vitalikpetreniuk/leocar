@@ -15,6 +15,17 @@ export default function checkout() {
         additionalItem.addEventListener("change", calculatePrice);
     });
 
+    let receiveDateEdit = document.querySelector('.fields-right .receive-info .edit');
+    let returnDateEdit = document.querySelector('.fields-right .return-info .edit');
+    if(receiveDateEdit) {
+        receiveDateEdit.addEventListener('click', () => {
+            receiveDateEdit.parentElement.parentElement.classList.toggle('open');
+        });
+        returnDateEdit.addEventListener('click', () => {
+            returnDateEdit.parentElement.parentElement.classList.toggle('open');
+        });
+    }
+
     function calculatePrice(){
         let leoCurrency = '€';
         let totalDays = 1;
@@ -54,5 +65,68 @@ export default function checkout() {
 
         document.querySelector('.fields-right .total-price').innerText = totalPrice;
         document.querySelector('.deposit span').innerText = depositPrice;
+    }
+
+
+    let checkoutForm = document.querySelector('.checkoutForm');
+    if(checkoutForm) {
+        let receiveDate = document.querySelector('input#receive-date');
+        let returnDate = document.querySelector('input#return-date');
+
+        if(receiveDate) {
+            let datepicker = new Datepicker(receiveDate, {
+                daysOfWeekDisabled: [0,6],
+                disableTouchKeyboard: true,
+                format: 'dd/mm/yyyy',
+                autohide: true,
+            });
+        }
+        if(returnDate) {
+            let datepicker = new Datepicker(returnDate, {
+                daysOfWeekDisabled: [0,6],
+                disableTouchKeyboard: true,
+                format: 'dd/mm/yyyy',
+                autohide: true,
+            });
+        }
+        changeLocation(checkoutForm.querySelector('.choose-receive'),checkoutForm.querySelector('.choose-receive > span'),checkoutForm.querySelector('.choose-receive > ul'), checkoutForm.querySelector('.choose-receive > select'));
+        changeLocation(checkoutForm.querySelector('.choose-return'),checkoutForm.querySelector('.choose-return > span'),checkoutForm.querySelector('.choose-return > ul'), checkoutForm.querySelector('.choose-return > select'));
+
+        changeTime(checkoutForm.querySelector('#receive-time + div'), checkoutForm.querySelector('#receive-time'));
+        changeTime(checkoutForm.querySelector('#return-time + div'), checkoutForm.querySelector('#return-time'));
+
+        function changeLocation(block, blockSpan, blockUl, blockSelect){
+            blockSpan.addEventListener('click', () => {
+                block.classList.toggle('open');
+            });
+            let receiveOptions = blockUl.querySelectorAll('li');
+            receiveOptions.forEach(option => {
+                option.addEventListener('click', () => {
+                    receiveOptions.forEach(item => item.classList.remove('active'));
+                    option.classList.add('active');
+                    block.classList.remove('empty');
+                    blockSpan.innerHTML = option.innerHTML;
+                    blockSelect.value = option.getAttribute('data-value');
+                    block.classList.remove('open');
+                });
+            });
+        }
+        function changeTime(timeBlock, timeSelect){
+            timeBlock.querySelector('span').addEventListener('click', () => {
+                timeBlock.classList.toggle('open');
+            });
+
+            let timeOptions = timeBlock.querySelectorAll('ul li');
+            timeOptions.forEach(option => {
+                option.addEventListener('click', () => {
+                    timeOptions.forEach(item => item.classList.remove('active'));
+                    option.classList.add('active');
+
+                    timeBlock.querySelector('span').innerHTML = option.innerHTML;
+                    timeSelect.value = option.getAttribute('data-value');
+                    timeBlock.classList.remove('open');
+                });
+            });
+        }
     }
 }

@@ -1,6 +1,6 @@
 <section class="leo-checkout">
 	<div class="container">
-        <form>
+        <form class="checkoutForm">
             <div class="fields-left">
                 <div class="fields safety-fields">
                     <div class="fields-header">
@@ -65,51 +65,88 @@
                     <div class="fields-header">
                         <h4>Відомості про водія</h4>
                     </div>
-                    <div class="fields-body flex flex-col gap-y-4">
-                        <input class="!w-[calc(50%-10px)]" type="text" placeholder="Ім’я*">
+                    <div class="fields-body flex flex-col gap-y-4 1024:flex-row 1024:gap-x-5">
+                        <input class="w-full 1024:!w-[calc(50%-10px)]" type="text" placeholder="Ім’я*">
                         <input class="w-full" id="billing-phone" name="phone" type="tel" value="" />
                         <input id="billing-phone-dub" class="!hidden" name="phone-dub" type="tel" value="" />
                     </div>
                 </div>
+                <input class="!hidden !w-full !max-w-none !mt-3 1024:!block 1024:order-2" type="submit" value="Забронювати">
             </div>
             <div class="fields-right">
                 <div class="receive-fields">
                     <div class="header">Отримання</div>
                     <div class="body">
                         <div class="fields hidden">
-                            <div>
-                                <span>Оберіть дату отримання</span>
-                                <input id="date-receive" type="text" placeholder="__/__/____" value="24/07/2025">
-
-                                <select name="time-receive" id="time-receive">
-                                    <option value="">__:__</option>
-                                    <option value="06:00">06:00</option>
-                                    <option value="07:00">07:00</option>
-                                    <option value="08:00">08:00</option>
-                                    <option value="09:00">08:00</option>
-                                    <option value="10:00">10:00</option>
-                                    <option value="11:00">11:00</option>
-                                    <option value="12:00">12:00</option>
-                                    <option value="13:00">13:00</option>
-                                    <option value="14:00">14:00</option>
-                                    <option value="15:00">15:00</option>
-                                    <option value="16:00">16:00</option>
-                                    <option value="17:00">17:00</option>
-                                    <option value="18:00">18:00</option>
-                                    <option value="19:00">19:00</option>
-                                    <option value="20:00">20:00</option>
-                                    <option value="21:00">21:00</option>
-                                    <option value="22:00">22:00</option>
-                                    <option value="23:00">23:00</option>
+                            <div class="flex justify-start items-start gap-x-1">
+                                <div><input type="text" placeholder="__/__/____" name="receive-date" id="receive-date" required></div>
+                                <select name="receive-time" id="receive-time">
+                                 <option value="5">05:00</option>
+                                 <option value="6">06:00</option>
+                                 <option value="7">07:00</option>
+                                 <option value="8">08:00</option>
+                                 <option value="9">09:00</option>
+                                 <option value="10">10:00</option>
+                                 <option value="11">11:00</option>
+                                 <option value="12">12:00</option>
+                                 <option value="13">13:00</option>
+                                 <option value="14">14:00</option>
+                                 <option value="15">15:00</option>
+                                 <option value="16">16:00</option>
+                                 <option value="17">17:00</option>
+                                 <option value="18">18:00</option>
+                                 <option value="19">19:00</option>
+                                 <option value="20">20:00</option>
+                                 <option value="21">21:00</option>
+                                 <option value="22">22:00</option>
+                                 <option value="23">23:00</option>
                                 </select>
+                                <div class="relative">
+                                    <span class="flex justify-center items-center h-9 w-16 bg-[#000000]/[.3] rounded-[40px] cursor-pointer">__:__</span>
+                                    <ul class="hidden absolute z-[2] top-[calc(100%+4px)] rounded-[2px] left-0 right-0 bg-black flex-col justify-center">
+                                        <div>
+                                            <li data-value="5">05:00</li>
+                                            <li data-value="6">06:00</li>
+                                            <li data-value="7">07:00</li>
+                                            <li data-value="8">08:00</li>
+                                            <li data-value="9">09:00</li>
+                                            <li data-value="10">10:00</li>
+                                            <li data-value="11">11:00</li>
+                                            <li data-value="12">12:00</li>
+                                            <li data-value="13">13:00</li>
+                                            <li data-value="14">14:00</li>
+                                            <li data-value="15">15:00</li>
+                                            <li data-value="16">16:00</li>
+                                            <li data-value="17">17:00</li>
+                                            <li data-value="18">18:00</li>
+                                            <li data-value="19">19:00</li>
+                                            <li data-value="20">20:00</li>
+                                            <li data-value="21">21:00</li>
+                                            <li data-value="22">22:00</li>
+                                            <li data-value="23">23:00</li>
+                                        </div>
+                                    </ul>
+                                </div>
                             </div>
-                            <select name="receive">
-                                <option value=""> - Оберіть місце отримання - </option>
-                                <option value="lviv">Львів, по місту</option>
-                                <option value="truskavets">Трускавець</option>
-                                <option value="skhidnytsya">Східниця</option>
-                                <option value="border">Україно-польський піший кордон Шегині/Medyka</option>
-                            </select>
+                            <input class="!hidden" type="text" name="receive-location">
+                            <div class="hidden mt-4 choose-receive empty">
+                                <select name="receive-place" id="receive-place">
+                                    <option value=""> - Оберіть місце повернення - </option>
+                                    <option value="office">Офіс Leocar</option>
+                                    <option value="lviv">місто Львів</option>
+                                    <option value="skhidnytsia">Східниця</option>
+                                    <option value="truskavets">Трускавець</option>
+                                    <option value="border">Україно-польський піший кордон Шегині/Medyka</option>
+                                </select>
+                                <span class="cursor-pointer"> - Оберіть місце повернення - </span>
+                                <ul class="hidden absolute z-[2] top-[100%] left-0 right-0 bg-black flex flex-col text-sm">
+                                    <li class="p-2" data-value="office">Офіс Leocar</li>
+                                    <li class="p-2" data-value="lviv">місто Львів<span class="inline-block pl-1.5 text-accent">+5€</span></li>
+                                    <li class="p-2" data-value="skhidnytsia">Східниця<span class="inline-block pl-1.5 text-accent">+50€</span></li>
+                                    <li class="p-2" data-value="truskavets">Трускавець<span class="inline-block pl-1.5 text-accent">+50€</span></li>
+                                    <li class="p-2" data-value="border">Україно-польський піший кордон Шегині/Medyka<span class="inline-block pl-1.5 text-accent">+50€</span></li>
+                                </ul>
+                            </div>
                             <button class="button button-transparent">Застосувати</button>
                         </div>
                         <div class="receive-info">
@@ -126,38 +163,75 @@
                     <div class="header">Повернення</div>
                     <div class="body">
                         <div class="fields hidden">
-                            <div>
-                                <span>Оберіть дату повернення</span>
-                                <input id="date-return" type="text" placeholder="__/__/____" value="27/07/2025">
-                                <select name="time-return" id="time-return">
-                                    <option value="">__:__</option>
-                                    <option value="06:00">06:00</option>
-                                    <option value="07:00">07:00</option>
-                                    <option value="08:00">08:00</option>
-                                    <option value="09:00">08:00</option>
-                                    <option value="10:00">10:00</option>
-                                    <option value="11:00">11:00</option>
-                                    <option value="12:00">12:00</option>
-                                    <option value="13:00">13:00</option>
-                                    <option value="14:00">14:00</option>
-                                    <option value="15:00">15:00</option>
-                                    <option value="16:00">16:00</option>
-                                    <option value="17:00">17:00</option>
-                                    <option value="18:00">18:00</option>
-                                    <option value="19:00">19:00</option>
-                                    <option value="20:00">20:00</option>
-                                    <option value="21:00">21:00</option>
-                                    <option value="22:00">22:00</option>
-                                    <option value="23:00">23:00</option>
+                            <div class="flex justify-start items-start gap-x-1">
+                                <div><input type="text" placeholder="__/__/____" name="return-date" id="return-date" required></div>
+                                <select name="return-time" id="return-time">
+                                 <option value="5">05:00</option>
+                                 <option value="6">06:00</option>
+                                 <option value="7">07:00</option>
+                                 <option value="8">08:00</option>
+                                 <option value="9">09:00</option>
+                                 <option value="10">10:00</option>
+                                 <option value="11">11:00</option>
+                                 <option value="12">12:00</option>
+                                 <option value="13">13:00</option>
+                                 <option value="14">14:00</option>
+                                 <option value="15">15:00</option>
+                                 <option value="16">16:00</option>
+                                 <option value="17">17:00</option>
+                                 <option value="18">18:00</option>
+                                 <option value="19">19:00</option>
+                                 <option value="20">20:00</option>
+                                 <option value="21">21:00</option>
+                                 <option value="22">22:00</option>
+                                 <option value="23">23:00</option>
                                 </select>
+                                <div class="relative">
+                                    <span class="flex justify-center items-center h-9 w-16 bg-[#000000]/[.3] rounded-[40px] cursor-pointer">__:__</span>
+                                    <ul class="hidden absolute z-[2] top-[calc(100%+4px)] rounded-[2px] left-0 right-0 bg-black flex-col justify-center">
+                                        <div>
+                                            <li data-value="5">05:00</li>
+                                            <li data-value="6">06:00</li>
+                                            <li data-value="7">07:00</li>
+                                            <li data-value="8">08:00</li>
+                                            <li data-value="9">09:00</li>
+                                            <li data-value="10">10:00</li>
+                                            <li data-value="11">11:00</li>
+                                            <li data-value="12">12:00</li>
+                                            <li data-value="13">13:00</li>
+                                            <li data-value="14">14:00</li>
+                                            <li data-value="15">15:00</li>
+                                            <li data-value="16">16:00</li>
+                                            <li data-value="17">17:00</li>
+                                            <li data-value="18">18:00</li>
+                                            <li data-value="19">19:00</li>
+                                            <li data-value="20">20:00</li>
+                                            <li data-value="21">21:00</li>
+                                            <li data-value="22">22:00</li>
+                                            <li data-value="23">23:00</li>
+                                        </div>
+                                    </ul>
+                                </div>
                             </div>
-                            <select name="return">
-                                <option value=""> - Оберіть місце повернення - </option>
-                                <option value="lviv">Львів, по місту</option>
-                                <option value="truskavets">Трускавець</option>
-                                <option value="skhidnytsya">Східниця</option>
-                                <option value="border">Україно-польський піший кордон Шегині/Medyka</option>
-                            </select>
+                            <input class="!hidden" type="text" name="return-location">
+                            <div class="hidden mt-4 choose-return empty">
+                                <select name="return-place" id="return-place">
+                                    <option value=""> - Оберіть місце повернення - </option>
+                                    <option value="office">Офіс Leocar</option>
+                                    <option value="lviv">місто Львів</option>
+                                    <option value="skhidnytsia">Східниця</option>
+                                    <option value="truskavets">Трускавець</option>
+                                    <option value="border">Україно-польський піший кордон Шегині/Medyka</option>
+                                </select>
+                                <span class="cursor-pointer"> - Оберіть місце повернення - </span>
+                                <ul class="hidden absolute z-[2] top-[100%] left-0 right-0 bg-black flex flex-col text-sm">
+                                    <li class="p-2" data-value="office">Офіс Leocar</li>
+                                    <li class="p-2" data-value="lviv">місто Львів<span class="inline-block pl-1.5 text-accent">+5€</span></li>
+                                    <li class="p-2" data-value="skhidnytsia">Східниця<span class="inline-block pl-1.5 text-accent">+50€</span></li>
+                                    <li class="p-2" data-value="truskavets">Трускавець<span class="inline-block pl-1.5 text-accent">+50€</span></li>
+                                    <li class="p-2" data-value="border">Україно-польський піший кордон Шегині/Medyka<span class="inline-block pl-1.5 text-accent">+50€</span></li>
+                                </ul>
+                            </div>
                             <button class="button button-transparent">Застосувати</button>
                         </div>
                         <div class="return-info">
@@ -184,8 +258,8 @@
                         <div class="deposit">Завдаток -  <span></span> €</div>
                     </div>
                 </div>
+                <input class="1024:!hidden" type="submit" value="Забронювати">
             </div>
-            <input type="submit" value="Забронювати">
         </form>
 	</div>
 </section>

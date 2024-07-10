@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d74bb30-0ac9-4a01-9116-d70f5f49baf1" name="Changes" comment="main website + landing">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="1d74bb30-0ac9-4a01-9116-d70f5f49baf1" name="Changes" comment="changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,12 +27,12 @@
     &quot;assignee&quot;: &quot;alex-gerlakh&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/vitalikpetreniuk/leocar.git&quot;,
-    &quot;accountId&quot;: &quot;0d27d06b-634d-41cd-aac7-088626cffe45&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/vitalikpetreniuk/leocar.git",
+    "accountId": "60dc8b42-e998-4c79-bb7e-3da4aa9e4e3f"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -51,7 +49,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "marina-upd",
-    "last_opened_file_path": "C:/OSPanel/domains/leocar.loc/wp-content/plugins",
+    "last_opened_file_path": "/Users/mac/WebstormProjects/leocar/wp-content/themes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,18 +60,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes" />
       <recent name="C:\OSPanel\domains\leocar.loc\wp-content\plugins" />
       <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes\leocar\assets" />
       <recent name="C:\OSPanel\domains\leocar.loc\wp-content" />
       <recent name="C:\OSPanel\domains\leocar.loc" />
-      <recent name="C:\OSPanel\domains\leocar.loc\wp-content\themes\leocar\blocks" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PS-241.14494.237" />
-        <option value="bundled-php-predefined-ba97393d7c68-8f0632a2a215-com.jetbrains.php.sharedIndexes-PS-241.14494.237" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
       </set>
     </attachedChunks>
   </component>
@@ -87,10 +84,24 @@
       <updated>1714649696970</updated>
       <workItem from="1714649698052" duration="2516000" />
       <workItem from="1714652970283" duration="11593000" />
+      <workItem from="1720169925324" duration="563000" />
     </task>
+    <task id="LOCAL-00001" summary="changes">
+      <option name="closed" value="true" />
+      <created>1720170069271</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720170069271</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
 </project>

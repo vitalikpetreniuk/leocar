@@ -175,7 +175,6 @@ export default function home() {
         const closeDiv = document.querySelector('#receive-time + div,#return-time + div, .choose-receive, .choose-return');
         if(closeDiv){
             document.addEventListener('mouseup', function(event) {
-                console.log(closeDiv)
                 if (!closeDiv.contains(event.target)) {
                     closeDiv.classList.remove('open');
                 }

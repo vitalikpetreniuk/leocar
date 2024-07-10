@@ -38,7 +38,7 @@ export default function init() {
 document.addEventListener('DOMContentLoaded', function() {
     init();
 
-    let inputTel = document.querySelector('section.leo-consult form input[type="tel"]');
+    let inputTel = document.querySelector('section.leo-consult form input[type="tel"], section.leo-questions form input[type="tel"]');
     let callTel = document.querySelector('#leo-modals .modal.call input[type="tel"]');
     let driveTel = document.querySelector('#leo-modals .modal.drive input[type="tel"]');
 

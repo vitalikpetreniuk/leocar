@@ -43,7 +43,7 @@
             </div>
             <div class="w-full mt-6 1024:w-1/3 1024:mt-0  1024:leading-[1.6]">
                 <span class="font-400 uppercase opacity-40">Адреса</span>
-                <div class="mt-4 pl-6 bg-[url('../images/svg/pin.svg')] bg-no-repeat bg-[left_4px]"><p>Вулиця Княгині Ольги, 5а, Львів,<br> Львівська область, 79026</p></div>
+                <div class="mt-4 pl-5 bg-[url('../images/svg/pin-green.svg')] bg-no-repeat  bg-[left_4px] font-400"><p>Вулиця Княгині Ольги, 5а, Львів,<br> Львівська область, 79026</p></div>
                 <div class="payment-svg mt-2 opacity-70 1024:ml-6"><?php renderAssetsSVG('svg/payment'); ?></div>
             </div>
         </div>

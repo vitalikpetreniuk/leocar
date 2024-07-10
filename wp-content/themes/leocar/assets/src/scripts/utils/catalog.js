@@ -136,12 +136,13 @@ export default function catalog() {
                 let chosenModel = catalogSort.querySelector('.sort-model > ul li.active').getAttribute('data-model');
 
                 catalog.classList.add('open');
-                catalogBtn.textContent = "Приховати";
+                catalogBtn.style.display = 'none';
                 catalogItems.forEach(allItems => allItems.classList.add('sorted-out'));
-
 
                 if(chosenType === 'all' && chosenModel === 'all') {
                     catalogItems.forEach(allItems => allItems.classList.remove('sorted-out'));
+                    catalog.classList.remove('open');
+                    catalogBtn.style.display = 'block';
                 }else{
                     if(chosenType === 'all') {
                         catalogItems.forEach(item => {
