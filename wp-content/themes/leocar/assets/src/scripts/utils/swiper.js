@@ -1,6 +1,7 @@
 import Swiper from '../../../../../../plugins/brainwave/assembly/node_modules/swiper';
 import Pagination from '../../../../../../plugins/brainwave/assembly/node_modules/swiper/modules/pagination.min.mjs';
 import Navigation from '../../../../../../plugins/brainwave/assembly/node_modules/swiper/modules/navigation.min.mjs';
+import Thumbs from '../../../../../../plugins/brainwave/assembly/node_modules/swiper/modules/thumbs.min.mjs';
 
 const ourTeamSwiper = document.querySelectorAll('.swiper');
 if (ourTeamSwiper.length > 0) {
@@ -50,6 +51,64 @@ if (ourTeamSwiper.length > 0) {
 				slidesPerView: 3,
 				spaceBetween: 20,
 			},
+		},
+	});
+}
+
+const introSwiper = document.querySelector('.leo-intro .swiper');
+if (introSwiper && window.screen.width <= 1099) {
+	new Swiper(document.querySelector('.leo-intro .swiper'), {
+		modules: [Pagination,Navigation],
+		slidesPerView: 1,
+		pagination: {
+			el: '.swiper-pagination',
+			type: 'bullets',
+			clickable: false,
+			dynamicBullets: false,
+		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		}
+	});
+}
+
+const productSwiper = document.querySelector('.mySwiperCarousel');
+if(productSwiper) {
+	let mySwiperThumbs = new Swiper('.mySwiperThumbs', {
+		lazy: true,
+		loop: true,
+		spaceBetween: 8,
+		slidesPerView: 5,
+		slidesPerGroup: 1,
+		freeMode: true,
+		watchSlidesProgress: true,
+		autoHeight: true,
+		breakpoints: {
+			820: {
+				slidesPerView: 3,
+				spaceBetween: 12,
+				direction: 'vertical',
+			}
+		},
+	});
+	let mySwiperCarousel = new Swiper('.mySwiperCarousel', {
+		modules: [Thumbs, Pagination, Navigation],
+		lazy: true,
+		loop: true,
+		slidesPerView: 1,
+		thumbs: {
+			swiper: mySwiperThumbs,
+		},
+		pagination: {
+			el: '.swiper-pagination',
+			dynamicBullets: true,
+			dynamicMainBullets: 1,
+			clickable: true
+		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
 		},
 	});
 }

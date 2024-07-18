@@ -1,0 +1,14 @@
+@tailwind components;
+
+@layer components {
+    #leo-personal-driver .pd-item {
+        background: rgba(64, 64, 64, 0.20);
+        backdrop-filter: blur(15px);
+    }
+    #leo-personal-driver .pd-item.open .info {
+        @apply block
+    }
+    #leo-personal-driver .pd-item.open span.plus svg line:nth-child(2) {
+        display: none;
+    }
+}

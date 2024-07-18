@@ -1,0 +1,103 @@
+@tailwind components;
+
+@layer components {
+
+    .gear span, .drive {
+        backdrop-filter: blur(15px);
+    }
+    .mechanics .gear span:first-child {
+        @apply hidden
+    }
+    .mechanics .gear span:last-child {
+        @apply flex
+    }
+
+    .dissolve:after {
+        background: linear-gradient(90deg, rgba(21, 21, 21, 0.15) 0%, rgba(153, 153, 153, 0.15) 46%, rgba(21, 21, 21, 0.15) 100%);
+    }
+    .lease li.active {
+        @apply bg-car-active text-white
+    }
+
+    div.info p:not(:first-child) {
+        @apply mt-6
+    }
+
+    /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+    .flip-card {
+        perspective: 1000px;
+        @apply border-0 w-full
+    }
+
+    .flip-card-inner {
+        transform-style: preserve-3d;
+        @apply relative w-full h-full transform duration-700
+    }
+    .flip-card-inner img {
+        @apply transition duration-150
+    }
+    .flip-card-inner:hover img:first-child {
+        @apply opacity-0
+    }
+    .flip-card-inner:hover img:nth-child(2) {
+        @apply opacity-100
+    }
+
+    .flip-card.flipped .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-card-front, .flip-card-back {
+        -webkit-box-orient: vertical;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        @apply absolute w-full h-full text-left px-8 flex items-center
+    }
+
+    .flip-card-front {
+        @apply bg-car text-black
+    }
+    .flip-card-back {
+        transform: rotateY(180deg);
+        @apply bg-car text-white/[.7]
+    }
+    .flip-card-back > div {
+        @apply max-h-[192px] overflow-hidden
+    }
+
+    .sort.active > div {
+        @apply border-accent
+    }
+    .sort.active > div:after {
+        @apply top-[50%] translate-y-[-50%] rotate-[180deg]
+    }
+    .sort.active > ul {
+        @apply block
+    }
+    .sort-model > div span {
+        @apply hidden
+    }
+
+    .filter-catalog ul li {
+        @apply rounded-[5px]
+    }
+    .filter-catalog ul li.active {
+        @apply bg-[#404040]/[.2]
+    }
+
+    .leo-catalog-home .catalog-list .catalog-item:not(:nth-child(-n+3)) {
+        @apply hidden 768:block
+    }
+    .leo-catalog-home .catalog-list .catalog-item:not(:nth-child(-n+4)) {
+        @apply 768:hidden 1024:block
+    }
+    .leo-catalog-home .catalog-list .catalog-item:not(:nth-child(-n+6)) {
+        @apply 1024:hidden
+    }
+    .leo-catalog-home .catalog-list.open .catalog-item {
+        @apply !block
+    }
+    .leo-catalog-home .catalog-list.open .catalog-item.sorted-out {
+        @apply !hidden
+    }
+}

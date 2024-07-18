@@ -1,0 +1,48 @@
+@tailwind components;
+
+@layer components {
+    .leo-questions ul li span svg {
+        @apply w-2.5 1100:w-3.5
+    }
+
+    .leo-questions form .wpcf7-checkbox input[type="checkbox"] {
+        @apply hidden
+    }
+    .leo-questions form .wpcf7-checkbox span {
+        @apply block
+    }
+    .leo-questions form .wpcf7-checkbox .wpcf7-list-item {
+        @apply ml-0
+    }
+    .leo-questions form .wpcf7-checkbox .wpcf7-list-item label {
+        @apply block mt-2.5 font-400 text-sm/[1.4] text-white/[.7]
+    }
+    .leo-questions form .wpcf7-checkbox .wpcf7-list-item label .wpcf7-list-item-label {
+        @apply relative pl-8
+        before:content-[''] before:absolute before:left-0 before:top-[calc(50%-8px)] before:block before:w-4 before:h-4 before:rounded-full before:box-border before:border before:border-white/[.7]
+    }
+    .leo-questions form .wpcf7-checkbox .wpcf7-list-item label input:checked + .wpcf7-list-item-label {
+        @apply before:border-accent
+        after:content-[''] after:absolute after:left-1 after:top-[calc(50%-4px)] after:block after:w-2 after:h-2 after:rounded-full after:bg-accent
+    }
+    .leo-questions form .wpcf7-checkbox + .wpcf7-not-valid-tip {
+        @apply !hidden
+    }
+
+    .leo-questions form .wpcf7-spinner {
+        @apply !hidden
+    }
+    .leo-questions form .wpcf7-not-valid-tip {
+        @apply mt-0 font-400 text-sm/[1.4] text-error
+        absolute bottom-2.5 right-0
+    }
+    .leo-questions form .wpcf7-response-output {
+        @apply mt-5 font-400 text-sm/[1.4] text-white/[.7]
+    }
+    .leo-questions form .wpcf7-response-output {
+        @apply !mb-0 !mx-0 !mt-5 !p-0 !border-0
+    }
+    .leo-questions form .wpcf7-response-output:before {
+        content: '( ! ) ';
+    }
+}

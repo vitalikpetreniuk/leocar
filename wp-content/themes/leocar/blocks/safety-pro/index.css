@@ -1,0 +1,27 @@
+@tailwind components;
+
+@layer components {
+
+    .safety-list > div:not(:last-child):after {
+        background: linear-gradient(90deg, rgba(21, 21, 21, 0.15) 0%, rgba(153, 153, 153, 0.15) 46%, rgba(21, 21, 21, 0.15) 100%);
+
+        @apply content-[''] block absolute left-0 right-0 bottom-0 h-px
+    }
+
+    .safety-basic .safety-header {
+        @apply bg-[#2E2E2E]
+    }
+    .safety-additional .safety-header {
+        @apply bg-[#F8B132]
+    }
+    .safety-additional-plus .safety-header {
+        @apply bg-accent
+    }
+    .safety-additional .safety-header > div > div:nth-child(2) {
+        @apply bg-[#E59F21]
+    }
+    .safety-additional-plus .safety-header > div > div:nth-child(2) {
+        @apply bg-[#269351]
+    }
+
+}

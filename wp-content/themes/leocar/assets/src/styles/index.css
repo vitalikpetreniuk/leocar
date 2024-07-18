@@ -4,7 +4,7 @@
 
 @layer components {
     .container {
-        @apply w-full max-w-[77.5rem]
+        @apply w-full max-w-[80rem]
         mx-auto px-5
     }
 
@@ -85,6 +85,18 @@
         bg-black text-white
         font-400 font-normal text-base/[1.6] antialiased
     }
+    body.page-id-670 main.site-main,
+    body.page-id-673 main.site-main,
+    body.page-id-677 main.site-main,
+    body.page-id-679 main.site-main,
+    body.page-id-682 main.site-main
+    {
+        @apply pt-[105px] 1100:pt-[125px]
+    }
+
+    body.modal-open {
+        @apply h-full overflow-hidden
+    }
 
     form {
         @apply mt-4
@@ -97,6 +109,15 @@
         outline-none
 
         placeholder:text-white/[.7]
+    }
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active{
+        -webkit-box-shadow: 0 0 0 30px rgb(32,32,32) inset !important;
+        outline: none !important;
+        background: transparent !important;
+        -webkit-text-fill-color: #FAFAFA !important;
     }
     form input#td-date,
     form select#td-time {

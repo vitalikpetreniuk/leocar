@@ -10,30 +10,30 @@ module.exports = {
     },
     content: [`../../../themes/${cfg.themeName}/**/*.php`], important: false, theme: {
          extend: {
-            fontSize: {
-                sm: '0.875rem', // 14px
-                base: '1rem', // 16px
-                xl: '1.125rem', // 18px
-                '2xl': '1.25rem', // 20px
-                '3xl': '1.55rem', // 25px
-                '4xl': '1.625rem', // 26px
-                '5xl': '2.187rem', // 35px
-            },
-            fontFamily: {
-                '400': ['Evolventa-Regular', 'sans-serif'],
-                '700': ['Evolventa-Bold', 'sans-serif'],
-            }, colors: {
-                white: '#FAFAFA',
-                black: '#0F0F0F',
-                accent: '#27AC5B',
-                error: '#E31919',
-                car: '#151515',
-                condition: '#1F1F1F',
-                'car-active': '#212121',
-                'accent-transparent': 'rgba(39, 172, 91, .2)',
-                'accent-transparent-hover': 'rgba(39, 172, 91, .3)',
-                'button-hover': '#25D366',
-            }, screens: {
+             fontSize: {
+                 sm: '0.875rem', // 14px
+                 base: '1rem', // 16px
+                 xl: '1.125rem', // 18px
+                 '2xl': '1.25rem', // 20px
+                 '3xl': '1.55rem', // 25px
+                 '4xl': '1.625rem', // 26px
+                 '5xl': '2.187rem', // 35px
+             }, fontFamily: {
+                 '400': ['Evolventa-Regular', 'sans-serif'],
+                 '700': ['Evolventa-Bold', 'sans-serif'],
+             }, colors: {
+                 white: '#FAFAFA',
+                 black: '#0F0F0F',
+                 accent: '#27AC5B',
+                 error: '#E31919',
+                 car: '#151515',
+                 dark: '#212121',
+                 condition: '#1F1F1F',
+                 'car-active': '#212121',
+                 'accent-transparent': 'rgba(39, 172, 91, .2)',
+                 'accent-transparent-hover': 'rgba(39, 172, 91, .3)',
+                 'button-hover': '#25D366',
+             }, screens: {
                  428: '428px',
                  500: '500px',
                  768: '768px',
@@ -44,15 +44,15 @@ module.exports = {
                  1440: '1440px',
                  1920: '1920px',
                  2000: '2000px',
-            }, viewport: {
-                mobile: 320,
-                tablet: 768,
-                desktop: 1100,
-            }, flex: {
-                'header': '0 0 auto',
-                'main': '1 0 auto',
-                'footer': '0 0 auto',
-            },
+             }, viewport: {
+                 mobile: 320,
+                 tablet: 768,
+                 desktop: 1100,
+             }, flex: {
+                 'header': '0 0 auto',
+                 'main': '1 0 auto',
+                 'footer': '0 0 auto',
+             },
         }
     }, plugins: [
         require('tailwindcss'),
@@ -61,6 +61,7 @@ module.exports = {
             preset: 'default',
         }),
         plugin(function ({matchUtilities, theme}) {
+
             matchUtilities({
                 "aspect-ratio": (value) => {
                     const styles = value.split("/");

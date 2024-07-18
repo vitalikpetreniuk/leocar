@@ -4,8 +4,15 @@
     footer {
         background: radial-gradient(191.05% 134.36% at 9.1% 2.14%, #212121 0%, rgba(102, 102, 102, 0.00) 100%), linear-gradient(189deg, #3D3D3D 2.37%, #101010 93.31%);
     }
-    footer .leo-logo img {
+    footer .leo-logo svg {
         @apply block !w-full !h-auto
+    }
+
+    footer .payment-svg {
+        @apply w-[80px]
+    }
+    footer .payment-svg svg {
+        @apply block w-full h-auto
     }
 
     #leo-modals.call, #leo-modals.drive, #leo-modals.thanks, #leo-modals.conditions,
@@ -39,11 +46,12 @@
     }
 
 
-    .modal form input#td-date {
+
+    .modal form input#date-td  {
         @apply box-border !w-32 !text-white text-center outline-0 !shadow-none
     }
-    .modal form select#td-time {
-        @apply box-border !w-20 !text-white text-center outline-0 !shadow-none
+    .modal form input#td-time {
+        @apply box-border !w-16 !text-white text-center outline-0 !shadow-none
     }
 
     .modal form .wpcf7-checkbox input[type="checkbox"] {
@@ -77,10 +85,10 @@
     }
     .modal form .wpcf7-not-valid-tip {
         @apply mt-0 font-400 text-sm/[1.4] text-error
+        absolute bottom-2.5 right-0
     }
     .modal form .wpcf7-response-output {
-        @apply hidden
-		  /* mt-5 font-400 text-sm/[1.4] text-white/[.7] */
+        @apply mt-5 font-400 text-sm/[1.4] text-white/[.7]
     }
     .modal form .wpcf7-response-output {
         @apply !mb-0 !mx-0 !mt-5 !p-0 !border-0
@@ -90,27 +98,8 @@
     }
 
     .modal.conditions h2 + div {
-      overflow: auto;
-		padding-right: 5px;
+        @apply overflow-y-scroll
     }
-	 /* width */
-	.modal.conditions h2 + div::-webkit-scrollbar {
-		width: 5px;
-	}
-	/* Track */
-	.modal.conditions h2 + div::-webkit-scrollbar-track {
-		background: #000;
-		border-radius: 5px;
-	}
-	/* Handle */
-	.modal.conditions h2 + div::-webkit-scrollbar-thumb {
-		background: #27ac5b;
-		border-radius: 5px;
-	}
-	/* Handle on hover */
-	.modal.conditions h2 + div::-webkit-scrollbar-thumb:hover {
-		background: #1e8445;
-	}
     .modal div p:not(:first-child) {
         @apply mt-5
     }

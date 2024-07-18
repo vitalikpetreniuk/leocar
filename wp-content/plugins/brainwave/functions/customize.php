@@ -49,6 +49,8 @@ function customizeTheme()
         'script',
         'style'
     ]);
+    add_theme_support('widgets');
+    add_theme_support('widgets-block-editor');
 
     // Register menu(s)
      register_nav_menus([

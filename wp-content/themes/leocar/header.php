@@ -24,6 +24,10 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <!--**********START NEW Binotel code CALL*****-->
+    <script type='text/javascript'>(function(d,w,s){var widgetHash='32wjoj8uueh43qmmbeb4',gcw=d.createElement(s);gcw.type='text/javascript';gcw.async=true;gcw.src='//widgets.binotel.com/getcall/widgets/'+widgetHash+'.js';var sn=d.getElementsByTagName(s)[0];sn.parentNode.insertBefore(gcw,sn);})(document,window,'script');</script>
+    <!--**********START NEW Binotel code CHAT*****-->
+    <script type='text/javascript'>(function(d,w,s){var widgetHash='ajWRyByQvEPdX3qzpJV2',bch=d.createElement(s);bch.type='text/javascript';bch.async=true;bch.src='//widgets.binotel.com/chat/widgets/'+widgetHash+'.js';var sn=d.getElementsByTagName(s)[0];sn.parentNode.insertBefore(bch,sn);})(document,window,'script');</script>
 
 	<?php wp_head(); ?>
 </head>

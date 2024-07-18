@@ -1,0 +1,137 @@
+@tailwind components;
+
+@layer components {
+    .leo-intro-main .container {
+        @apply px-0 1024:px-5
+    }
+    .leo-intro-main .form-slide {
+        @apply bg-[#202020] rounded-[20px] px-5 pt-6 pb-7
+    }
+
+
+    form.priceForm input[type=email],
+    form.priceForm input[type=tel],
+    form.priceForm input[type=text] {
+        @apply pt-5
+    }
+
+
+    form.priceForm select {
+        @apply !hidden
+    }
+
+    form.priceForm input[name="name"] + div.iti {
+        @apply block w-full max-w-[calc(50%-10px)]
+    }
+    form.priceForm input[name="name"] + div.iti > .iti__country-container {
+        @apply !hidden
+    }
+    form.priceForm input[name="name"] + div.iti .iti {
+        @apply block w-full
+    }
+
+
+    form.priceForm .choose-receive,
+    form.priceForm .choose-return {
+        @apply relative
+    }
+    form.priceForm .choose-receive > span,
+    form.priceForm .choose-return > span {
+        @apply block pt-5 pb-2.5 border-b border-white/[.7]
+    }
+    form.priceForm .choose-return > span {
+        @apply !pt-2.5
+    }
+    form.priceForm .choose-receive.empty > span,
+    form.priceForm .choose-return.empty > span {
+        @apply text-white/[.7] cursor-pointer
+    }
+
+    form.priceForm .choose-receive.open span,
+    form.priceForm .choose-return.open span {
+        @apply border-white
+    }
+    form.priceForm #receive-time + div ul div::-webkit-scrollbar,
+    form.priceForm #return-time + div ul div::-webkit-scrollbar {
+        width: 2px;
+    }
+    form.priceForm #receive-time + div ul div::-webkit-scrollbar-thumb,
+    form.priceForm #return-time + div ul div::-webkit-scrollbar-thumb {
+        background: #ffffff;
+    }
+    form.priceForm .choose-receive.open ul,
+    form.priceForm .choose-return.open ul {
+        @apply flex
+    }
+    form.priceForm .choose-receive ul li,
+    form.priceForm .choose-return ul li {
+        @apply flex cursor-pointer
+    }
+
+
+    form.priceForm #receive-time + div.open ul,
+    form.priceForm #return-time + div.open ul {
+        @apply flex
+    }
+    form.priceForm #receive-time + div ul li,
+    form.priceForm #return-time + div ul li {
+        @apply text-center py-1 cursor-pointer
+    }
+    form.priceForm #receive-time + div ul > div,
+    form.priceForm #return-time + div ul > div {
+        @apply max-h-[128px] overflow-y-scroll
+    }
+
+
+
+    form.priceForm label[for="change-return"]:before {
+        @apply content-[''] absolute left-0 top-[50%] -translate-y-[50%] block w-3.5 h-3.5 box-border border border-white/[.7] rounded-[50%]
+        1100:w-4 1100:h-4
+    }
+    form.priceForm label[for="change-return"]:after {
+        @apply content-[''] absolute top-[50%] -translate-y-[50%] left-[3px] w-[8px] h-[6px] bg-[url('../images/svg/checkmark-white.svg')] bg-no-repeat bg-center bg-contain hidden
+        1100:w-2.5 1100:h-2
+    }
+    form.priceForm input:checked + label[for="change-return"]:before {
+        @apply bg-accent border-accent
+    }
+    form.priceForm input:checked + label[for="change-return"]:after {
+        @apply block
+    }
+
+    form.priceForm input#receive-date,
+    form.priceForm input#return-date {
+        @apply w-[128px] !bg-[#000000]/[.3] !border-none !p-0 !h-9 rounded-[40px] text-center
+    }
+
+    form.priceForm input[type="submit"] {
+        background-position: calc(50% + 80px) center !important;
+    }
+
+
+    .leo-intro-main .swiper-button-prev,
+    .leo-intro-main .swiper-button-next {
+        @apply flex justify-center items-center
+        top-auto bottom-11
+    }
+    .leo-intro-main .swiper-button-disabled {
+        @apply !opacity-60
+    }
+    .leo-intro-main .swiper-button-prev:after,
+    .leo-intro-main .swiper-button-next:after {
+        @apply !hidden
+    }
+    .leo-intro-main .swiper-button-prev svg,
+    .leo-intro-main .swiper-button-next svg {
+        @apply block w-[8px] h-[14px]
+    }
+    .leo-intro-main .swiper-pagination {
+        @apply flex justify-center items-center !bottom-16
+    }
+    .leo-intro-main .swiper-pagination .swiper-pagination-bullet {
+        @apply w-1 h-1 bg-[#363636] block !opacity-100
+    }
+    .leo-intro-main .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        @apply w-1 h-1 bg-[#D9D9D9]
+    }
+}

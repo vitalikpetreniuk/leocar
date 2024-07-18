@@ -2,9 +2,9 @@
   "siteName": "leocar",
   "themeName": "leocar",
   "url": {
-    "loc": "http://leocar.local",
-    "test": "https://brainwave.com",
-    "prod": "https://brainwave.com"
+    "loc": "https://leocar-full.local",
+    "test": "https://leocar-full.local",
+    "prod": "https://leocar-full.local"
   },
   "dbPrefix": "wp_",
   "dbCharSet": "utf8mb4",

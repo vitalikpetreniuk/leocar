@@ -1,0 +1,22 @@
+@tailwind components;
+
+@layer components {
+    #leo-rent-return ul li.active {
+        @apply bg-accent/[.2] text-accent cursor-none
+    }
+
+    #leo-rent-return .tabs-content > div {
+        @apply hidden
+    }
+    #leo-rent-return .tabs-content > div.active {
+        @apply block
+    }
+
+    #leo-rent-return .rent-return-bg svg {
+        @apply block w-full h-auto 820:hidden
+    }
+    #leo-rent-return .rent-return-bg svg:last-child {
+        @apply hidden w-full h-auto 820:relative 820:block 820:w-[calc(100%+20px)] 820:-ml-2.5 1100:w-[calc(100%+40px)] 1100:-ml-5
+    }
+
+}
