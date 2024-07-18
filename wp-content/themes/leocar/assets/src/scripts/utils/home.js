@@ -8,6 +8,7 @@ export default function home() {
             disableTouchKeyboard: true,
             format: 'dd/mm/yyyy',
             autohide: true,
+            minDate: new Date(),
         });
     }
 
@@ -111,6 +112,7 @@ export default function home() {
                 disableTouchKeyboard: true,
                 format: 'dd/mm/yyyy',
                 autohide: true,
+                minDate: new Date(),
             });
         }
         if(returnDate) {
@@ -119,6 +121,7 @@ export default function home() {
                 disableTouchKeyboard: true,
                 format: 'dd/mm/yyyy',
                 autohide: true,
+                minDate: new Date(),
             });
         }
 

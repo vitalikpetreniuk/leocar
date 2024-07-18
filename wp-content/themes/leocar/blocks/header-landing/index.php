@@ -2,9 +2,11 @@
     <?php if(get_field('announce_text','options')||get_field('zsu_text','options')) { ?>
         <div class="relative z-10 leo-announcement bg-white py-1.5">
             <div class="container relative max-w-[85rem]">
+                <?php if(get_field('zsu_text','options')) { ?>
                 <div class="hidden absolute top-[50%] left-3 translate-y-[-50%] 768:block">
                     <p class="relative text-black text-[14px] pl-6 before:absolute before:top-[50%] before:left-0 before:translate-y-[-50%] before:w-5 before:h-3 before:bg-[url(../images/icons/ua-flag.svg)] before:bg-cover before:bg-no-repeat before:bg-center"><?=get_field('zsu_text','options')?></p>
                 </div>
+                <?php } ?>
                 <span class="block font-400 text-xs leading-5 text-black text-center 1100:text-sm 1100:leading-6"><?=get_field('announce_text','options')?></span>
                 <div class="close absolute top-0 right-0 h-full aspect-square cursor-pointer flex justify-center items-center"><?php renderAssetsSVG('svg/close'); ?></div>
             </div>
@@ -50,7 +52,7 @@
             </div>
         </div>
     </div>
-
+    <?php $menu = get_field('menu')->slug;?>
     <div class="mobile-menu opacity-0 invisible bg-[#1e1e1ecc] blur-15 absolute top-0 right-0 w-full max-w-[250px] h-[100svh] 1280:max-w-[313px]">
         <div class="container pt-40 pl-10 flex flex-col gap-y-4 1280:pt-44">
             <nav>
@@ -59,18 +61,10 @@
 
                 if ( is_page() ) { // Check if it's a page
                     $body_class = join(' ', get_body_class()); // Get all body classes as a string
-                    if ( strpos( $body_class, 'page-id-8' ) !== false ) {
-                        $menu_args = array(
-                            'theme_location' => 'rent-header',
-                            'items_wrap'     => '<ul class="leo-nav flex flex-col gap-y-4">%3$s</ul>'
-                        );
-                    } elseif ( strpos( $body_class, 'page-id-29' ) !== false ) {
-                        $menu_args = array(
-                            'theme_location' => 'purchase-header',
-                            'items_wrap'     => '<ul class="leo-nav flex flex-col gap-y-4">%3$s</ul>'
-                        );
-
-                    }
+                    $menu_args = array(
+                        'theme_location' => $menu.'-header',
+                        'items_wrap'     => '<ul class="leo-nav flex flex-col gap-y-4">%3$s</ul>'
+                    );
                 }
 
                 if ( !empty( $menu_args ) ) {

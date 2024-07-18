@@ -236,8 +236,10 @@
   font-weight: 600;
 }
 
+.datepicker .dow.disabled,
 .datepicker-cell.disabled {
   opacity: .5 !important;
+  background: none !important;
 }
 
 .datepicker-cell.prev:not(.disabled),

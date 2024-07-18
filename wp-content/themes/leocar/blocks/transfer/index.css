@@ -1,7 +1,7 @@
 @tailwind components;
 
 @layer components {
-    .leo-transfer .container > div {
+    .leo-testdrive .container > div {
         background: radial-gradient(134.81% 92.52% at 9.1% 2.14%, rgba(29, 150, 76, 0.51) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(189deg, #27AC5B 2.37%, #03170B 93.31%);
     }
 }

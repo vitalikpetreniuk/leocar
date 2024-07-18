@@ -7,8 +7,6 @@
     .leo-intro-main .form-slide {
         @apply bg-[#202020] rounded-[20px] px-5 pt-6 pb-7
     }
-
-
     form.priceForm input[type=email],
     form.priceForm input[type=tel],
     form.priceForm input[type=text] {
@@ -20,12 +18,15 @@
         @apply !hidden
     }
 
+    form.priceForm input[name="your-name"] + div.iti,
     form.priceForm input[name="name"] + div.iti {
         @apply block w-full max-w-[calc(50%-10px)]
     }
+    form.priceForm input[name="your-name"] + div.iti > .iti__country-container,
     form.priceForm input[name="name"] + div.iti > .iti__country-container {
         @apply !hidden
     }
+    form.priceForm input[name="your-name"] + div.iti .iti,
     form.priceForm input[name="name"] + div.iti .iti {
         @apply block w-full
     }

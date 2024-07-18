@@ -2637,16 +2637,41 @@
 		} );
 
 		/**
-		 * Click handler for plugin activations in plugin activation modal view.
+		 * Click handler for plugin activations in plugin activation view.
 		 *
 		 * @since 6.5.0
-		 * @since 6.5.4 Redirect the parent window to the activation URL.
 		 *
 		 * @param {Event} event Event interface.
 		 */
-		$document.on( 'click', '#plugin-information-footer .activate-now', function( event ) {
+		$pluginFilter.on( 'click', '.activate-now', function( event ) {
+			var $activateButton = $( event.target );
+
 			event.preventDefault();
-			window.parent.location.href = $( event.target ).attr( 'href' );
+
+			if ( $activateButton.hasClass( 'activating-message' ) || $activateButton.hasClass( 'button-disabled' ) ) {
+				return;
+			}
+
+			$activateButton
+				.removeClass( 'activate-now button-primary' )
+				.addClass( 'activating-message' )
+				.attr(
+					'aria-label',
+					sprintf(
+						/* translators: %s: Plugin name. */
+						_x( 'Activating %s', 'plugin' ),
+						$activateButton.data( 'name' )
+					)
+				)
+				.text( __( 'Activating...' ) );
+
+			wp.updates.activatePlugin(
+				{
+					name: $activateButton.data( 'name' ),
+					slug: $activateButton.data( 'slug' ),
+					plugin: $activateButton.data( 'plugin' )
+				}
+			);
 		});
 
 		/**

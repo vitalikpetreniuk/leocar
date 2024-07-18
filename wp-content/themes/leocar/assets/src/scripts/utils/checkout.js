@@ -26,6 +26,18 @@ export default function checkout() {
         });
     }
 
+    let receiveDateSave = document.querySelector('.fields-right .receive-fields .fields > div.button');
+    let returnDateSave = document.querySelector('.fields-right .return-fields .fields > div.button');
+    if(receiveDateSave) {
+        receiveDateSave.addEventListener('click', () => {
+            receiveDateEdit.parentElement.parentElement.classList.remove('open');
+        });
+        returnDateSave.addEventListener('click', () => {
+            returnDateEdit.parentElement.parentElement.classList.remove('open');
+        });
+    }
+
+
     function calculatePrice(){
         let leoCurrency = '€';
         let totalDays = 1;
@@ -68,7 +80,7 @@ export default function checkout() {
     }
 
 
-    let checkoutForm = document.querySelector('.checkoutForm');
+    let checkoutForm = document.querySelector('.leo-checkout form');
     if(checkoutForm) {
         let receiveDate = document.querySelector('input#receive-date');
         let returnDate = document.querySelector('input#return-date');
@@ -79,6 +91,7 @@ export default function checkout() {
                 disableTouchKeyboard: true,
                 format: 'dd/mm/yyyy',
                 autohide: true,
+                minDate: new Date(),
             });
         }
         if(returnDate) {
@@ -87,6 +100,7 @@ export default function checkout() {
                 disableTouchKeyboard: true,
                 format: 'dd/mm/yyyy',
                 autohide: true,
+                minDate: new Date(),
             });
         }
         changeLocation(checkoutForm.querySelector('.choose-receive'),checkoutForm.querySelector('.choose-receive > span'),checkoutForm.querySelector('.choose-receive > ul'), checkoutForm.querySelector('.choose-receive > select'));
@@ -112,6 +126,7 @@ export default function checkout() {
             });
         }
         function changeTime(timeBlock, timeSelect){
+
             timeBlock.querySelector('span').addEventListener('click', () => {
                 timeBlock.classList.toggle('open');
             });

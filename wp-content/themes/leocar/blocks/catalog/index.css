@@ -68,32 +68,32 @@
 
 
 
-.leo-catalog .catalog-list .catalog-item:not(:nth-child(-n+3)) {
+.catalog-list .catalog-item:not(:nth-child(-n+3)) {
     display: none;
 }
-.leo-catalog .catalog-list.open .catalog-item:not(:nth-child(-n+3)) {
+.catalog-list.open .catalog-item:not(:nth-child(-n+3)) {
     display: block;
 }
 
 @media only screen and (min-width:768px) {
-    .leo-catalog .catalog-list .catalog-item {
+    .catalog-list .catalog-item {
         display: block !important;
     }
-    .leo-catalog .catalog-list .catalog-item:not(:nth-child(-n+4)) {
+    .catalog-list .catalog-item:not(:nth-child(-n+4)) {
         display: none !important;
     }
-    .leo-catalog .catalog-list.open .catalog-item:not(:nth-child(-n+4)) {
+    .catalog-list.open .catalog-item:not(:nth-child(-n+4)) {
         display: block !important;
     }
 }
 @media only screen and (min-width:1024px) {
-    .leo-catalog .catalog-list .catalog-item {
+    .catalog-list .catalog-item {
         display: block !important;
     }
-    .leo-catalog .catalog-list .catalog-item:not(:nth-child(-n+3)) {
+    .catalog-list .catalog-item:not(:nth-child(-n+3)) {
         display: none !important;
     }
-    .leo-catalog .catalog-list.open .catalog-item:not(:nth-child(-n+3)) {
+    .catalog-list.open .catalog-item:not(:nth-child(-n+3)) {
         display: block !important;
     }
 }

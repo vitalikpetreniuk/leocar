@@ -18,6 +18,6 @@
 </section>
 <script>
     jQuery('.test-drive.simple').on('click', function()    {
-        jQuery('.modal.drive form input.product').val('Будь-яке авто');
+        jQuery('.modal.drive form input.product').val('<?php esc_html_e('Будь-яке авто','leocar');?>');
     });
 </script>
