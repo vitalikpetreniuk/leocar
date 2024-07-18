@@ -185,3 +185,24 @@ function get_custom_menu_items($menu)  {
     }
     return $newmenus;
 }
+function currency_course($currency = "EUR")   {
+    $courses = [
+        'USD' => 1.07,
+        'UAH' => 45,
+        'EUR' => 1
+    ];
+    return $courses[$currency];
+}
+
+function currency_symbol($currency = "EUR")   {
+    $courses = [
+        'USD' => '$',
+        'UAH' => '₴',
+        'EUR' => '€'
+    ];
+    return $courses[$currency];
+}
+
+function get_currency_price($price, $currency = 'EUR')   {
+    return $price*currency_course($currency);
+}
